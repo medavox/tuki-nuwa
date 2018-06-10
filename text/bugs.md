@@ -25,3 +25,7 @@ why not instead just:
     take
     come again
     go again
+
+----
+
+difference between vt 'make someone laugh' and vt 'laugh at someone'?
