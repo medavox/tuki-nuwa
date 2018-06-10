@@ -1,5 +1,8 @@
 Standard Average European
---------
+=====
+
+or, Eurocentric Features to Avoid
+-----
 
 This first list comprises features which are very common in European languages, but uncommon elsewhere.
 
@@ -35,4 +38,4 @@ Besides these features, which are uncommon outside Europe and thus useful for de
 13. phrasal adverbs (e.g. English already, still, not yet);
 14. tendency towards replacement of past tense by the perfect.
 
-(Portions of this text are from Wikipedia. The whole text is licensed under Creative Commons - Attribution - Sharealike.)
+(Portions of this text are from Wikipedia. The original text and this file are licensed under Creative Commons - Attribution - Sharealike.)
