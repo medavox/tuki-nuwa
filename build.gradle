@@ -13,19 +13,20 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
     maven { url 'https://jitpack.io' }
+    maven { url 'http://jcenter.bintray.com/' }
 }
 sourceSets {
-        main {
-                java {
-                    srcDirs= ["code"]
-                }
-                kotlin {
-                    srcDirs=["code"]
-                }
-                resources {
-                        srcDirs= ["text"]
-                }
+    main {
+        java {
+            srcDirs= ["code"]
         }
+        kotlin {
+            srcDirs=["code"]
+        }
+        resources {
+            srcDirs= ["text"]
+        }
+    }
 }
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -34,6 +35,9 @@ dependencies {
     //compile 'net.sf.jopt-simple:jopt-simple:4.9'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile 'com.github.medavox:utils:v0.11'
+
+    //http library
+    compile 'khttp:khttp:0.1.0'
 }
 buildscript {
     ext.kotlin_version = '1.2.40'
