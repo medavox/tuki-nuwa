@@ -6,7 +6,7 @@ Orthography
 Or, How Toki Nawa is Spelled
 ---------
 
-The entire alphabet of Toki Nawa is:
+The entire alphabet of Tuki Nuwa is:
 
 ```
 a h i j k l m n p s t u w
@@ -51,7 +51,7 @@ Or, How Toki Nawa is Spoken
 Consonants
 ======
 
-There are 10 consonants in Toki Nawa. 
+There are 10 consonants in Tuki Nuwa. 
 
 Toki Nawa allows a lot of flexibility in pronunciation; 
 as long as you make yourself understood, `ali li puna`!
@@ -93,9 +93,7 @@ when we whisper, speak with our mouth full, sing, or shout.
 
 Don't worry!
 
-
-Stress is always on the second-to-last syllable.
-In a two-syllable word, this is the first syllable :)
+Stress is always on the first syllable.
 
 Phonotactics
 =========
