@@ -135,6 +135,7 @@ male/female,
 human/animal/machine,
 artifical/natural,
 animate/inanimate -- where possible.
+actual/figurative
 
 eg, room === cave; hand === paw; injured === damaged
 
@@ -311,3 +312,10 @@ This is less difficult than you might think:
 *mi wilu nami ka!* "I do indeed want to eat!"
 
 *mi wilu nami nata* "i don't want to eat"/"I'm not hungry"
+
+----------
+
+consider having a small set of words whose meaning can be assigned in a sentence; essentially pronouns.
+
+Each one can be used to talk about something whose full description/name is too long. For instance:
+

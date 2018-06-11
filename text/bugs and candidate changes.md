@@ -1,5 +1,4 @@
 remove cause meaning of pana
-remove 'absent/remove' meaning from wika
 replace lexemes of the following words:
     tawa
     nasin
@@ -11,17 +10,22 @@ merge new grammar word 'liki' with 'sama'
     equal
     as
     seem
-merge/separate tapalu and pali?
-kama and pasa both mean happen
-make distinction between piwa and lili more pronounced
 split putala into actually physically attack, and more metaphorical/figurative competition or battle
-expand/convert puki to more mean 'near'?; merge with nuni
+
 consider whether lina should also mean 'length', 
     or whether a new word should be constructed to mean 'length' and 'long'
-whittle down meanings of nata to just 'not', recording other meanings?
+?whittle down meanings of nata to just 'not'; record other meanings
 remove negative meanings of pakala (eg 'screw up'): allow for Happy Little Accidents!
 do... something... with lun???
+
+partial overlap
+----
+
 kika and nata
+merge/separate lula and kaja
+merge/separate tapalu and pali?
+kama and pasa both mean happen
+expand/convert puki to more mean 'near'?; merge with nuni
 
 ---
 
