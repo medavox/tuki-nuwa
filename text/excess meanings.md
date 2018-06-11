@@ -54,11 +54,11 @@ tasan
 
 
 wata
-    noun a flowing wet substance
-    noun beverage, a liquid for drinking; beverage, drink, juice
-    noun a liquid for washing; water
-    noun body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine
-    noun body of water, an area covered with water; bay, strait, sea, lake, river, stream
+    a flowing wet substance
+    beverage, a liquid for drinking; beverage, drink, juice
+    a liquid for washing; water
+    bodily fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine (pus?)
+    body of water, an area covered with water; bay, strait, sea, lake, river, stream
     transitive verb to use telo on; to water, rinse, wash, wet
     describer having the characteristics or properties of telo; wet, liquid
 
@@ -73,3 +73,7 @@ kama
 
 pakala
     ruin, spoil
+
+pilin
+    heart
+    touch
