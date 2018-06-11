@@ -268,3 +268,46 @@ and don't have to strictly follow Tuki Nuwa's phonology rules.
 It's helpful to define these loanwords at the beginning of the discourse.
 These loanwords are expected to mostly consist of nouns specific to the topic,
 serving as ad-hoc vocabulary which make conversations shorter.
+
+----
+
+
+Pursuant to this [linguistics answer](linguistics.stackexchange.com/a/1606/21863), I think my motivation for adding so many grammar-marker words is that  **I want to reduce ambiguity in embedded phrases**.
+
+the example in [o kama sona lesson 6](http://tokipona.net/tp/janpije/okamasona6.php) of tawa being ambiguous because it is both a verb and a preposition.
+
+
+----
+
+look to [tok pisin](tok-pisin.com) for inspiration as to how pidgins solve problems of complexity, grammar,
+and make meaning from relatively few words.
+
+-----
+
+After months of wondering why the syllable /ti/ is banned, 
+I've come to decide that it's because it is wholly reserved
+for the life-drink, the earth nectar, humanity's greatest invention:
+Tea.
+
+Obviously, no other word is allowed to despoil the beauty of the syllable for
+The Best Drink.
+
+Ti.
+
+ki si wilu i Ti?
+
+------
+
+
+Answering yes-no questions without words for yes or no
+------
+
+This is less difficult than you might think:
+
+*Ki si wilu nami?* 'Are you hungry'/'Do you want to eat?'
+
+*<correct/true>* "correct!"
+*mi wilu nami* "I want to eat"
+*mi wilu nami ka!* "I do indeed want to eat!"
+
+*mi wilu nami nata* "i don't want to eat"/"I'm not hungry"
