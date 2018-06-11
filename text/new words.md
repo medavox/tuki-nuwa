@@ -25,13 +25,19 @@ sb     | someone/somebody
 Grammar Words
 -------------
 
-Status:Notes | Attaches to (POS) | results in (POS) | Meaning
+Status:Notes | Usage (= POS) | Meaning
 -------------|-------------------|------------------|--------
-? probably this is a copula | adj | verb | to have the property of the following adj phrase; to be <adj phrase>
-+:iku | adj | verb | to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
-+ liki  | verb, noun | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like; LIKE~AS~WAY, similar to, in a similar manner to
-+:nisa | verb, adjective | noun | next adj- or verb-phrase is a noun; "-ness"`<adj phrase>`-ness; state of being `<adj phrase>`; the act of doing `<verb phrase>`, `<verb phrase>`ing (as in cycling, fishing) `<verb phrase>`-ation. Goes before the affected phrase
-ula | [`<noun>`] ula `<verb>`| noun phrase | (a `<noun>`that/sth which/sb who) `<verb>`s; a `<verb>`er; a `<verb>`ing `<noun>`. This word makes the following verb-phrase a noun. nisa can be used instead: ula + <verb> = <verb>er, something which <verb>s. But <noun> nisa + <verb> = a <verb>ing <noun>
++ | BE (SOMEONE/SOMETHING) kopula???
+? probably this is a copula | *<word> <adj>* = to be <adj> | to have the property of the following adj phrase; to be <adj phrase>
++:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
++ liki  | verb, liki <noun> = <noun>ly etc | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like; LIKE~AS~WAY, similar to, in a similar manner to
+
+nisa | 
+
+
+
+sa | sa <word> = verb | select verb meaning of next word
+   | | select adjective meaning of next word
 
 nisa might be unecessary, as the position of the phrase in the sentence indicates whether a word is a noun
 it's not unecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
@@ -49,7 +55,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
 (too is covered by word huta)
 (fully is covered by word pulan)
-++ | most, -est, the most | mulu <-est>
+(most is provided by makisu)
 (MORE is covered by word mulu)
 (VERY/MANY is covered by existing word `muta`)
 +:satisu | enough, satisfactorily
@@ -58,9 +64,11 @@ Status:Reason | Noun | Verb | Adjective | Other
 +:nuni | | | NEAR, close, almost, nearly, mostly
 + | hardly, barely, only-just
 +:mina | less
-?:pulan anti | emptiness | to empty sth, to be empty | empty 
-+:kika | absence | throw away, remove, get rid of | none, no (thing); absent, missing, without | -less
+(not = nata)
+(absence = kika)
 (anti)
+
+empty, without, absent, absence
 
 Spare lexemes
 -------
@@ -75,24 +83,40 @@ pipa
 hapita
 sipu
 lipan
+maja
+ilija
+kuwamin
+himilu
+kinu
+kinawa
+sijatu
+unipuma
+kuliki
+sinsili
+likita
+kisitan
+lijalu
+kunkili
+sulita
+kimanu
+sitanu
+namaku
 ```
 
 Main List
 ---------
 
 possible lexeme | Noun | Verb | Adjective | Other
--------------|------|------|-----------|------
+----------------|------|------|-----------|------
 anka | anger | to be angry | angry/aggressive
 atapisu, jatun pali pi jan | | | artificial, man-made |
-+ | rough
+hulitu/lutisa/wilusu/sipilu/hulin | rough
 + | smooth |
 +: suluwi | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 + | adhesion | to stick (to sth) | sticky, adhesive |
-+ sikaha | safety, protection | protect, to make sth safe | safe, protected | = <danger> kika
 ?:overlap with susu | smell | to smell
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 + | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
-kukin | cooking | to cook (sth) | cooking-relating, culinary; *kali kukin puha* -> cooked fish
 + | strong, intensity, strength (both as in physical power, and a flavour, or an effect)
 + | fictional, imaginary; story
 + | the world of the mind, inside your head
@@ -112,10 +136,7 @@ kukin | cooking | to cook (sth) | cooking-relating, culinary; *kali kukin puha* 
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
 + | high-status
-kinu/kinawa/sijatu/unipuma/kuliki/likiti | truth; the truth | | true, right, correct |
 + | click, crack, pop
-+:mitalu | metal | 
-+ | village, town, city 
 +:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
 + | theft | steal | stolen
 + | | like, enjoy, prefer
@@ -123,7 +144,6 @@ kinu/kinawa/sijatu/unipuma/kuliki/likiti | truth; the truth | | true, right, cor
 push
 pull
 day (because it's pretty basic, universal and useful)
-lutu | game | play a game |
 normal??
 + | through
 + | burn | 
@@ -131,9 +151,13 @@ normal??
 + | music | kalama musi 
 + | old
 + | consent, permission | consent, permit, allow | consensual, permitted, allowed
-+ | agree
 + | | squeeze, crush, hug
 enclose, surround, envelope, circum~
+masina | machine, device, contraption, motor, engine | | mechanical
+pulisu | the police | police sth/sb | 
+papa | | | | goodbye
+alu | | | | hello
+steep, slope, ?hill?
 
 Maybes
 -----
@@ -153,16 +177,7 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
 uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
 ilitun | | | electronic | | don't need a separate word for electronic, when we have *wapa*
 pinsa/sinjan/kinta/sinta/misali/tumaju | thought(s) | THINK | | | similarity to pili 
-
-Semantic Primes
----------------
-
-empty, without, absent, absence
-
-Status:Notes | Meaning
--------------|--------
-+ | (FOR) SOME TIME
-+ | BE (SOMEONE/SOMETHING) kopula???
++ | agreement | agree | | I agree with you *mi pilin i ni: si <correct/true>* 'I think you're right; I agree = 'si <correct>'
 
 Semantic Molecules
 ------------------
@@ -176,26 +191,17 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | long | lina
 + | thin | 
 + | be on something | 
-+ sinta | centre, middle | | in the middle, central | 
 + | in front of | 
 + | around | 
-+ | sky | 
 + | stars | 
 + | ground | apa, supa
-+ | egg | 
 + | tail | 
 + | wings | 
-+ imanita? | be born | 
-+ | mother | mama miwi
-+ | father | mama misi
 + | wood | kahin kasi?
 + | stone | kahin lula?
-+ | sit | 
-+ | lie (as in lie down) | 
+lipusa | lie (as in lie down) | 
 + | stand | 
-+ | play | 
 + | laugh | 
-+ | sing | 
 
 NSM Non-Universal but Useful Words
 ----------------------------------
@@ -232,7 +238,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | vote | 
 + | education | pana nisa sawa
 + | sport | 
-+ | staple carb (rice wheat corn yams etc) | 
 + | key | 
 + | medicines | 
 + | paper | 
@@ -296,7 +301,6 @@ iron | <metal> <strong>, <metal> upaka
 gold | <metal> jala
 coal | <stone> mahi
 wire | lina <metal>; lina wapa 'power/electrical line/rope'
-seeds | <egg> kasi
 dog | suwilu amika 'friendly animal'; amika suwilu 'animal friend' :)
 cat | *suwilu humi pi lapi muta* 'house animal which sleeps a lot'?
 horse | suwilu satu pilusi 'big, fast animal'
@@ -336,29 +340,33 @@ TIME~WHEN | ipuki
 also, too (as in 'me too'), as well | ka
 NOW | ipuki ni (would have been jusun)
 flag | witan pi tasan lula
-kuwamin | government | 
+government | 
 at the top | lun siwi
 at the bottom | lun apa
-sintu: verb -> verb: active marker; verb-phrase argument is being done BY the subject, possibly to some(thing/one) else. "i eat (sth)" | all verbs are active by default anyway
+verb -> verb: active marker; verb-phrase argument is being done BY the subject, possibly to some(thing/one) else. "i eat (sth)" | all verbs are active by default anyway
 undo | pali anti
 curvy | too specific, and too close to siki
 strength, intensity; strong, intense | overlap with wapa
-(IS) MINE | sth li hapa puha i mi
-face | kapi sinpin 'front [of] head', or just sinpin
-photo | tasan 
-MOMENT | ipuki lili
-a few, a little | was piwa; but lili exists
+(IS) MINE | *sth li hapa puha i mi*
+face | *kapi sinpin* 'front [of] head', or just *sinpin*
+photo | *tasan* 
+MOMENT | *ipuki lili*
+a few, a little | was *piwa*; but *lili* exists
 least | <less> <-est>
 hard | we already have the word kahin
-a size you can hold in your fingers - satu pi jan li kanu awin 
+a size you can hold in your fingers - *satu pi jan li kanu awin*
 a size you can hold in your hand
 a size you can hold in both hands
 a size you can hold in your arms
 a size you can carry
 a size 2 people can carry
-BE (SOMEWHERE) | li lun 
-THERE IS | lun ni li hapa .could have been *maja*, *ilija*
+BE (SOMEWHERE) | *li lun *
+THERE IS | *lun ni li hapa*.
 PLACE~WHERE~SOMEWHERE | *i lun*
 place, location | *i lun*
 creature | *suwilu* will do
 limit, edge | now explicitly included in *pini*
+(FOR) SOME TIME | ipuki sumin
+mother | mama miwi
+father | mama misi
+be born | upin
