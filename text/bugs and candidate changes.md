@@ -64,3 +64,30 @@ difference between vt 'make someone laugh' and vt 'laugh at someone'?
 -----
 
 how to convey an adjective which is completed transforming verb? eg cooked fish
+
+in fact, this points to a larger set of noun/verb relationships:
+
+something which verbs
+something which has been verbed
+
+something which verbed?
+something which will verb
+something which is verbed (habitually),
+something which is being verbed (currently)
+normal/can
+
+...
+
+something which can verb
+something which can be verbed
+
+something which:
+
+x                     | present              | past                  | future
+----------------------|----------------------|-----------------------|--------
+normal                | verbs                | verbed                | will verb
+passive               | is verbed            | was verbed            | will be verbed
+continuous            | is verbing           | was verbing           | will be verbing
+complete              | has verbed           | was verbed            | 
+passive complete      | has been verbed      | was verbed
+passive continuous    | is being verbed      | was being verbed      | will be being verbed
