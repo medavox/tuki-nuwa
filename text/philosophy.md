@@ -46,6 +46,8 @@ the moral good != correct != easy
 	- "you're just upset because your family is dead",
 	- "there's no point trying to save you -- you're probably going to die anyway"
 
+status:implemented -- we now have the words puna, pasilu and tatu.
+
 ---------
 
 The base list of words should use the research on 
@@ -56,9 +58,13 @@ but I think all `~`64 semantic primes should be expressible in toki nawa.
 
 this language will still lean heavily on phrases as compound words.
 
+status:implemented
+
 -----
 
-All words will use two or fewer syllables.
+All words will use three or fewer syllables, but preferably two or fewer.
+
+status:still OK!
 
 -----
 
@@ -82,8 +88,9 @@ The appropriate phrase to describe something is made from the thing's features
 that are relevant to the current context.
 
 The same phrases may pop up again and again, but that does not make them words.
-That just increases the burden on new learners, 
-who must also memorise all these 'compound words', which just aren't documented properly.
+That just increases the number of words to learn, 
+some of which may not even be properly documented, 
+and instead must be picked up from those 'in the know'.
 It also means that `~`120 words is a lie.
 
 Baaad toki pona. 
@@ -319,3 +326,10 @@ consider having a small set of words whose meaning can be assigned in a sentence
 
 Each one can be used to talk about something whose full description/name is too long. For instance:
 
+-----
+
+maybe the meaning of a word as an adjective should be required to mean exactly the same thing as the word used as a noun.
+eg, [todo: example]
+this would remove the problem that some 'words' (lexemes) are really a collection of closely-related (or sometimes not-so-closely-related) words which differ by part of speech -- meaning learning one word really means learning two or three words -- a noun, a verb, an adhective, and maybe something else.
+
+(in my opinion, rolling several words into one lexeme like this is a 'trick' to keep the word count down...)
