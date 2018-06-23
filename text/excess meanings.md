@@ -4,11 +4,13 @@ Excess meanings
 These meanings, which have been removed from words which still exist,
 may need re-adding back into the language with new, separate words.
 
+excess meanings will be removed from here 
+when there's another way to say the same thing.
+
 from Toki Pona's dictionary:
 
 malu
     complex/needlessly complicated
-    wrong
 
 siwi
     divine
