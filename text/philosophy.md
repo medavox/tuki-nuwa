@@ -126,117 +126,58 @@ see [Reading Toki Pona is Hard](http://www.suburbandestiny.com/?p=845)
 
 consider modifying or removing words for 'male' and 'female' to reflect non-binary reality. After all: GENDER IS A SOCIAL CONSTRUCT. Why have two whole words for easily splitting people into two groups based on an unimportant property?
 
+
+-----
+
+There's a loose 3-tiered system for the number of syllables a word has:
+
+Single-syllable words are grammar-glue words, and other very common words.
+
+Double-syllable lexemes are used for common function words (be, do, go, food/feed etc).
+
+Triple-syllable words are for the more obscure or esoteric words, and everything else.
+
 ------
 
 I'm not using normal English terms for grammar (eg perfect), because they are outdated,
 and have no relation whatsoever to the grammatical feature they represent.
 
-For instance, I think the complete tense is much clearer than the perfect tense.
+For instance, I think calling it the complete tense is much clearer than calling it the perfect tense.
 
 -----
 
 no separate words for artifical/natural versions of things; eg room = cave
 
-don't have two words which only differ in meaning between 
+don't have two words which only differ in meaning between
+
+```
 male/female,
 human/animal/machine,
 artifical/natural,
 animate/inanimate -- where possible.
-actual/figurative
+actual, real/figurative, metaphorical
+good/bad
+```
 
-eg, room === cave; hand === paw; injured === damaged
+where good means 'useful, helpful, altruistic, seen favourably'
+and bad means 'useless, unhelpful, evil, seen unfavourably'
+
+eg, room === cave; hand === paw; injured === damaged, page === leaf (which we already do sometimes in english)
 
 might need to include words to specify which category when necessary
 
-------
-
-Common/Useful Verb Aspects
--------
-
-verbs can differ in a number of aspects. These aspects may be combined together,
-and usually aren't mutually exclusive.
-
-passivity
-------
-
-whether they happen *to* the subject, or the subject does them to an object
-
-changingness
-------
-
-whether they represent something which changes over time (the subject becomes or less something),
-or are just something the subject generally does,
-the verb is an action which can take place at a defined point in time
-
-we probably don't need gramatical markers for this category: 
-words don't usually differ in meaning by whether they indicate a change over time.
-
-transitivity
-------
-
-if the verb was a function, then how many arguments it would take: 1, 2 or 3?
-
-intransitive (1 argument): just the subject doing the thing
-
-*john is dancing*
-
-`dance(john)`
-
-or
-
-`john.dance()`
-
-transitive (2 arguments): the subject does something to another thing, the object
-
-*john kicks the ball*
-
-`kick(john, ball)`
-
-or
-
-`john.kick(ball)`
-
-ditransitive (3 arguments): the does something to/at the object, which involves anindirect object
- 
-*john gives the ball to Mary*
-
-`give(john, ball, mary)`
-
-or 
-
-`john.give(ball, mary)`
-
-completion
-------
-
-English also inflects verbs for whether their action is complete, ongoing, 
-or some hypothetical action that frequently/habitually takes place
-
-complete: *john has danced*
-
-ongoing: *john is dancing*
-
-habitual: *john dances*; *john likes to dance*
-
-English is one of the few languages which distinguish this property, to my knowledge.
-
-time
-------
-
-and, of course, time. whether a verb took place in the past, present, or future.
-
-
 ---------
 
-adopt do as a default auxiliary in any sentence that doesn't have some other modal/auxiliary verb (such as is, have, or con), which means that ordinary verbs like vend (“go”) no longer have past tense forms of their own: it's just `i do go/i did go`
+(maybe) adopt do as a default auxiliary in any sentence that doesn't have some other modal/auxiliary verb (such as is, have, or con),
+which means that ordinary verbs like 'go' no longer have past tense forms of their own: it's just 'i do go/i did go'
 
 ----
 
-consider replacing all loanword lexemes with completely original constructions - make every word equally unfamiliar to everyone.
+Policy for filling the dictionary (done once while building the vocab, not adding new words generally):
+find a word from a language which is either widely spoken or has a lot of speakers, 
+which can be simplified to fit tuki nuwa's phonotactics, and still be recognisable.
 
-Alternatively only use words from widely-spread lingua francas: latin, arabic, something sanskrit-based;
-
-and then MAYBE other prestige languages: english, french, russian
+If that fails, make up a new sound which is suitably distinguished from existing words.
 
 ------
 
@@ -277,6 +218,12 @@ It's helpful to define these loanwords at the beginning of the discourse.
 These loanwords are expected to mostly consist of nouns specific to the topic,
 serving as ad-hoc vocabulary which make conversations shorter.
 
+
+have a small set of words whose meaning can be assigned in a sentence;
+essentially pronouns, but which can stand in for any noun-phrase.
+
+Each one can be used to talk about something whose full description/name is too long. 
+
 ----
 
 
@@ -314,22 +261,24 @@ This is less difficult than you might think:
 
 *Ki si wilu nami?* 'Are you hungry'/'Do you want to eat?'
 
-*<correct/true>* "correct!"
+*tatu!* "correct!"
 *mi wilu nami* "I want to eat"
 *mi wilu nami ka!* "I do indeed want to eat!"
 
 *mi wilu nami nata* "i don't want to eat"/"I'm not hungry"
+or simply,
+*nata*
 
 ----------
-
-consider having a small set of words whose meaning can be assigned in a sentence; essentially pronouns.
-
-Each one can be used to talk about something whose full description/name is too long. For instance:
-
------
 
 maybe the meaning of a word as an adjective should be required to mean exactly the same thing as the word used as a noun.
 eg, [todo: example]
 this would remove the problem that some 'words' (lexemes) are really a collection of closely-related (or sometimes not-so-closely-related) words which differ by part of speech -- meaning learning one word really means learning two or three words -- a noun, a verb, an adhective, and maybe something else.
 
 (in my opinion, rolling several words into one lexeme like this is a 'trick' to keep the word count down...)
+
+-----
+
+for a word that (in other languages) is a group of words with varying intensity,
+maybe have those variable-intensity words all default to the same low/small intensity:
+eg should/must/obligation starts as should without any modifiers
