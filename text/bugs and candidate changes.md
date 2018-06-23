@@ -85,9 +85,12 @@ something which:
 
 x                     | present              | past                  | future
 ----------------------|----------------------|-----------------------|--------
-normal                | verbs                | verbed                | will verb
+normal (active)       | verbs                | verbed                | will verb
 passive               | is verbed            | was verbed            | will be verbed
 continuous            | is verbing           | was verbing           | will be verbing
 complete              | has verbed           | was verbed            | 
 passive complete      | has been verbed      | was verbed
 passive continuous    | is being verbed      | was being verbed      | will be being verbed
+
+
+this points to the larger issue of embeddability: being able to embed phrases with 'which' or 'that'.
