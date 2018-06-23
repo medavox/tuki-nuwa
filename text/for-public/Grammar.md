@@ -69,14 +69,16 @@ In the classical interpretations of the grammar of some languages,
 all sorts of other things are sometimes lumped in under tense.
 
 But these interpretations are wrong, at least in this theory of grammar.
-They're only still kept around because of academic tradition.
+They're only still kept around because of literary/academic tradition.
 
-However, some interesting distinctions to make would be:
+However, some interesting addtional, actual distinctions to make would be:
 distant past vs recent past,
 near future vs distant future
 
-Voices
+Voices (Passivity)
 ------
+
+whether they happen *to* the subject, or the subject does them to an object
 
 default: active
 
@@ -88,17 +90,77 @@ Aspects
 
 how the verb extends over time. default: simple
 
-* complete(perfect) -- a completed action
+
+English also inflects verbs for whether their action is complete, ongoing, 
+or some hypothetical action that frequently/habitually takes place
+
+habitual: *john dances*; *john likes to dance*
+
+* complete(perfect) -- a completed action -- 'john has danced'
 * simple(perfective) -- single unit of time
-* continuous/progressive -- an ongoing state or action
+* continuous/progressive -- an ongoing state or action 'john is dancing'
 * habitual -- this verb occurs multiple discrete times
 * starting(inchoative) -- the action or state is starting
 * prospective -- going to start
 
 Inherent Verb Properties
 ----------
-static(stative)/dynamic -- whether the verb contains change over time (an action), or a state the subject is in. default: inherent to the verb. stative verbs cannot use continuous aspect, eg \*'i am knowing the answer'
+
+### static(stative)/dynamic
+
+
+whether the verb contains change over time (stand up, go to sleep, combust),
+ or a state the subject is in (sleeping, standing, burning). 
+
+default: inherent to the verb. stative verbs cannot use continuous aspect, eg \*'i am knowing the answer'
 intransitive
+
+whether they represent something which changes over time,
+or are just something the subject generally does,
+the verb is an action which can take place at a defined point in time
+
+we probably don't need gramatical markers for this category: 
+words don't usually differ in meaning by whether they indicate a change over time.
+
+### transitivity
+
+if the verb was a function, then how many arguments it would take: 1, 2 or 3?
+
+intransitive (1 argument): just the subject doing the thing
+
+*john is dancing*
+
+`dance(john)`
+
+or
+
+`john.dance()`
+
+transitive (2 arguments): the subject does something to another thing, the object
+
+*john kicks the ball*
+
+`kick(john, ball)`
+
+or
+
+`john.kick(ball)`
+
+ditransitive (3 arguments): the does something to/at the object, which involves an indirect object
+ 
+*john gives the ball to Mary*
+
+`give(john, ball, mary)`
+
+or 
+
+`john.give(ball, mary)`
+
+transitivity is more up for debate: it may not be a sophisticated enough system for desrcibing
+what is actually going on with language. 
+
+Pinker suggests in thr language instinct that each verb is listed in the mental dictionary
+as needing a specific set of arguments, each with a type (such as noun phrase, preposition-phrase).
 
 Moods
 ----
@@ -130,3 +192,13 @@ conditional, subjunctive, optative --
 
 
 SO every verb has inherent stativity, picks a tense, aspect, voice; and is used in a particular mood.
+
+--------
+
+We need to explicitly define the word order in noun phrases(left- or right-branching):
+
+Chinese languages:  numeral-adjective-noun-postposition
+Germanic languages: preposition-numeral-adjective-noun
+Romance languages:  preposition-numeral-noun-adjective
+Bantu languages:    preposition-noun-numeral-adjective
+
