@@ -45,7 +45,6 @@ kasi | plant, leaf, herb, tree | to grow larger | plant-based |
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
 kijalu | sky, heaven | | of/relating to the sky, heavenly
 kika | absence, emptiness | throw away, remove, get rid of; to empty sth, to be empty | none, no (thing); absent, missing, without; empty  | -less
-kilasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
 kipisi | a cut | to cut sth |
 kipu | square, cube, block | | square-shaped, cube-shaped |
 kiwi | fruit, vegetable, mushroom | | |
@@ -56,6 +55,7 @@ kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
 lamuli | happiness, laughter | be happy, to laugh | happy/laughing, funny
 lapi | sleep, rest | sleep, rest | sleeping, of sleep |
+lasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
 lawan | hand, arm, branch, appendage | to touch with hand | five (5) |
 lili | smallness (eg size) | reduce, shorten sth; shrink, lessen | small, little, a bit, short, few |
 linja | ?LENGTH? long, very thin, floppy thing, e.g. string, rope, hairs, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
@@ -69,7 +69,7 @@ lupa | hole, orifice, window, door | to make a hole in sth | |
 lutu | game | play | playful
 mahi | darkness, shadows | darken | black, dark |
 majuta | help | help | helpful | 
-makisu | the most, the maximum |  | most | -est
+makisu | the most, the maximum |  | most 'the most blue' NOT as in 'most of them', 'most dogs love them', 'most everyone thinks so' | -est
 malu | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | bad, rotten, negative, evil | oh dear! woe! alas!
 mama | parent, mother, father | to parent/raise/nuture sb | parental, maternal, paternal |
 mani | money, wealth, currency | cost | financial, financially, monetary
@@ -87,11 +87,12 @@ nalan | softness | soften (sth/sb) | soft, fluffy, gentle, gradual |
 nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
 nasa | | to confuse sth/sb, make weird | silly, foolish, drunk, strange, stupid, weird |
 nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
-natula | nature | | natural, ruthless, unforgiving, dangerous, harsh |
+natula | nature | | of nature, natural, ruthless, unforgiving, dangerous, harsh, dog-eat-dog |
 nimi | word, name | to name sth; to call sth1 sth2 | |
 nina | bump, nose, hill, mountain, button | to protrude | |
 nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
+nuni | | | NEAR, close, almost, nearly, mostly
 nunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like |
 nuwa | news, newness, novelty, youth, freshness | | new, young, fresh, additional |
 pakala | accident, mistake | do by mistake, screw up, botch, ruin sth; screw up, fall apart | accidental | damn !
