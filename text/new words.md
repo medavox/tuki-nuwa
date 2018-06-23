@@ -31,16 +31,13 @@ Status:Notes | Usage (= POS) | Meaning
 ? probably this is a copula | *<word> <adj>* = to be <adj> | to have the property of the following adj phrase; to be <adj phrase>
 +:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
 + liki  | verb, liki <noun> = <noun>ly etc | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like; LIKE~AS~WAY, similar to, in a similar manner to
-
-nisa | 
-
-
-
+nisa | *nisa <verb>* = the act of <verb>ing, <verb>tion; *nisa <adjective>* = <adj>ness, state of being <adj> | **next word or phrase is a noun**.
+ula | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the following verb-phrase a noun.
 sa | sa <word> = verb | select verb meaning of next word
    | | select adjective meaning of next word
 
-nisa might be unecessary, as the position of the phrase in the sentence indicates whether a word is a noun
-it's not unecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
+nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun\
+it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
 
 to Xify = jupa
 to be Xified jupa X puha
@@ -61,7 +58,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 +:satisu | enough, satisfactorily
 (SOME is provided by word sumin)
 ((slightly, a little, a bit) is covered by existing word lili)
-+:nuni | | | NEAR, close, almost, nearly, mostly
+(close, near = nuni)
 + | hardly, barely, only-just
 +:mina | less
 (not = nata)
@@ -78,7 +75,6 @@ From words that were nearly included, or were removed.
 ```
 lamina
 piwa
-sikatu
 pipa
 hapita
 sipu
@@ -90,7 +86,7 @@ himilu
 kinu
 kinawa
 sijatu
-unipuma
+nipuma
 kuliki
 sinsili
 likita
@@ -118,13 +114,13 @@ hulitu/lutisa/wilusu/sipilu/hulin | rough
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 + | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
 + | strong, intensity, strength (both as in physical power, and a flavour, or an effect)
-+ | fictional, imaginary; story
++ | fictional, imaginary; story; figurative; metaphorical
 + | the world of the mind, inside your head
 +kunputa | computer; the software world; the internet; social media | | of computers; related to software |
 + | the spritual world, eg religious, holy, divine, spiritual
 +:sinsan | ordered, organised, neat, tidy, straight regular (geometrically, NOT as in normal)
 + | temporary, for now
-+ | (for) each, per
++ | (for) each, per, every
 + | test, examination, investigation, check
 + | question, problem | ask
 +:ansa | answer, solution | answer (sth), solve (sth)
@@ -138,7 +134,7 @@ hulitu/lutisa/wilusu/sipilu/hulin | rough
 + | high-status
 + | click, crack, pop
 +:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
-+ | theft | steal | stolen
++ | theft | steal | stolen, thieving
 + | | like, enjoy, prefer
 + | | turn, twist, rotate
 push
@@ -156,8 +152,21 @@ enclose, surround, envelope, circum~
 masina | machine, device, contraption, motor, engine | | mechanical
 pulisu | the police | police sth/sb | 
 papa | | | | goodbye
-alu | | | | hello
+(s?)alu | | | | hello
 steep, slope, ?hill?
+weather
+still <verb>, continue to <verb>
+unless
+lose
+intent, intend, unintentional, deliberate
+wear (clothes)
+put on clothes == come to wear, begin to wear
+mupa | movement | move, go | mobile
+grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
+certainty
+likelihood
+frequency?
++ | slope, hill, mountain | 
 
 Maybes
 -----
@@ -166,9 +175,6 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
   | danger | | dangerous |
   |  | | primitive | obscure
   | knot (connection? mess? order?)
-? | | | excited emotions; moving around a lot
-? | | | static emotions; motionless; still
-  | | | false, incorrect, wrong, unreal, pretend, fake
 ? | | | low-status | may just be insulting
 + | | | squat
   | | uncooked, raw | <cook> puha nata
@@ -214,7 +220,6 @@ NSM Non-Universal but Useful Words
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
 + | heart | <middle> kupa
-+ | mountain | apa siwi <stone>
 + | desert | lula sikusa satu
 + | sea | wata satu satu
 + ila(n)/insula/insilu | island | 
@@ -244,7 +249,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | rubber | 
 + | plastic | 
 + | petrol | wata sasa pi usu (useful fire water)/(water of useful fire)
-+ | road | 
 + | engine | 
 + | pipe | 
 + | read | luku tuki 
@@ -360,7 +364,7 @@ a size you can hold in both hands
 a size you can hold in your arms
 a size you can carry
 a size 2 people can carry
-BE (SOMEWHERE) | *li lun *
+BE (SOMEWHERE) | *li lun*
 THERE IS | *lun ni li hapa*.
 PLACE~WHERE~SOMEWHERE | *i lun*
 place, location | *i lun*
@@ -369,4 +373,8 @@ limit, edge | now explicitly included in *pini*
 (FOR) SOME TIME | ipuki sumin
 mother | mama miwi
 father | mama misi
-be born | upin
+be born | upin; pali i jan upin 
+| | excited emotions; moving around a lot
+| | static emotions; motionless; still
+| | false, incorrect, wrong, unreal, pretend, fake
+road | mitan
