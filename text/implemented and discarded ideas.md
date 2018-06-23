@@ -103,3 +103,13 @@ so 'utali' could be a battle, and 'utala' is to battle
 
 use -n ending too if we REALLY need more, but that could be overly complex
 
+------
+
+
+consider replacing all loanword lexemes with completely original constructions - make every word equally unfamiliar to everyone.
+
+Alternatively only use words from widely-spread lingua francas: latin, arabic, something sanskrit-based;
+
+and then MAYBE other prestige languages: english, french, russian
+
+-----
