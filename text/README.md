@@ -9,11 +9,13 @@ Goals
 
 4. be easy to understand
     - both in terms of meaning and hearing
+5. Avoid creating compound words
+(phrases which have a meaning that can't be guessed from their constituent words, eg )
 
 The goal of this offshoot is to make an improved version of Toki Pona that is more useful 
 as an auxlang.
 
-It uses work from Griffith University's Natural Semantic Metalanguage project,
+It uses work from Griffith University's Natural Semantic Metalanguage project.
 
 
 Although speakers can use phrases to describe things that other languages have a word for,
@@ -90,36 +92,6 @@ Two syllables are said to be 'half-identical' if they share either a consonant o
 Two words are considered to be 'too similar' if they only differ by a half-similar syllable.
 
 To do: avoid minimal pairs
------
-
-Thanks to the use of a new sound (h) to increase the number of single- and dual- syllable words,
-removing the syllable-final n,
-and using the last vowel as a part-of-speech marker,
-
-we now have a lot of words that only differ by a single sound/letter.
-This probably makes the language sound samey, 
-and makes words hard to distinguish or keep separate in one's mind.
-
-We need a new approach.
-
-Firstly, we need to use more 3-syllable constructions,
-because we can't use the word-final syllable anymore, as it marks part-of-speech.
-
-But we don't want to make commonly-used words too long.
-
-So how about a 3-tiered system:
-
-Single-syllable words are reserved for glue words that don't take endings.
-They end in their own vowel, and optionally start with a consonant: (C)V.
-
-Double-syllable lexemes are used for common words (be, do, go, food/feed etc).
-Their first vowel is part of the word, and the second is from the POS-ending.
-They have the following structure: (C)VcE, where E is a POS-ending vowel, not chosen by the word root.
-Small c represents a reduced set of consonants; not all consonants may occur in the final position.
-
-Triple-syllable words are for everything else.
-They have the following structure: (C)VCVcE
-
 
 
 Phonology
@@ -131,7 +103,11 @@ If a syllable is at the beginning of a word, the consonant is optional
 The optional n is forbidden if the next syllable begins with m or n."
 
 These rules produce over 6000 potential dual-syllable words;
-so why does Toki Pona (a language with ~120 words) even HAVE 3-syllable words?
+so why does Toki Pona (a language with 120 words) even HAVE 3-syllable words?
+
+
+toki pona has a limited capacity for expressing abstract thought,
+and referring to objects which aren't here now.
 
 The Argument for removing sounds
 -------------
@@ -152,16 +128,10 @@ It should sound so simplistic as to be familiar to everyone.
 
 I'm still not sure about differentiating m and n, as these are easily mistaken for one another.
 
-
-### Possible New Phonotactic Rules
-
-* should all vowels in a word harmonise?
-* require all words start with a consonant, end with a vowel?
-    - reduces sandhi, allows words to flow better?
-
-
 Orthography
 -----------
 
 * Map all words to Emojis
 * Map all words to Pokemon!
+
+If Toki Pona is a pidgin, then Tuki Nuwa is a creolisation of that Pidgin; or perhaps a new language formed from mixing Toki Pona with other languages.
