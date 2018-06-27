@@ -39,6 +39,7 @@ private const val allowSyllableFinalN = true
 private const val reset = "\u001B[0m"
 private const val RED = "\u001B[31m"
 private const val YELLOW = "\u001B[33m"
+private val validWord = Regex("[$consonants]?[$vowels]([$consonants][$vowels]n?){0,2}")
 
 fun main(args: Array<String>) {
     val t = SyllableGenerator()
@@ -98,10 +99,26 @@ fun main(args: Array<String>) {
         "lint", "l" -> lintTheDictionary(dictionary)
         "frequency", "f" -> o.println(analyseLexicalFrequency(dictionary))
         "unused", "u" -> {
-            val query = if(args.size == 4) args[3] else ""
+            val query = if(args.size > 3) args[3] else ""
             o.println(listUnusedWords(t, dictionary, args[2], query))
         }
+        "random", "r" -> {
+            val numberOfRandomWords:Int = if(args.size > 3) args[3].toInt() else 10
+            o.println(randomUnusedWords(t, dictionary, numberOfRandomWords))
+        }
     }
+}
+
+fun randomUnusedWords(t:SyllableGenerator, dictionary:Array<String>, number:Int) :String {
+    val ret = StringBuilder()
+    val unusedLexemes:MutableSet<String> = getUnusedLexemes(t, dictionary).toMutableSet()
+    val r = Random()
+    for(i in 1..number) {
+        val word = unusedLexemes.elementAt(r.nextInt(unusedLexemes.size))
+        unusedLexemes -= word //bag random
+        ret.appendln(word)
+    }
+    return ret.toString()
 }
 
 fun analyseLexicalFrequency(dictionary:Array<String>): String {
@@ -147,7 +164,7 @@ fun analyseLexicalFrequency(dictionary:Array<String>): String {
     return ret.toString()
 }
 
-private fun isValidPhonotactically(string:String): Boolean {
+private fun isAValidTukiNuwaSubstring(string:String): Boolean {
     if(containsForbiddenSyllable(string)) {
         return false
     }
@@ -164,12 +181,33 @@ private fun isValidPhonotactically(string:String): Boolean {
         return false
     }
     //check characters in provided string are ordered into valid sequences
-    val regex = Regex("[$consonants]?[$vowels]([$consonants][$vowels]n?){0,2}")
+    val regex = Regex("[$vowels]?([$consonants][$vowels]n?){0,2}(n|[$consonants])?")
     return regex.matches(string)
 }
 
+private fun getUnusedLexemes(t:SyllableGenerator, dictionary: Array<String>): Set<String> {
+    var totalSimilarWordsToDictionaryWords = 0
+    val allPossibleWords:MutableSet<String> = (
+            t.listSingleSyllableWords() +
+                    t.listDoubleSyllableWords() +
+                    t.listTripleSyllableWords()
+            ).toMutableSet()
+
+    //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
+    for (word in dictionary) {
+        allPossibleWords -= word
+        for (similarWord in similarWordsTo(word)) {
+            //o.println(similarWord)
+            allPossibleWords -= similarWord
+            totalSimilarWordsToDictionaryWords++
+        }
+    }
+    o.println("unused lexemes: ${allPossibleWords.size}")
+    return allPossibleWords
+}
+
 /**list unused potential words which aren't too similar to existing words */
-private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,
+fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,
                             query:String):String {
     val ret = StringBuilder()
 
@@ -186,38 +224,20 @@ private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, strin
             "    adding neither prints words which contain the string anywhere"
     //populate the list of all potential words,
     // then subtract all the dictionary words (and similar) from it
-    if(!isValidPhonotactically(string)) {
+    if(!isAValidTukiNuwaSubstring(string)) {
         return ret.append(RED)
                 .append("ERROR: supplied string \"$string\" cannot occur in a Tuki Nuwa word.")
                 .appendln(reset)
+                .appendln(usageString)
                 .toString()
     }
-    var totalSimilarWordsToDictionaryWords = 0
-    val allPossibleWords:MutableSet<String> = (
-                t.listSingleSyllableWords() +
-                t.listDoubleSyllableWords() +
-                t.listTripleSyllableWords()
-            ).toMutableSet()
-    val totalPossibleWords = allPossibleWords.size
-    ret.appendln("total words: $totalPossibleWords")
-    //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
-    for (word in dictionary) {
-        allPossibleWords -= word
-        for (similarWord in similarWordsTo(word)) {
-            //o.println(similarWord)
-            allPossibleWords -= similarWord
-            totalSimilarWordsToDictionaryWords++
-        }
-    }
 
-    ret.appendln("total unused: ${allPossibleWords.size}")
-    ret.appendln("total similar words to dictionary words: " +
-            "$totalSimilarWordsToDictionaryWords")
+    val unusedLexemes = getUnusedLexemes(t, dictionary)
 
     if(query == "") {
         ret.appendln("word containing \"$string\":")
         var matchingWords = 0
-        for(unusedWord in allPossibleWords.filter { it.contains(string) }) {
+        for(unusedWord in unusedLexemes.filter { it.contains(string) }) {
             ret.appendln(unusedWord)
             matchingWords++
         }
@@ -238,7 +258,7 @@ private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, strin
         }
         //syllableSizes = mutableListOf<Int>(1, 2, 3)
         var matchingWords = 0
-        for(unusedWord in allPossibleWords.filter { when {
+        for(unusedWord in unusedLexemes.filter { when {
             startsWith && endsWith -> it.startsWith(string) || it.endsWith(string)
             startsWith && !endsWith -> it.startsWith(string)
             !startsWith && endsWith -> it.endsWith(string)
@@ -268,7 +288,7 @@ private fun containsForbiddenSyllable(word: String): Boolean {
     return false
 }
 
-internal fun lintTheDictionary(dict: Array<String>) {
+fun lintTheDictionary(dict: Array<String>) {
     //todo: words with different harmonising vowels
     val dupCheck = TreeSet<String>()
     var complaints = 0
@@ -427,7 +447,7 @@ private fun replaceCharAt(victim: String, index: Int, replacement: Char): String
     return myName.toString()
 }
 
-internal fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
+private fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
     //String wholeDict = fileToString(new File("dictionary.md"));
     val wholeDict = dictFile.readText()
     val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
@@ -449,7 +469,7 @@ internal fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
     return words.toTypedArray()
 }
 
-internal fun anagram(wordSoFar: String, lettersLeft: String,
+private fun anagram(wordSoFar: String, lettersLeft: String,
                     accum: MutableSet<String> ): Set<String> {
     //o.println("letters left:"+lettersLeft.length)
     //o.println("word so far:"+wordSoFar)
@@ -493,9 +513,9 @@ class SyllableGenerator {
         //generate all possible syllables
 
         //firstly, generate initial-only syllables
-        for (c in vowels) {
-            wordInitialOnlySyllables.add(c.toString())
-            wordInitialOnlySyllables.add(c.toString()+"n")
+        for (v in vowels) {
+            wordInitialOnlySyllables.add(v.toString())
+            wordInitialOnlySyllables.add(v.toString()+"n")
         }
 
         //then, generate all other possible syllables
@@ -551,8 +571,12 @@ class SyllableGenerator {
         for(firstSyllable in wordInitialSyllables) {
             for(secondSyllable in syllables) {
                 for(thirdSyllable in syllables) {
-                    if((!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))
-                                    || (secondSyllable.endsWith("n") && thirdSyllable.startsWith("n")))) {
+                    //both of the following have to be true:
+                    //1) the end of the 1st syllable and the start of the 2nd can't both be n
+                    //1) the end of the 2nd syllable and the start of the 3rd can't both be n
+                    if(!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))
+
+                    && !(secondSyllable.endsWith("n") && thirdSyllable.startsWith("n")) ) {
                         tris.add(firstSyllable+secondSyllable+thirdSyllable)
                     }
                 }
