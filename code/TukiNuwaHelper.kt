@@ -234,84 +234,6 @@ private fun containsForbiddenSyllable(word: String): Boolean {
     return false
 }
 
-class SyllableGenerator {
-
-    private val syllables = TreeSet<String>()
-    private val wordInitialOnlySyllables = TreeSet<String>()
-    private val wordInitialSyllables = TreeSet<String>()
-
-    init{
-        //generate all possible syllables
-
-        //firstly, generate initial-only syllables
-        for (c in vowels) {
-            wordInitialOnlySyllables.add(c.toString())
-            wordInitialOnlySyllables.add(c.toString()+"n")
-        }
-
-        //then, generate all other possible syllables
-        for (cc in consonants) {
-            val c = cc.toString()
-            for (vv in vowels) {
-                val v = vv.toString()
-                if ((c + v) in forbiddenSyllables) {
-                    //if it's a forbidden syllable, skip adding it to the list
-                    continue
-                }
-                syllables.add(c + v)
-                syllables.add(c + v + "n")
-            }
-        }
-
-        wordInitialSyllables += wordInitialOnlySyllables
-        wordInitialSyllables += syllables
-
-        val numSingleSyllableWords = wordInitialSyllables.size
-        val dualSyllableWords = numSingleSyllableWords * syllables.size
-        val tripleSyllableWords = dualSyllableWords * syllables.size
-
-        e.println("possible single-syllable words: $numSingleSyllableWords")
-        e.println("possible double-syllable words: $dualSyllableWords")
-        e.println("possible triple-syllable words: $tripleSyllableWords")
-    }
-
-    /**list all possible single-syllable words (glue words)*/
-    internal fun listSingleSyllableWords(): Set<String> {
-        return wordInitialSyllables
-    }
-
-    /**list all possible double-syllable words*/
-    internal fun listDoubleSyllableWords(): Set<String> {
-        val twos = TreeSet<String>()
-
-        //empty string represents missing initial consonant
-        for(firstSyllable in wordInitialSyllables) {
-            for(secondSyllable in syllables) {
-                if(!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))) {
-                    twos.add(firstSyllable+secondSyllable)
-                }
-            }
-        }
-        return twos
-    }
-
-    /**list all possible triple-syllable words */
-    internal fun listTripleSyllableWords(): Set<String> {
-        val tris = TreeSet<String>()
-
-        for(firstSyllable in wordInitialSyllables) {
-            for(secondSyllable in syllables) {
-                for(thirdSyllable in syllables) {
-                    if((!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))
-                    || (secondSyllable.endsWith("n") && thirdSyllable.startsWith("n")))) {
-                        tris.add(firstSyllable+secondSyllable+thirdSyllable)
-                    }
-                }
-            }
-        }
-        return tris
-    }
-}
 internal fun lintTheDictionary(dict: Array<String>) {
     //todo: words with different harmonising vowels
     val dupCheck = TreeSet<String>()
@@ -382,8 +304,6 @@ internal fun lintTheDictionary(dict: Array<String>) {
     }
     o.println("total complaints: $complaints")
 }
-
-
 internal fun similarWordsTo(word: String): Array<String> {
     if (word.length == 1) {
         return arrayOf()
@@ -466,6 +386,7 @@ internal fun similarWordsTo(word: String): Array<String> {
     return similarWords.toTypedArray()
 }
 
+
 private fun replaceCharAt(victim: String, index: Int, replacement: Char): String {
     val myName = StringBuilder(victim)
     myName.setCharAt(index, replacement)
@@ -525,6 +446,85 @@ internal fun anagram(wordSoFar: String, lettersLeft: String,
             }
         }
         return accum
+    }
+}
+
+class SyllableGenerator {
+
+    private val syllables = TreeSet<String>()
+    private val wordInitialOnlySyllables = TreeSet<String>()
+    private val wordInitialSyllables = TreeSet<String>()
+
+    init{
+        //generate all possible syllables
+
+        //firstly, generate initial-only syllables
+        for (c in vowels) {
+            wordInitialOnlySyllables.add(c.toString())
+            wordInitialOnlySyllables.add(c.toString()+"n")
+        }
+
+        //then, generate all other possible syllables
+        for (cc in consonants) {
+            val c = cc.toString()
+            for (vv in vowels) {
+                val v = vv.toString()
+                if ((c + v) in forbiddenSyllables) {
+                    //if it's a forbidden syllable, skip adding it to the list
+                    continue
+                }
+                syllables.add(c + v)
+                syllables.add(c + v + "n")
+            }
+        }
+
+        wordInitialSyllables += wordInitialOnlySyllables
+        wordInitialSyllables += syllables
+
+        val numSingleSyllableWords = wordInitialSyllables.size
+        val dualSyllableWords = numSingleSyllableWords * syllables.size
+        val tripleSyllableWords = dualSyllableWords * syllables.size
+
+        e.println("possible single-syllable words: $numSingleSyllableWords")
+        e.println("possible double-syllable words: $dualSyllableWords")
+        e.println("possible triple-syllable words: $tripleSyllableWords")
+    }
+
+    /**list all possible single-syllable words (glue words)*/
+    internal fun listSingleSyllableWords(): Set<String> {
+        return wordInitialSyllables
+    }
+
+    /**list all possible double-syllable words*/
+    internal fun listDoubleSyllableWords(): Set<String> {
+        val twos = TreeSet<String>()
+
+        //empty string represents missing initial consonant
+        for(firstSyllable in wordInitialSyllables) {
+            for(secondSyllable in syllables) {
+                if(!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))) {
+                    twos.add(firstSyllable+secondSyllable)
+                }
+            }
+        }
+        return twos
+    }
+
+    /**list all possible triple-syllable words */
+    internal fun listTripleSyllableWords(): Set<String> {
+        val tris = TreeSet<String>()
+
+        for(firstSyllable in wordInitialSyllables) {
+            for(secondSyllable in syllables) {
+                for(thirdSyllable in syllables) {
+                    if((!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))
+                                    || (secondSyllable.endsWith("n") && thirdSyllable.startsWith("n")))) {
+                        tris.add(firstSyllable+secondSyllable+thirdSyllable)
+                    }
+                }
+            }
+        }
+        return tris
     }
 }
 
