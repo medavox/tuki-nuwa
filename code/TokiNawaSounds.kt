@@ -39,10 +39,10 @@ private const val RED = "\u001B[31m"
 private const val YELLOW = "\u001B[33m"
 
 fun main(args: Array<String>) {
-    if(args.size >= 2) {
-        val t = TokiNawaSounds()
-        val command: String = args[0].toLowerCase()
-        if ((command == "syllables" || command == "s")) {
+    val t = TokiNawaSounds()
+    val command: String = args[0].toLowerCase()
+    when(command) {
+        "syllables", "s" -> { // print all possible syllables
             if("[1-3]".toRegex().matches(args[1])) {
                 //print syllables
                 val words: Set<String> = when(args[1].toInt()) {
@@ -59,172 +59,186 @@ fun main(args: Array<String>) {
             }else {
                 e.println("was expecting a number argument 1-3.")
             }
+            return
         }
-        else if(command == "similar" || command == "si") {
-            for(s in t.similarWordsTo(args[1])) {
+
+        "similar", "si" -> { // print possible words considered similar to the supplied word
+            //these are generated from the supplied word
+            for(s in similarWordsTo(args[1])) {
                 o.println(s)
             }
+            return
         }
-        else if(command == "anagram" || command == "a") {
 
+        "anagram", "a" -> {
             //val anagrams: Set<String> = t.anagram("", args[1].toList(), TreeSet<String>())
             val afterLastLetterNoHyphen = args[1].substring(1).replace("-", "")
-            val anagrams: Set<String> = t.anagram(args[1][0].toString(), afterLastLetterNoHyphen, TreeSet<String>())
+            val anagrams: Set<String> = anagram(args[1][0].toString(), afterLastLetterNoHyphen, TreeSet<String>())
             for (anagram in anagrams) {
                 if(anagram != args[1]) {
-                    o.println("ANAGRAM:" + anagram)
+                    o.println("ANAGRAM:$anagram")
                 }
             }
+            return
         }
-        else {
-            //the other two commands require a second argument of a dictionary file,
-            //so parse it as that
-            //args[0].equals("lint")
-            val dict = File(args[1])
-            if(!dict.exists() || !dict.isFile || !dict.canRead() || dict.length() < 5) {
-                e.println("invalid file \"$dict\" specified.")
+    }
+
+    //the other commands require a second argument of a dictionary file,
+    //so parse the second argument as that
+    val dict = File(args[1])
+    if(!dict.exists() || !dict.isFile || !dict.canRead() || dict.length() < 5) {
+        e.println("invalid file \"$dict\" specified.")
+        return
+    }
+
+    val dictionary = scrapeWordsFromDictionary(dict)
+    if(command == "lint" || command == "l") {
+        lintTheDictionary(dictionary)
+    }
+    else if(command == "lexical-frequency" || command == "f") {
+        val firstLetterFreqs: MutableMap<Char, Int> = HashMap()
+        val letterFreqs: MutableMap<Char, Int> = HashMap()
+        var wordsWithSyllableFinalN = mutableSetOf<String>()
+        for(word in dictionary) {
+            val c = word[0]
+            if (consonants.contains(c) || vowels.contains(c)) {
+                firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
+            }
+            if(word.endsWith("n")) {
+                wordsWithSyllableFinalN.add(word)
             }else {
-                val dictionary = t.scrapeWordsFromDictionary(dict)
-                if(command == "lint" || command == "l") {
-                    t.lintTheDictionary(dictionary)
-                }
-                else if(command == "lexical-frequency" || command == "f") {
-                    val firstLetterFreqs: MutableMap<Char, Int> = HashMap()
-                    val letterFreqs: MutableMap<Char, Int> = HashMap()
-                    var wordsWithSyllableFinalN = mutableSetOf<String>()
-                    for(word in dictionary) {
-                        val c = word[0]
-                        if (consonants.contains(c) || vowels.contains(c)) {
-                            firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
-                        }
-                        if(word.endsWith("n")) {
-                            wordsWithSyllableFinalN.add(word)
-                        }else {
-                            for(i in word.indices) {
-                                if(vowels.contains(word[i])
-                                && word.length > i+2
-                                && word[i+1] == 'n'
-                                && consonants.contains(word[i+2]) ){
-                                    wordsWithSyllableFinalN.add(word)
-                                }
-                            }
-                        }
-                        for(letter in word) {
-                            if (consonants.contains(c) || vowels.contains(c)) {
-                                letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
-                            }
-                        }
-                    }
-
-                    //o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
-
-                    o.println("first-letter frequencies:")
-                    for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
-                        o.println("$key: $value")
-                    }
-
-                    o.println("all-letter frequencies:")
-                    for((key, value) in letterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
-                        o.println("$key: $value")
-                    }
-
-                }
-                else if(command == "unused" || command == "u") {
-                    /**list unused potential words which aren't too similar to existing words */
-                    //populate the list of all potential words,
-                    // then subtract all the dictionary words (and similar) from it
-                    var totalSimilarWordsToDictionaryWords = 0
-                    val allPossibleWords:MutableSet<String> = (
-                            t.listSingleSyllableWords() +
-                            t.listDoubleSyllableWords() +
-                            t.listTripleSyllableWords()
-                            ).toMutableSet()
-                    val totalPossibleWords = allPossibleWords.size
-                    o.println("total words: $totalPossibleWords")
-                    //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
-                    for (word in dictionary) {
-                        allPossibleWords -= word
-                        for (similarWord in t.similarWordsTo(word)) {
-                            //o.println(similarWord)
-                            allPossibleWords -= similarWord
-                            totalSimilarWordsToDictionaryWords++
-                        }
-                    }
-
-                    o.println("total unused: ${allPossibleWords.size}")
-                    o.println("total similar words to dictionary words: " +
-                            "$totalSimilarWordsToDictionaryWords")
-
-                    if(args.size == 3) {
-                        o.println("word containing \"${args[2]}\":")
-                        var matchingWords = 0
-                        for(unusedWord in allPossibleWords.filter { it.contains(args[2]) }) {
-                            o.println(unusedWord)
-                            matchingWords++
-                        }
-                        o.println("matching words: $matchingWords")
-                    }
-                    else if(args.size == 4) {
-                        // print 1, 2 or 3 syllable possible words
-                        //or any combination thereof;
-                        //or only print words BEGINNING or ending with the given sequence
-                        //also, validate given string is phonotactically valid
-
-                        //to the last argument, add:
-                        //any (or none) or 1, 2 or 3 to only print word with that many syllables
-                            //(both 123 and no numbers print words with either 1, 2 or 3 syllables)
-                        //either (or neither) of s or e,
-                            //to print words that start (and/or) end with the provided string
-                        // adding both s and w prints words that start or end with it,
-                        // adding neither prints words that contain the string anywhere
-                        o.println("QUERY MODE")
-                        var startsWith = false
-                        var endsWith = false
-                        val syllableSizes:MutableList<Int> = mutableListOf()
-                        for(character in args[3]) {
-                            when {
-                                character.isDigit() -> syllableSizes.add(character.toString().toInt())
-                                character == 's' -> startsWith = true
-                                character == 'e' -> endsWith = true
-                            }
-                        }
-                        //syllableSizes = mutableListOf<Int>(1, 2, 3)
-                        var matchingWords = 0
-                        for(unusedWord in allPossibleWords.filter { when {
-                            startsWith && endsWith -> it.startsWith(args[2]) || it.endsWith(args[2])
-                            startsWith && !endsWith -> it.startsWith(args[2])
-                            !startsWith && endsWith -> it.endsWith(args[2])
-                            !startsWith && !endsWith -> it.contains(args[2])
-                            else -> false//should never reach this
-                        }}) {
-                            val syllablesByVowel = unusedWord.count { it in vowels }
-                            //o.println("syllables of $unusedWord: $syllablesByVowel")
-                            if(syllablesByVowel in syllableSizes || syllableSizes.isEmpty()) {
-                                o.println(unusedWord)
-                                matchingWords++
-                            }
-                        }
-                        o.println("matching words: $matchingWords")
-
+                for(i in word.indices) {
+                    if(vowels.contains(word[i])
+                    && word.length > i+2
+                    && word[i+1] == 'n'
+                    && consonants.contains(word[i+2]) ){
+                        wordsWithSyllableFinalN.add(word)
                     }
                 }
             }
+            for(letter in word) {
+                if (consonants.contains(c) || vowels.contains(c)) {
+                    letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
+                }
+            }
         }
+
+        //o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
+
+        o.println("first-letter frequencies:")
+        for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
+            o.println("$key: $value")
+        }
+
+        o.println("all-letter frequencies:")
+        for((key, value) in letterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
+            o.println("$key: $value")
+        }
+    }
+    else if(command == "unused" || command == "u") {
+        listUnusedWords(t, dictionary, args[2], if(args.size == 4) args[3] else "")
+    }
+
+}
+
+private fun listUnusedWords(t:TokiNawaSounds, dictionary:Array<String>, string:String,  query:String) {
+
+    /**list unused potential words which aren't too similar to existing words */
+    //populate the list of all potential words,
+    // then subtract all the dictionary words (and similar) from it
+    var totalSimilarWordsToDictionaryWords = 0
+    val allPossibleWords:MutableSet<String> = (
+                t.listSingleSyllableWords() +
+                t.listDoubleSyllableWords() +
+                t.listTripleSyllableWords()
+            ).toMutableSet()
+    val totalPossibleWords = allPossibleWords.size
+    o.println("total words: $totalPossibleWords")
+    //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
+    for (word in dictionary) {
+        allPossibleWords -= word
+        for (similarWord in similarWordsTo(word)) {
+            //o.println(similarWord)
+            allPossibleWords -= similarWord
+            totalSimilarWordsToDictionaryWords++
+        }
+    }
+
+    o.println("total unused: ${allPossibleWords.size}")
+    o.println("total similar words to dictionary words: " +
+            "$totalSimilarWordsToDictionaryWords")
+
+    if(query == "") {
+        o.println("word containing \"$string\":")
+        var matchingWords = 0
+        for(unusedWord in allPossibleWords.filter { it.contains(string) }) {
+            o.println(unusedWord)
+            matchingWords++
+        }
+        o.println("matching words: $matchingWords")
     }
     else {
-        e.println("nope!")
+        // print 1, 2 or 3 syllable possible words
+        //or any combination thereof;
+        //or only print words BEGINNING or ending with the given sequence
+        //also, validate given string is phonotactically valid
+
+        //to the last argument, add:
+        //any (or none) or 1, 2 or 3 to print words with any of those numbers of syllables
+        //(both 123 and no numbers print words with either 1, 2 or 3 syllables)
+        //either (or neither) of s or e,
+        //to print words that start (and/or) end with the provided string
+        // adding both s and w prints words that start or end with it,
+        // adding neither prints words which contain the string anywhere
+        o.println("QUERY MODE")
+        var startsWith = false
+        var endsWith = false
+        val syllableSizes:MutableList<Int> = mutableListOf()
+        for(character in query) {
+            when {
+                character.isDigit() -> syllableSizes.add(character.toString().toInt())
+                character == 's' -> startsWith = true
+                character == 'e' -> endsWith = true
+            }
+        }
+        //syllableSizes = mutableListOf<Int>(1, 2, 3)
+        var matchingWords = 0
+        for(unusedWord in allPossibleWords.filter { when {
+            startsWith && endsWith -> it.startsWith(string) || it.endsWith(string)
+            startsWith && !endsWith -> it.startsWith(string)
+            !startsWith && endsWith -> it.endsWith(string)
+            !startsWith && !endsWith -> it.contains(string)
+            else -> false//should never reach this
+        }}) {
+            val syllablesByVowel = unusedWord.count { it in vowels }
+            //o.println("syllables of $unusedWord: $syllablesByVowel")
+            if(syllablesByVowel in syllableSizes || syllableSizes.isEmpty()) {
+                o.println(unusedWord)
+                matchingWords++
+            }
+        }
+        o.println("matching words: $matchingWords")
+
     }
+}
+
+private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
+private const val allowSyllableFinalN = true
+
+private fun containsForbiddenSyllable(word: String): Boolean {
+    for (forbSyl in forbiddenSyllables) {
+        if (forbSyl in word) {
+            return true
+        }
+    }
+    return false
 }
 
 class TokiNawaSounds {
 
-
-    private val allowSyllableFinalN = true
     private val syllables = TreeSet<String>()
     private val wordInitialOnlySyllables = TreeSet<String>()
     private val wordInitialSyllables = TreeSet<String>()
-
-    private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
 
     init{
         //generate all possible syllables
@@ -259,15 +273,6 @@ class TokiNawaSounds {
         e.println("possible single-syllable words: $numSingleSyllableWords")
         e.println("possible double-syllable words: $dualSyllableWords")
         e.println("possible triple-syllable words: $tripleSyllableWords")
-    }
-
-    private fun containsForbiddenSyllable(word: String): Boolean {
-        for (forbSyl in forbiddenSyllables) {
-            if (forbSyl in word) {
-                return true
-            }
-        }
-        return false
     }
 
     /**list all possible single-syllable words (glue words)*/
@@ -306,7 +311,7 @@ class TokiNawaSounds {
         }
         return tris
     }
-
+}
     internal fun lintTheDictionary(dict: Array<String>) {
         //todo: words with different harmonising vowels
         val dupCheck = TreeSet<String>()
@@ -350,14 +355,14 @@ class TokiNawaSounds {
             //check if this word contains another dictionary word
             for(otherWord in dict) {
                 if(word.contains(otherWord) && otherWord.length > 2 && !word.equals(otherWord)) {
-                    o.println(YELLOW+"word \"$word\" contains other dictionary word \"$otherWord\""+reset)
+                    o.println("word \"$word\" contains other dictionary word \"$otherWord\"")
                     complaints++
                 }
             }
 
             //check for exact-duplicate words
             if (dupCheck.contains(word)) {
-                o.println(RED+"word \"$word\" already exists"+reset)
+                o.println(RED+"word \"$word\" already exists!"+reset)
                 complaints++
             } else {
                 dupCheck.add(word)
@@ -369,7 +374,7 @@ class TokiNawaSounds {
                 //allPossibleWords.remove(similarWord)
                 for (otherWord in dict) {
                     if (otherWord == similarWord) {
-                        o.println(YELLOW+"word \"$word\" is very similar to \"$otherWord\""+reset)
+                        o.println("word \"$word\" is very similar to \"$otherWord\"")
                         complaints++
                     }
                 }
@@ -522,4 +527,4 @@ class TokiNawaSounds {
             return accum
         }
     }
-}
+
