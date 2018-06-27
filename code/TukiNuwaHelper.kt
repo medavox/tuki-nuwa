@@ -31,9 +31,11 @@ to construct new words.
 private const val consonants = "hjklmnpstw"
 private const val vowels = "aiu"
 
+private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
+private const val allowSyllableFinalN = true
+
 //ansi colour-terminal escape codes
 //https://en.wikipedia.org/wiki/ANSI_escape_code#Escape_sequences
-
 private const val reset = "\u001B[0m"
 private const val RED = "\u001B[31m"
 private const val YELLOW = "\u001B[33m"
@@ -92,60 +94,104 @@ fun main(args: Array<String>) {
     }
 
     val dictionary = scrapeWordsFromDictionary(dict)
-    if(command == "lint" || command == "l") {
-        lintTheDictionary(dictionary)
-    }
-    else if(command == "lexical-frequency" || command == "f") {
-        val firstLetterFreqs: MutableMap<Char, Int> = HashMap()
-        val letterFreqs: MutableMap<Char, Int> = HashMap()
-        var wordsWithSyllableFinalN = mutableSetOf<String>()
-        for(word in dictionary) {
-            val c = word[0]
-            if (consonants.contains(c) || vowels.contains(c)) {
-                firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
-            }
-            if(word.endsWith("n")) {
-                wordsWithSyllableFinalN.add(word)
-            }else {
-                for(i in word.indices) {
-                    if(vowels.contains(word[i])
-                    && word.length > i+2
-                    && word[i+1] == 'n'
-                    && consonants.contains(word[i+2]) ){
-                        wordsWithSyllableFinalN.add(word)
-                    }
-                }
-            }
-            for(letter in word) {
-                if (consonants.contains(c) || vowels.contains(c)) {
-                    letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
-                }
-            }
-        }
-
-        //o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
-
-        o.println("first-letter frequencies:")
-        for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
-            o.println("$key: $value")
-        }
-
-        o.println("all-letter frequencies:")
-        for((key, value) in letterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
-            o.println("$key: $value")
+    when(command) {
+        "lint", "l" -> lintTheDictionary(dictionary)
+        "frequency", "f" -> o.println(analyseLexicalFrequency(dictionary))
+        "unused", "u" -> {
+            val query = if(args.size == 4) args[3] else ""
+            o.println(listUnusedWords(t, dictionary, args[2], query))
         }
     }
-    else if(command == "unused" || command == "u") {
-        listUnusedWords(t, dictionary, args[2], if(args.size == 4) args[3] else "")
-    }
-
 }
 
-private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,  query:String) {
+fun analyseLexicalFrequency(dictionary:Array<String>): String {
+    val ret = StringBuilder()
+    val firstLetterFreqs: MutableMap<Char, Int> = HashMap()
+    val letterFreqs: MutableMap<Char, Int> = HashMap()
+    val wordsWithSyllableFinalN = mutableSetOf<String>()
+    for(word in dictionary) {
+        val c = word[0]
+        if (consonants.contains(c) || vowels.contains(c)) {
+            firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
+        }
+        if(word.endsWith("n")) {
+            wordsWithSyllableFinalN.add(word)
+        }else {
+            for(i in word.indices) {
+                if(vowels.contains(word[i])
+                        && word.length > i+2
+                        && word[i+1] == 'n'
+                        && consonants.contains(word[i+2]) ){
+                    wordsWithSyllableFinalN.add(word)
+                }
+            }
+        }
+        for(letter in word) {
+            if (consonants.contains(c) || vowels.contains(c)) {
+                letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
+            }
+        }
+    }
 
-    /**list unused potential words which aren't too similar to existing words */
+    //o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
+
+    ret.appendln("first-letter frequencies:")
+    for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
+        ret.appendln("$key: $value")
+    }
+
+    ret.appendln("all-letter frequencies:")
+    for((key, value) in letterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
+        ret.appendln("$key: $value")
+    }
+    return ret.toString()
+}
+
+private fun isValidPhonotactically(string:String): Boolean {
+    if(containsForbiddenSyllable(string)) {
+        return false
+    }
+    //check if string contains illegal characters,
+    //by removing all valid characters and seeing if the string is empty or not afterwards
+    var removingValidChars = string
+    for(conso in consonants) {
+        removingValidChars = removingValidChars.replace(conso.toString(), "")
+    }
+    for(vowel in vowels) {
+        removingValidChars = removingValidChars.replace(vowel.toString(), "")
+    }
+    if(!removingValidChars.isEmpty()) {
+        return false
+    }
+    //check characters in provided string are ordered into valid sequences
+    val regex = Regex("[$consonants]?[$vowels]([$consonants][$vowels]n?){0,2}")
+    return regex.matches(string)
+}
+
+/**list unused potential words which aren't too similar to existing words */
+private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,
+                            query:String):String {
+    val ret = StringBuilder()
+
+    val usageString = "Print 1, 2 or 3 syllable possible words, or any combination thereof." +
+            "or only print words BEGINNING or ending with the given sequence\n" +
+            "(the given string must be phonotactically valid.)\n" +
+            "\n" +
+            "The query string can contain:\n" +
+            "* any (or none) or 1, 2 or 3 to print words with any of those numbers of syllables\n" +
+            "    (both 123 and no numbers print words with either 1, 2 or 3 syllables)\n" +
+            "* either, neither or both of s or e,\n" +
+            "    to print words that start (and/or) end with the provided string\n" +
+            "    adding both s and e prints words which either start or end with it,\n" +
+            "    adding neither prints words which contain the string anywhere"
     //populate the list of all potential words,
     // then subtract all the dictionary words (and similar) from it
+    if(!isValidPhonotactically(string)) {
+        return ret.append(RED)
+                .append("ERROR: supplied string \"$string\" cannot occur in a Tuki Nuwa word.")
+                .appendln(reset)
+                .toString()
+    }
     var totalSimilarWordsToDictionaryWords = 0
     val allPossibleWords:MutableSet<String> = (
                 t.listSingleSyllableWords() +
@@ -153,7 +199,7 @@ private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, strin
                 t.listTripleSyllableWords()
             ).toMutableSet()
     val totalPossibleWords = allPossibleWords.size
-    o.println("total words: $totalPossibleWords")
+    ret.appendln("total words: $totalPossibleWords")
     //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
     for (word in dictionary) {
         allPossibleWords -= word
@@ -164,33 +210,22 @@ private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, strin
         }
     }
 
-    o.println("total unused: ${allPossibleWords.size}")
-    o.println("total similar words to dictionary words: " +
+    ret.appendln("total unused: ${allPossibleWords.size}")
+    ret.appendln("total similar words to dictionary words: " +
             "$totalSimilarWordsToDictionaryWords")
 
     if(query == "") {
-        o.println("word containing \"$string\":")
+        ret.appendln("word containing \"$string\":")
         var matchingWords = 0
         for(unusedWord in allPossibleWords.filter { it.contains(string) }) {
-            o.println(unusedWord)
+            ret.appendln(unusedWord)
             matchingWords++
         }
-        o.println("matching words: $matchingWords")
+        ret.appendln("matching words: $matchingWords")
     }
     else {
-        // print 1, 2 or 3 syllable possible words
-        //or any combination thereof;
-        //or only print words BEGINNING or ending with the given sequence
-        //also, validate given string is phonotactically valid
 
-        //to the last argument, add:
-        //any (or none) or 1, 2 or 3 to print words with any of those numbers of syllables
-        //(both 123 and no numbers print words with either 1, 2 or 3 syllables)
-        //either (or neither) of s or e,
-        //to print words that start (and/or) end with the provided string
-        // adding both s and w prints words that start or end with it,
-        // adding neither prints words which contain the string anywhere
-        o.println("QUERY MODE")
+        ret.appendln("QUERY MODE")
         var startsWith = false
         var endsWith = false
         val syllableSizes:MutableList<Int> = mutableListOf()
@@ -217,13 +252,12 @@ private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, strin
                 matchingWords++
             }
         }
-        o.println("matching words: $matchingWords")
-
+        ret.appendln("matching words: $matchingWords")
     }
+    return ret.toString()
 }
 
-private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
-private const val allowSyllableFinalN = true
+
 
 private fun containsForbiddenSyllable(word: String): Boolean {
     for (forbSyl in forbiddenSyllables) {
