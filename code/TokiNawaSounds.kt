@@ -31,6 +31,13 @@ to construct new words.
 private const val consonants = "hjklmnpstw"
 private const val vowels = "aiu"
 
+//ansi colour-terminal escape codes
+//https://en.wikipedia.org/wiki/ANSI_escape_code#Escape_sequences
+
+private const val reset = "\u001B[0m"
+private const val RED = "\u001B[31m"
+private const val YELLOW = "\u001B[33m"
+
 fun main(args: Array<String>) {
     if(args.size >= 2) {
         val t = TokiNawaSounds()
@@ -308,14 +315,14 @@ class TokiNawaSounds {
             //check for illegal letters
             val invalidLetters = word.filter { it !in vowels+consonants }
             if (invalidLetters.isNotEmpty()) {
-                o.println("word \"$word\" contains illegal letters: $invalidLetters")
+                o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
                 complaints++
             }
 
             //check for any of the 4 illegal syllables
             for (forb in forbiddenSyllables) {
                 if (word.contains(forb)) {
-                    o.println("word \"$word\" contains illegal syllable \"$forb\"")
+                    o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
                     complaints++
                 }
             }
@@ -343,14 +350,14 @@ class TokiNawaSounds {
             //check if this word contains another dictionary word
             for(otherWord in dict) {
                 if(word.contains(otherWord) && otherWord.length > 2 && !word.equals(otherWord)) {
-                    o.println("word \"$word\" contains other dictionary word \"$otherWord\"")
+                    o.println(YELLOW+"word \"$word\" contains other dictionary word \"$otherWord\""+reset)
                     complaints++
                 }
             }
 
             //check for exact-duplicate words
             if (dupCheck.contains(word)) {
-                o.println("word \"$word\" already exists")
+                o.println(RED+"word \"$word\" already exists"+reset)
                 complaints++
             } else {
                 dupCheck.add(word)
@@ -362,7 +369,7 @@ class TokiNawaSounds {
                 //allPossibleWords.remove(similarWord)
                 for (otherWord in dict) {
                     if (otherWord == similarWord) {
-                        o.println("word \"$word\" is very similar to \"$otherWord\"")
+                        o.println(YELLOW+"word \"$word\" is very similar to \"$otherWord\""+reset)
                         complaints++
                     }
                 }
