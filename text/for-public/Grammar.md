@@ -65,13 +65,22 @@ Tenses
 
 present/past/future -- whether the verb took place in the present, past or future. default: present
 
+In Tuki Nuwa, these are expressed with either *li* (present),
+ *jatun* (past) or *hinsu* (future) between the subject and the verb.
+
+eg:
+
+*lu li nami* = 'he's eating'
+*lu jatun nami* = 'he ate'
+*lu hinsu nami* = 'he'll eat
+
 In the classical interpretations of the grammar of some languages, 
-all sorts of other things are sometimes lumped in under tense.
+all sorts of concepts are sometimes lumped in under tense.
 
 But these interpretations are wrong, at least in this theory of grammar.
-They're only still kept around because of literary/academic tradition.
+They're only kept around because of literary/academic tradition.
 
-However, some interesting addtional, actual distinctions to make would be:
+However, some other interesting distinctions to actually make would be:
 distant past vs recent past,
 near future vs distant future
 
@@ -103,10 +112,9 @@ habitual: *john dances*; *john likes to dance*
 * starting(inchoative) -- the action or state is starting
 * prospective -- going to start
 
-Inherent Verb Properties
-----------
 
-### static(stative)/dynamic
+static(stative)/dynamic
+------
 
 
 whether the verb contains change over time (stand up, go to sleep, combust),
@@ -122,7 +130,8 @@ the verb is an action which can take place at a defined point in time
 we probably don't need gramatical markers for this category: 
 words don't usually differ in meaning by whether they indicate a change over time.
 
-### transitivity
+transitivity
+----
 
 if the verb was a function, then how many arguments it would take: 1, 2 or 3?
 
