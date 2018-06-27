@@ -39,7 +39,7 @@ private const val RED = "\u001B[31m"
 private const val YELLOW = "\u001B[33m"
 
 fun main(args: Array<String>) {
-    val t = TokiNawaSounds()
+    val t = SyllableGenerator()
     val command: String = args[0].toLowerCase()
     when(command) {
         "syllables", "s" -> { // print all possible syllables
@@ -141,7 +141,7 @@ fun main(args: Array<String>) {
 
 }
 
-private fun listUnusedWords(t:TokiNawaSounds, dictionary:Array<String>, string:String,  query:String) {
+private fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,  query:String) {
 
     /**list unused potential words which aren't too similar to existing words */
     //populate the list of all potential words,
@@ -234,7 +234,7 @@ private fun containsForbiddenSyllable(word: String): Boolean {
     return false
 }
 
-class TokiNawaSounds {
+class SyllableGenerator {
 
     private val syllables = TreeSet<String>()
     private val wordInitialOnlySyllables = TreeSet<String>()
@@ -312,219 +312,219 @@ class TokiNawaSounds {
         return tris
     }
 }
-    internal fun lintTheDictionary(dict: Array<String>) {
-        //todo: words with different harmonising vowels
-        val dupCheck = TreeSet<String>()
-        var complaints = 0
-        for (word in dict) {
-            //check for illegal letters
-            val invalidLetters = word.filter { it !in vowels+consonants }
-            if (invalidLetters.isNotEmpty()) {
-                o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
+internal fun lintTheDictionary(dict: Array<String>) {
+    //todo: words with different harmonising vowels
+    val dupCheck = TreeSet<String>()
+    var complaints = 0
+    for (word in dict) {
+        //check for illegal letters
+        val invalidLetters = word.filter { it !in vowels+consonants }
+        if (invalidLetters.isNotEmpty()) {
+            o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
+            complaints++
+        }
+
+        //check for any of the 4 illegal syllables
+        for (forb in forbiddenSyllables) {
+            if (word.contains(forb)) {
+                o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
                 complaints++
             }
+        }
 
-            //check for any of the 4 illegal syllables
-            for (forb in forbiddenSyllables) {
-                if (word.contains(forb)) {
-                    o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
-                    complaints++
-                }
-            }
-
-            //check for syllable-final Ns
-            if (!allowSyllableFinalN) {
-                if (word.replace("n", "").length < word.length) {
-                    //o.println("i:"+i);
-                    for(j in word.indices) {
-                        if(word[j] == 'n') {
-                            /*if(j == (word.length-1)) {
-                                o.println("word \"$word\" contains a word-final N")
-                                complaints++
-                            }
-                            else*/ if (j != (word.length-1)
-                                    && consonants.contains(word[j + 1])) {
-                                o.println("word \"$word\" contains an N before another consonant")
-                                complaints++
-                            }
+        //check for syllable-final Ns
+        if (!allowSyllableFinalN) {
+            if (word.replace("n", "").length < word.length) {
+                //o.println("i:"+i);
+                for(j in word.indices) {
+                    if(word[j] == 'n') {
+                        /*if(j == (word.length-1)) {
+                            o.println("word \"$word\" contains a word-final N")
+                            complaints++
+                        }
+                        else*/ if (j != (word.length-1)
+                                && consonants.contains(word[j + 1])) {
+                            o.println("word \"$word\" contains an N before another consonant")
+                            complaints++
                         }
                     }
                 }
             }
+        }
 
-            //check if this word contains another dictionary word
-            for(otherWord in dict) {
-                if(word.contains(otherWord) && otherWord.length > 2 && !word.equals(otherWord)) {
-                    o.println("word \"$word\" contains other dictionary word \"$otherWord\"")
+        //check if this word contains another dictionary word
+        for(otherWord in dict) {
+            if(word.contains(otherWord) && otherWord.length > 2 && !word.equals(otherWord)) {
+                o.println("word \"$word\" contains other dictionary word \"$otherWord\"")
+                complaints++
+            }
+        }
+
+        //check for exact-duplicate words
+        if (dupCheck.contains(word)) {
+            o.println(RED+"word \"$word\" already exists!"+reset)
+            complaints++
+        } else {
+            dupCheck.add(word)
+        }
+
+        //check for similar words
+        val similarWords = similarWordsTo(word)
+        for (similarWord in similarWords) {
+            //allPossibleWords.remove(similarWord)
+            for (otherWord in dict) {
+                if (otherWord == similarWord) {
+                    o.println("word \"$word\" is very similar to \"$otherWord\"")
                     complaints++
                 }
             }
+        }
+    }
+    o.println("total complaints: $complaints")
+}
 
-            //check for exact-duplicate words
-            if (dupCheck.contains(word)) {
-                o.println(RED+"word \"$word\" already exists!"+reset)
-                complaints++
+
+internal fun similarWordsTo(word: String): Array<String> {
+    if (word.length == 1) {
+        return arrayOf()
+    }
+    val similarWords = LinkedList<String>()
+    val vowelsInWord = word.count { it in vowels }
+    if(vowelsInWord > 1) {//if the word contains >1 vowel
+        for(i in 0 until vowels.length) {
+            //and they are all the same vowel
+            if((word.length - word.replace(vowels[i].toString(), "").length) == vowelsInWord ) {
+                //add the words where we replace that vowel with the other two vowels
+                //eg, kipisi => kupusu, kapasa
+                similarWords.add(word.replace(vowels[i], vowels[(i+1) % vowels.length]))
+                similarWords.add(word.replace(vowels[i], vowels[(i+2) % vowels.length]))
+            }
+        }
+    }
+    for (i in 0 until word.length) {
+        //replace u with the other vowels, and the other vowels for u
+        if (word[i] == 'a') {//replace a with u
+            similarWords.add(replaceCharAt(word, i, 'u'))
+        }
+
+        if (word[i] == 'u') {//replace u with a and i
+            similarWords.add(replaceCharAt(word, i, 'a'))
+            similarWords.add(replaceCharAt(word, i, 'i'))
+        }
+
+        if (word[i] == 'i') {//replace i with u
+            similarWords.add(replaceCharAt(word, i, 'u'))
+        }
+
+        if (word[i] == 'n') {
+            if (i != word.length - 1) {//replace non-final n with m
+                similarWords.add(replaceCharAt(word, i, 'm'))
             } else {
-                dupCheck.add(word)
+                similarWords.add(word.substring(0, word.length - 1))
             }
-
-            //check for similar words
-            val similarWords = similarWordsTo(word)
-            for (similarWord in similarWords) {
-                //allPossibleWords.remove(similarWord)
-                for (otherWord in dict) {
-                    if (otherWord == similarWord) {
-                        o.println("word \"$word\" is very similar to \"$otherWord\"")
-                        complaints++
-                    }
-                }
+            if (i == word.length - 2) {//if there's a penultimate n, remove the final vowel
+                similarWords.add(word.substring(0, word.length - 1))
             }
         }
-        o.println("total complaints: $complaints")
+
+        if (word[i] == 'm') {//replace m with n
+            similarWords.add(replaceCharAt(word, i, 'n'))
+        }
+        if (word[i] == 't') {//replace t with k
+            similarWords.add(replaceCharAt(word, i, 'k'))
+            //similarWords.add(replaceCharAt(word, i, 'p'))
+        }
+        if (word[i] == 'k') {//replace k with t
+            val wurd = replaceCharAt(word, i, 't')
+            if(!containsForbiddenSyllable(wurd)){
+                similarWords.add(wurd)
+            }
+            //similarWords.add(replaceCharAt(word, i, 'p'))
+        }
+        if (word[i] == 'w') {//replace k with t
+            similarWords.add(replaceCharAt(word, i, 'l'))
+            //similarWords.add(replaceCharAt(word, i, 'p'))
+        }
+        if (word[i] == 'l') {//replace k with t
+            val wurd = replaceCharAt(word, i, 'w')
+            if(!containsForbiddenSyllable(wurd)){
+                similarWords.add(wurd)
+            }
+            //similarWords.add(replaceCharAt(word, i, 'p'))
+        }
+
+        //add phonotactically-valid anagrams beginning with the same letter
+        val afterFirst = word.substring(1)
+        val firstLetter = word[0]
+
+        val anagrams = anagram(firstLetter.toString(), afterFirst, TreeSet<String>()).toMutableSet()
+        anagrams.remove(word)//remove the word itself from the list of anagrams
+        similarWords += anagrams
     }
 
+    //val ret = arrayOfNulls<String>(similarWords.size)
+    return similarWords.toTypedArray()
+}
 
-    internal fun similarWordsTo(word: String): Array<String> {
-        if (word.length == 1) {
-            return arrayOf()
+private fun replaceCharAt(victim: String, index: Int, replacement: Char): String {
+    val myName = StringBuilder(victim)
+    myName.setCharAt(index, replacement)
+    return myName.toString()
+}
+
+internal fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
+    //String wholeDict = fileToString(new File("dictionary.md"));
+    val wholeDict = dictFile.readText()
+    val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+    val words = mutableListOf<String>()
+    for (i in 2 until byLine.size) {//start after the table heading
+        //o.println("line: "+byLine[i]);
+        val pat = Pattern.compile("([$consonants$vowels]+)[ \t]*\\|.*")
+        val mat = pat.matcher(byLine[i])
+        if(!mat.matches()) {
+            //e.println("line ${i+1} is not a word row:\"${byLine[i]}\"")
+            continue
         }
-        val similarWords = LinkedList<String>()
-        val vowelsInWord = word.count { it in vowels }
-        if(vowelsInWord > 1) {//if the word contains >1 vowel
-            for(i in 0 until vowels.length) {
-                //and they are all the same vowel
-                if((word.length - word.replace(vowels[i].toString(), "").length) == vowelsInWord ) {
-                    //add the words where we replace that vowel with the other two vowels
-                    //eg, kipisi => kupusu, kapasa
-                    similarWords.add(word.replace(vowels[i], vowels[(i+1) % vowels.length]))
-                    similarWords.add(word.replace(vowels[i], vowels[(i+2) % vowels.length]))
-                }
-            }
-        }
-        for (i in 0 until word.length) {
-            //replace u with the other vowels, and the other vowels for u
-            if (word[i] == 'a') {//replace a with u
-                similarWords.add(replaceCharAt(word, i, 'u'))
-            }
-
-            if (word[i] == 'u') {//replace u with a and i
-                similarWords.add(replaceCharAt(word, i, 'a'))
-                similarWords.add(replaceCharAt(word, i, 'i'))
-            }
-
-            if (word[i] == 'i') {//replace i with u
-                similarWords.add(replaceCharAt(word, i, 'u'))
-            }
-
-            if (word[i] == 'n') {
-                if (i != word.length - 1) {//replace non-final n with m
-                    similarWords.add(replaceCharAt(word, i, 'm'))
-                } else {
-                    similarWords.add(word.substring(0, word.length - 1))
-                }
-                if (i == word.length - 2) {//if there's a penultimate n, remove the final vowel
-                    similarWords.add(word.substring(0, word.length - 1))
-                }
-            }
-
-            if (word[i] == 'm') {//replace m with n
-                similarWords.add(replaceCharAt(word, i, 'n'))
-            }
-            if (word[i] == 't') {//replace t with k
-                similarWords.add(replaceCharAt(word, i, 'k'))
-                //similarWords.add(replaceCharAt(word, i, 'p'))
-            }
-            if (word[i] == 'k') {//replace k with t
-                val wurd = replaceCharAt(word, i, 't')
-                if(!containsForbiddenSyllable(wurd)){
-                    similarWords.add(wurd)
-                }
-                //similarWords.add(replaceCharAt(word, i, 'p'))
-            }
-            if (word[i] == 'w') {//replace k with t
-                similarWords.add(replaceCharAt(word, i, 'l'))
-                //similarWords.add(replaceCharAt(word, i, 'p'))
-            }
-            if (word[i] == 'l') {//replace k with t
-                val wurd = replaceCharAt(word, i, 'w')
-                if(!containsForbiddenSyllable(wurd)){
-                    similarWords.add(wurd)
-                }
-                //similarWords.add(replaceCharAt(word, i, 'p'))
-            }
-
-            //add phonotactically-valid anagrams beginning with the same letter
-            val afterFirst = word.substring(1)
-            val firstLetter = word[0]
-
-            val anagrams = anagram(firstLetter.toString(), afterFirst, TreeSet<String>()).toMutableSet()
-            anagrams.remove(word)//remove the word itself from the list of anagrams
-            similarWords += anagrams
-        }
-
-        //val ret = arrayOfNulls<String>(similarWords.size)
-        return similarWords.toTypedArray()
+        //o.println("group count: "+mat.groupCount());
+        //o.println("group :"+mat.group());
+        //o.println("matches: "+mat.matches());
+        words.add(mat.replaceAll("$1"))
     }
+    o.println("dictionary words: ${words.size}")
+    return words.toTypedArray()
+}
 
-    private fun replaceCharAt(victim: String, index: Int, replacement: Char): String {
-        val myName = StringBuilder(victim)
-        myName.setCharAt(index, replacement)
-        return myName.toString()
+internal fun anagram(wordSoFar: String, lettersLeft: String,
+                    accum: MutableSet<String> ): Set<String> {
+    //o.println("letters left:"+lettersLeft.length)
+    //o.println("word so far:"+wordSoFar)
+    if (lettersLeft.isEmpty()) {
+        //o.println("it's empty")
+        //word is complete
+        //o.println("anagram:"+wordSoFar)
+        accum.add(wordSoFar)
+        return accum
     }
-
-    internal fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
-        //String wholeDict = fileToString(new File("dictionary.md"));
-        val wholeDict = dictFile.readText()
-        val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
-        val words = mutableListOf<String>()
-        for (i in 2 until byLine.size) {//start after the table heading
-            //o.println("line: "+byLine[i]);
-            val pat = Pattern.compile("([$consonants$vowels]+)[ \t]*\\|.*")
-            val mat = pat.matcher(byLine[i])
-            if(!mat.matches()) {
-                //e.println("line ${i+1} is not a word row:\"${byLine[i]}\"")
-                continue
+    else {
+        for(i in 0 until lettersLeft.length) {
+            val thisChar = lettersLeft[i]
+            if(wordSoFar[wordSoFar.length-1] in vowels && thisChar in consonants) {
+                //last letter was a vowel; next letter should be a consonant
+                //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
+                //minusTheLetter.removeAt(i)
+                val minusTheLetter = lettersLeft.removeRange(i, i+1)
+                anagram(wordSoFar + thisChar,
+                        minusTheLetter, accum)
+            }else if(wordSoFar[wordSoFar.length-1] in consonants && thisChar in vowels) {
+                //last letter was a consonant; next letter should be a vowel
+                //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
+                //minusTheLetter.removeAt(i)
+                val minusTheLetter = lettersLeft.removeRange(i, i+1)
+                anagram(wordSoFar + thisChar,
+                        minusTheLetter, accum)
             }
-            //o.println("group count: "+mat.groupCount());
-            //o.println("group :"+mat.group());
-            //o.println("matches: "+mat.matches());
-            words.add(mat.replaceAll("$1"))
         }
-        o.println("dictionary words: ${words.size}")
-        return words.toTypedArray()
+        return accum
     }
-
-    internal fun anagram(wordSoFar: String, lettersLeft: String,
-                        accum: MutableSet<String> ): Set<String> {
-        //o.println("letters left:"+lettersLeft.length)
-        //o.println("word so far:"+wordSoFar)
-        if (lettersLeft.isEmpty()) {
-            //o.println("it's empty")
-            //word is complete
-            //o.println("anagram:"+wordSoFar)
-            accum.add(wordSoFar)
-            return accum
-        }
-        else {
-            for(i in 0 until lettersLeft.length) {
-                val thisChar = lettersLeft[i]
-                if(wordSoFar[wordSoFar.length-1] in vowels && thisChar in consonants) {
-                    //last letter was a vowel; next letter should be a consonant
-                    //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
-                    //minusTheLetter.removeAt(i)
-                    val minusTheLetter = lettersLeft.removeRange(i, i+1)
-                    anagram(wordSoFar + thisChar,
-                            minusTheLetter, accum)
-                }else if(wordSoFar[wordSoFar.length-1] in consonants && thisChar in vowels) {
-                    //last letter was a consonant; next letter should be a vowel
-                    //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
-                    //minusTheLetter.removeAt(i)
-                    val minusTheLetter = lettersLeft.removeRange(i, i+1)
-                    anagram(wordSoFar + thisChar,
-                            minusTheLetter, accum)
-                }
-            }
-            return accum
-        }
-    }
+}
 
