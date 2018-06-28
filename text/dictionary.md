@@ -51,6 +51,7 @@ kiwi | fruit, vegetable, mushroom | | |
 kukin | cooking | to cook (sth) | cooking-relating, culinary
 kulapu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
 kuli | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
+kunputa | computer; the software world; the internet; social media | | of computers; related to software |
 kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
 lamuli | happiness, laughter | be happy, to laugh | happy/laughing, funny
@@ -141,7 +142,8 @@ tapalu | work, housework, chores | to work; to do chores | |
 tasan | picture, image, drawing, writing | draw, write | |
 tasu | | | only, sole | (conj) but
 tatu | truth; the truth; correctness | | true, right, correct |
-tawa | movement, transportation | move, displace sth; go to, walk, travel, move | moving, mobile | (prep) to, in order to, towards, for, until
+tawa | direction, heading | move towards, to be for something, to agree | -wards, towards, in the direction of | (prep) to, in order to, towards, for, until
+mupa | movement, transportation | move, displace sth; go to, walk, travel, move | moving, mobile |
 tu | duo, pair | double, separate/split/cut/divide in two | two |
 tuki | language, talking, speech, communication | say, speak; talk, chat, communicate | talking, verbal, language-related, linguistic | (interj) hello! hi!
 tulu | tool, device, machine, thing used for a specific purpose | | |
@@ -152,7 +154,6 @@ upin | beginning, start, birth | open, turn on, start, be born | open, started, 
 usu | usage | use | | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
 uwahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual |
-uwinu | direction | move towards | -wards, towards, in the direction of
 wajapi | fear | to be scared | scared, scary
 wali | whiteness, lightness | | white, light (colour) |
 waluja | mess, chaos, tangle, disorder | to disorder, tangle, disorganise (sth) | messy, chaotic, disordered, tangled
