@@ -102,7 +102,8 @@ fun main(args: Array<String>) {
         "lint", "l" -> {
             var complaints = 0
             for(word in dictionary) {
-                complaints += lintAWordAgainstTheDictionary(word, dictionary)
+                val dictionaryWithoutWord = (dictionary.toMutableList() - word).toTypedArray()
+                complaints += lintAWordAgainstTheDictionary(word, dictionaryWithoutWord)
             }
             o.println("total complaints: "+complaints)
         }
@@ -382,8 +383,8 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>): Int {
             //if the first letters are the differing ones, they're different enough!
             oneLetterDifference = oneLetterDifference && (word[0] == otherWord[0])
             if (oneLetterDifference) {
-                o.println("word \"$word\" only differs from other dictionary word \"$otherWord\"" +
-                        " by 1 letter")
+                o.println(YELLOW+"word \"$word\" only differs from other dictionary word \"$otherWord\"" +
+                        " by 1 letter"+reset)
                 complaints++
             }
         }
@@ -391,12 +392,13 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>): Int {
 
     //check for similar words
     val similarWords = similarWordsTo(word)
-    for (similarWord in similarWords) {
+    for (otherWord in dict) {
+        for (similarWord in similarWords) {
         //allPossibleWords.remove(similarWord)
-        for (otherWord in dict) {
             if (otherWord == similarWord) {
                 o.println("word \"$word\" is very similar to \"$otherWord\"")
                 complaints++
+                break//only report similarity of this word once
             }
         }
     }
@@ -437,10 +439,14 @@ internal fun similarWordsTo(word: String): Array<String> {
         }
 
         if (word[i] == 'n') {
-            if (i != word.length - 1) {//replace non-final n with m
+            if (i == word.length - 1 || i == 0 ||
+                (vowels.contains(word[i-1]) && consonants.contains(word[i+1]))) {
+                //remove word-final n,
+                //word-initial n,
+                //and syllable-final n (Ns which occur after a vowel and before another consonant)
+                similarWords.add(word.removeRange(i, i))
+            } else {//replace non-final n with m
                 similarWords.add(replaceCharAt(word, i, 'm'))
-            } else {
-                similarWords.add(word.substring(0, word.length - 1))
             }
             if (i == word.length - 2) {//if there's a penultimate n, remove the final vowel
                 similarWords.add(word.substring(0, word.length - 1))
