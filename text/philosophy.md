@@ -1,7 +1,7 @@
 This document describes changes having to do with my own variant of toki pona's philosophy
 of simplicity and 'good'.
 
-The goal of creating a Language of Good may not necessarily align with the goal of
+Toki Pona's goal of creating a Language of Good may not necessarily align with the goal of
 creating an ideal auxiliary language.
 
 For that, the language should be easy to learn, and be as easy to understand as possible.
@@ -19,16 +19,16 @@ Opinion on Toki Pona's Connotations
 
 Toki Pona conflates ideas of size with importance, and altitude with status.
 These are classic 'metaphors' in many human languages, but ones which I think damage objectivity.
-Are submarine crew of low status? are astronauts practically kings? Their altitude shouldn't matter!
+Are submarine crews of low status? are astronauts more important than kings? Their altitude shouldn't matter!
 
 It's hard to find examples that don't reinforce this trope, it turns out.
 People pay much more money for the top floor of a tall building.
 
 This isn't just Toki Pona's problem; it may be a problem with human thought,
 probably caused by evolutionary psychological biases: 
-in pre-history, those at the highest point had the best chance of spotting predators.
+in pre-history, those at the highest point had the best chance of spotting predators, avoiding floods.
 
-This probably gave those with a genetically-predisposed preference for being higher up
+This probably gave those with a genetically-ordained preference for being higher up
 a higher chance of surviving long enough to mate.
 
 --------
@@ -152,7 +152,7 @@ don't have two words which only differ in meaning between
 
 ```
 male/female,
-human/animal/machine,
+human/animal/plant/machine,
 artifical/natural,
 animate/inanimate -- where possible.
 actual, real/figurative, metaphorical
@@ -179,7 +179,19 @@ which can be simplified to fit tuki nuwa's phonotactics, and still be recognisab
 
 If that fails, make up a new sound which is suitably distinguished from existing words.
 
+Where a lexeme for a word came from is irrelevant to learning or using the language, and has not been recorded.
+
 ------
+
+Learning materials for the language should be worded as simply as possible. Getting bogged down in precise linguistic terminology is unnecessary for learning the language itself, and only alienates learners who aren't linguists, and forces linguistically-aware readers to scan over needless exposition.
+
+Examples of words to avoid in general learning materials:
+
+Diphthong
+abjad, syllabary, logography etc
+aspiration
+
+-----
 
 This language could be designed to work alongside any shared vocabulary two speakers may have;
 eg if both speakers know the words, 'taxi',
