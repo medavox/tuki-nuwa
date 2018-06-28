@@ -45,7 +45,8 @@ fun main(args: Array<String>) {
     val t = SyllableGenerator()
     val command: String = args[0].toLowerCase()
     when(command) {
-        "syllables", "s" -> { // print all possible syllables
+        // print all possible syllables
+        "syllables", "s" -> {
             if("[1-3]".toRegex().matches(args[1])) {
                 //print syllables
                 val words: Set<String> = when(args[1].toInt()) {
@@ -65,14 +66,15 @@ fun main(args: Array<String>) {
             return
         }
 
-        "similar", "si" -> { // print possible words considered similar to the supplied word
-            //these are generated from the supplied word
+        // print possible words considered similar to the supplied word
+        "similar", "si" -> {//these are generated from the supplied word
             for(s in similarWordsTo(args[1])) {
                 o.println(s)
             }
             return
         }
 
+        //print anagrams of the supplied word that are valid tuki nuwa words
         "anagram", "a" -> {
             //val anagrams: Set<String> = t.anagram("", args[1].toList(), TreeSet<String>())
             val afterLastLetterNoHyphen = args[1].substring(1).replace("-", "")
@@ -89,24 +91,66 @@ fun main(args: Array<String>) {
     //the other commands require a second argument of a dictionary file,
     //so parse the second argument as that
     val dict = File(args[1])
-    if(!dict.exists() || !dict.isFile || !dict.canRead() || dict.length() < 5) {
+    if(!dict.isValidFile()) {
         e.println("invalid file \"$dict\" specified.")
         return
     }
 
     val dictionary = scrapeWordsFromDictionary(dict)
     when(command) {
-        "lint", "l" -> lintTheDictionary(dictionary)
+        //check the dictionary for errors, both proper and bad ideas
+        "lint", "l" -> {
+            var complaints = 0
+            for(word in dictionary) {
+                complaints += lintAWordAgainstTheDictionary(word, dictionary)
+            }
+            o.println("total complaints: "+complaints)
+        }
+        //display frequencies of letter usage in the dictionary words
         "frequency", "f" -> o.println(analyseLexicalFrequency(dictionary))
+        //display all or some (according ot a query) unused lexemes
         "unused", "u" -> {
             val query = if(args.size > 3) args[3] else ""
             o.println(listUnusedWords(t, dictionary, args[2], query))
         }
+        //display 10 or a specified number of random unused lexemes
         "random", "r" -> {
             val numberOfRandomWords:Int = if(args.size > 3) args[3].toInt() else 10
             o.println(randomUnusedWords(t, dictionary, numberOfRandomWords))
         }
+        //screen potential lexemes against our linting, and the dictionary
+        "screen" -> {
+            if(args.size < 3) {
+                e.println(RED+"ERROR: must specify a file listing potential words as well"+reset)
+            }
+            else {
+                val potFile = File(args[2])
+                if(!potFile.isValidFile()) {
+                    e.println("invalid file \"$dict\" specified.")
+                    return
+                }
+                val potentials = potFile.readText()
+                        .split("\n".toRegex())
+                        .filter { it.isNotEmpty() }
+                        .toTypedArray()
+                screenPotentials(potentials, dictionary)
+            }
+        }
     }
+}
+
+private fun File.isValidFile(): Boolean {
+    return (this.exists() && this.isFile && this.canRead() && this.length() > 5)
+
+}
+
+fun screenPotentials(potentials:Array<String>, dict:Array<String>) {
+    val uniq = potentials.distinct().toTypedArray()
+    val screened = uniq.filter { lintAWordAgainstTheDictionary(it, dict) == 0 }
+    for(item in screened) {
+        o.println(item)
+    }
+    o.println("items before: "+potentials.size+"; items after: "+screened.size)
 }
 
 fun randomUnusedWords(t:SyllableGenerator, dictionary:Array<String>, number:Int) :String {
@@ -288,76 +332,78 @@ private fun containsForbiddenSyllable(word: String): Boolean {
     return false
 }
 
-fun lintTheDictionary(dict: Array<String>) {
+fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>): Int {
     //todo: words with different harmonising vowels
-    val dupCheck = TreeSet<String>()
     var complaints = 0
-    for (word in dict) {
-        //check for illegal letters
-        val invalidLetters = word.filter { it !in vowels+consonants }
-        if (invalidLetters.isNotEmpty()) {
-            o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
+
+    val appearances = dict.count { it == word }
+    if(appearances > 1) {
+        //if the dictionary contains this word more than once
+        o.println(RED+"dictionary contains word \"$word\" $appearances times"+reset)
+        complaints++
+    }
+
+    //check for illegal letters
+    val invalidLetters = word.filter { it !in vowels+consonants }
+    if (invalidLetters.isNotEmpty()) {
+        o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
+        complaints++
+    }
+
+    //check for any of the 4 illegal syllables
+    for (forb in forbiddenSyllables) {
+        if (word.contains(forb)) {
+            o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
             complaints++
         }
+    }
 
-        //check for any of the 4 illegal syllables
-        for (forb in forbiddenSyllables) {
-            if (word.contains(forb)) {
-                o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
-                complaints++
-            }
-        }
+    //check if this word differs from another dictionary word by 1 letter
+    for(otherWord in dict) {
+        if(word.length >= 4) {//only check words with >= 4 letters
+            var oneLetterDifference = (word.length - otherWord.length == 1
+                    && word.contains(otherWord)
+                    && word != otherWord)
 
-        //check for syllable-final Ns
-        if (!allowSyllableFinalN) {
-            if (word.replace("n", "").length < word.length) {
-                //o.println("i:"+i);
-                for(j in word.indices) {
-                    if(word[j] == 'n') {
-                        /*if(j == (word.length-1)) {
-                            o.println("word \"$word\" contains a word-final N")
-                            complaints++
-                        }
-                        else*/ if (j != (word.length-1)
-                                && consonants.contains(word[j + 1])) {
-                            o.println("word \"$word\" contains an N before another consonant")
-                            complaints++
-                        }
+            || (otherWord.length - word.length == 1 && otherWord.contains(word) && otherWord != word)
+
+            //if our word is the same length as another word,
+            //check if it only differs from that word by 1 letter
+            if (word.length == otherWord.length) {
+                var differences = word.length
+                for (i in 0 until word.length) {
+                    if (word[i] == otherWord[i]) {
+                        differences--
                     }
                 }
-            }
-        }
+                oneLetterDifference = oneLetterDifference || differences == 1
 
-        //check if this word contains another dictionary word
-        for(otherWord in dict) {
-            if(word.contains(otherWord) && otherWord.length > 2 && !word.equals(otherWord)) {
-                o.println("word \"$word\" contains other dictionary word \"$otherWord\"")
+            }
+            //if the first letters are the differing ones, they're different enough!
+            oneLetterDifference = oneLetterDifference && (word[0] == otherWord[0])
+            if (oneLetterDifference) {
+                o.println("word \"$word\" only differs from other dictionary word \"$otherWord\"" +
+                        " by 1 letter")
                 complaints++
-            }
-        }
-
-        //check for exact-duplicate words
-        if (dupCheck.contains(word)) {
-            o.println(RED+"word \"$word\" already exists!"+reset)
-            complaints++
-        } else {
-            dupCheck.add(word)
-        }
-
-        //check for similar words
-        val similarWords = similarWordsTo(word)
-        for (similarWord in similarWords) {
-            //allPossibleWords.remove(similarWord)
-            for (otherWord in dict) {
-                if (otherWord == similarWord) {
-                    o.println("word \"$word\" is very similar to \"$otherWord\"")
-                    complaints++
-                }
             }
         }
     }
-    o.println("total complaints: $complaints")
+
+    //check for similar words
+    val similarWords = similarWordsTo(word)
+    for (similarWord in similarWords) {
+        //allPossibleWords.remove(similarWord)
+        for (otherWord in dict) {
+            if (otherWord == similarWord) {
+                o.println("word \"$word\" is very similar to \"$otherWord\"")
+                complaints++
+            }
+        }
+    }
+
+    return complaints
 }
+
 internal fun similarWordsTo(word: String): Array<String> {
     if (word.length == 1) {
         return arrayOf()
