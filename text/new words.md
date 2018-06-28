@@ -67,37 +67,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 
 empty, without, absent, absence
 
-Spare lexemes
--------
-
-From words that were nearly included, or were removed.
-
-```
-lamina
-piwa
-pipa
-hapita
-sipu
-lipan
-maja
-ilija
-kuwamin
-himilu
-kinu
-kinawa
-sijatu
-nipuma
-kuliki
-sinsili
-likita
-kisitan
-lijalu
-kunkili
-sulita
-kimanu
-sitanu
-namaku
-```
 
 Main List
 ---------
@@ -106,7 +75,7 @@ possible lexeme | Noun | Verb | Adjective | Other
 ----------------|------|------|-----------|------
 anka | anger | to be angry | angry/aggressive
 atapisu, jatun pali pi jan | | | artificial, man-made |
-hulitu/lutisa/wilusu/sipilu/hulin | rough
+hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
 +: suluwi | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 + | adhesion | to stick (to sth) | sticky, adhesive |
@@ -116,7 +85,6 @@ hulitu/lutisa/wilusu/sipilu/hulin | rough
 + | strong, intensity, strength (both as in physical power, and a flavour, or an effect)
 + | fictional, imaginary; story; figurative; metaphorical
 + | the world of the mind, inside your head
-+kunputa | computer; the software world; the internet; social media | | of computers; related to software |
 + | the spritual world, eg religious, holy, divine, spiritual
 +:sinsan | ordered, organised, neat, tidy, straight regular (geometrically, NOT as in normal)
 + | temporary, for now
@@ -157,16 +125,18 @@ steep, slope, ?hill?
 weather
 still <verb>, continue to <verb>
 unless
-lose
+lose something, eg an object (to not have anymore)
 intent, intend, unintentional, deliberate
 wear (clothes)
 put on clothes == come to wear, begin to wear
-mupa | movement | move, go | mobile
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
 certainty
 likelihood
 frequency?
 + | slope, hill, mountain | 
+succeed/win
+fail/lose
+describe, property, talk about
 
 Maybes
 -----
