@@ -112,11 +112,11 @@ fun main(args: Array<String>) {
         //display all or some (according ot a query) unused lexemes
         "unused", "u" -> {
             val query = if(args.size > 3) args[3] else ""
-            o.println(listUnusedWords(t, dictionary, args[2], query))
+            o.println(queryUnusedWords(t, dictionary, args[2], query))
         }
         //display 10 or a specified number of random unused lexemes
         "random", "r" -> {
-            val numberOfRandomWords:Int = if(args.size > 3) args[3].toInt() else 10
+            val numberOfRandomWords:Int = if(args.size > 2) args[2].toInt() else 10
             o.println(randomUnusedWords(t, dictionary, numberOfRandomWords))
         }
         //screen potential lexemes against our linting, and the dictionary
@@ -252,8 +252,8 @@ private fun getUnusedLexemes(t:SyllableGenerator, dictionary: Array<String>): Se
 }
 
 /**list unused potential words which aren't too similar to existing words */
-fun listUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,
-                            query:String):String {
+fun queryUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:String,
+                     query:String):String {
     val ret = StringBuilder()
 
     val usageString = "Print 1, 2 or 3 syllable possible words, or any combination thereof." +
