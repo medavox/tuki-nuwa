@@ -131,7 +131,7 @@ consider modifying or removing words for 'male' and 'female' to reflect non-bina
 
 There's a loose 3-tiered system for the number of syllables a word has:
 
-Single-syllable words are grammar-glue words, and other very common words.
+Single-syllable words are generally grammar-glue words, or very common words.
 
 Double-syllable lexemes are used for common function words (be, do, go, food/feed etc).
 
@@ -202,7 +202,7 @@ that word can be used instead of a roundabout phrase
 -------
 
 Chinese has not been used as a source of words, simply because it is beyond the capabilities of the author to read chinese,
-or any of the overly complex historical romanisation systems.
+or any of the romanisation systems.
 
 Also, Chinese words distinguish by tone, meaning our toneless language would likely lose too much information
 for chinese loanwords to be recognisable anyway.
