@@ -101,9 +101,13 @@ fun main(args: Array<String>) {
         //check the dictionary for errors, both proper and bad ideas
         "lint", "l" -> {
             var complaints = 0
-            for(word in dictionary) {
-                val dictionaryWithoutWord = (dictionary.toMutableList() - word).toTypedArray()
-                complaints += lintAWordAgainstTheDictionary(word, dictionaryWithoutWord)
+            if(args.size == 3) {
+                complaints += lintAWordAgainstTheDictionary(args[2], dictionary)
+            }else{
+                for(word in dictionary) {
+                    val dictionaryWithoutWord = (dictionary.toMutableList() - word).toTypedArray()
+                    complaints += lintAWordAgainstTheDictionary(word, dictionaryWithoutWord)
+                }
             }
             o.println("total complaints: "+complaints)
         }
@@ -117,7 +121,7 @@ fun main(args: Array<String>) {
         //display 10 or a specified number of random unused lexemes
         "random", "r" -> {
             val numberOfRandomWords:Int = if(args.size > 2) args[2].toInt() else 10
-            o.println(randomUnusedWords(t, dictionary, numberOfRandomWords))
+            o.println(randomUnusedWords(t, dictionary, numberOfRandomWords, args.size > 3))
         }
         //screen potential lexemes against our linting, and the dictionary
         "screen" -> {
@@ -154,13 +158,31 @@ fun screenPotentials(potentials:Array<String>, dict:Array<String>) {
     o.println("items before: "+potentials.size+"; items after: "+screened.size)
 }
 
-fun randomUnusedWords(t:SyllableGenerator, dictionary:Array<String>, number:Int) :String {
+fun randomUnusedWords(t:SyllableGenerator, dictionary:Array<String>, number:Int,
+                      noTrisyllabics:Boolean = false) :String {
     val ret = StringBuilder()
-    val unusedLexemes:MutableSet<String> = getUnusedLexemes(t, dictionary).toMutableSet()
+
+    var unusedLexemes:MutableSet<String> = getUnusedLexemes(t, dictionary).toMutableSet()
+    if(noTrisyllabics) {
+        unusedLexemes = unusedLexemes.filter { it.count { it in vowels } < 3 }.toMutableSet()
+    }
+    o.println("usable unused lexemes:"+unusedLexemes.size)
+    if(number >= unusedLexemes.size) {
+        ret.appendln(RED+"there aren't that many unused lexemes left."+reset)
+        ret.appendln("remaining unused lexemes:")
+        for(lex in unusedLexemes) {
+            ret.appendln(lex)
+        }
+        return ret.toString()
+    }
     val r = Random()
     for(i in 1..number) {
-        val word = unusedLexemes.elementAt(r.nextInt(unusedLexemes.size))
-        unusedLexemes -= word //bag random
+        var word:String
+        do{
+            word = unusedLexemes.elementAt(r.nextInt(unusedLexemes.size))
+        }
+        while(lintAWordAgainstTheDictionary(word, dictionary, false) > 0)
+        unusedLexemes = (unusedLexemes - word).toMutableSet() //bag random
         ret.appendln(word)
     }
     return ret.toString()
@@ -313,8 +335,10 @@ fun queryUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:Strin
             val syllablesByVowel = unusedWord.count { it in vowels }
             //o.println("syllables of $unusedWord: $syllablesByVowel")
             if(syllablesByVowel in syllableSizes || syllableSizes.isEmpty()) {
-                o.println(unusedWord)
-                matchingWords++
+                if(lintAWordAgainstTheDictionary(unusedWord, dictionary, false) == 0) {
+                    o.println(unusedWord)
+                    matchingWords++
+                }
             }
         }
         ret.appendln("matching words: $matchingWords")
@@ -333,28 +357,28 @@ private fun containsForbiddenSyllable(word: String): Boolean {
     return false
 }
 
-fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>): Int {
+fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>, complain:Boolean=true): Int {
     //todo: words with different harmonising vowels
     var complaints = 0
 
     val appearances = dict.count { it == word }
     if(appearances > 1) {
         //if the dictionary contains this word more than once
-        o.println(RED+"dictionary contains word \"$word\" $appearances times"+reset)
+        if(complain) o.println(RED+"dictionary contains word \"$word\" $appearances times"+reset)
         complaints++
     }
 
     //check for illegal letters
     val invalidLetters = word.filter { it !in vowels+consonants }
     if (invalidLetters.isNotEmpty()) {
-        o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
+        if(complain) o.println(RED+"word \"$word\" contains illegal letters: $invalidLetters"+reset)
         complaints++
     }
 
     //check for any of the 4 illegal syllables
     for (forb in forbiddenSyllables) {
         if (word.contains(forb)) {
-            o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
+            if(complain) o.println(RED+"word \"$word\" contains illegal syllable \"$forb\""+reset)
             complaints++
         }
     }
@@ -383,12 +407,30 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>): Int {
             //if the first letters are the differing ones, they're different enough!
             oneLetterDifference = oneLetterDifference && (word[0] == otherWord[0])
             if (oneLetterDifference) {
-                o.println(YELLOW+"word \"$word\" only differs from other dictionary word \"$otherWord\"" +
-                        " by 1 letter"+reset)
+                if(complain) o.println(YELLOW+"word \"$word\" only differs from " +
+                        "other dictionary word \"$otherWord\" by 1 letter"+reset)
+                complaints++
+            }
+        }
+        if(otherWord.length > 2) {
+            //check if the word starts with an existing dictionary word
+            if (word.startsWith(otherWord)) {
+                if(complain) o.println(YELLOW + "word \"$word\" starts with" +
+                        " existing dictionary word \"$otherWord\""+ reset)
+                complaints++
+            }
+
+            //check if a dictionary word starts with this word
+            if (otherWord.startsWith(word)) {
+                if(complain) o.println(YELLOW + "existing dictionary word \"$otherWord\" starts" +
+                        " with word \"$word\""+ reset)
                 complaints++
             }
         }
     }
+
+
+
 
     //check for similar words
     val similarWords = similarWordsTo(word)
@@ -396,7 +438,7 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>): Int {
         for (similarWord in similarWords) {
         //allPossibleWords.remove(similarWord)
             if (otherWord == similarWord) {
-                o.println("word \"$word\" is very similar to \"$otherWord\"")
+                if(complain) o.println("word \"$word\" is very similar to \"$otherWord\"")
                 complaints++
                 break//only report similarity of this word once
             }
