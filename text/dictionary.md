@@ -1,11 +1,12 @@
 Word | Noun | Verb | Modifier |  Other (interj, conj, prep)
 -----|------|------|----------|----------------------------
-ajula | egg, seed |  | 
+aju | egg, seed |  | 
 ajunsi | left (NOT politically or 'remaining') | | left (spatial) |
 akawi | right (NOT correctness or political) | | right (spatial) |
 akisi | reptile, amphibian, scaly/slimy animal/creature | | akisi-looking, akisi-like |
 akula | money, material wealth, currency, dollar, capital | | |
 ali | life, the universe, everything | | all, every, complete, whole |
+alu | | | | hello
 amika | friend | befriend sb, make friends | friendly
 amu | love | to love (a person) | love |
 anti | reversal, opposite | reverse, invert | opposite of noun/verb, inverse of sth (this is different from nata/not)
@@ -61,12 +62,12 @@ lawan | hand, arm, branch, appendage | to touch with hand | five (5) |
 lili | smallness (eg size) | reduce, shorten sth; shrink, lessen | small, little, a bit, short, few |
 linja | ?LENGTH? long, very thin, floppy thing, e.g. string, rope, hairs, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
 lipu | flat and bendable thing, e.g. paper, card, ticket, leaf. Also book, page (of book, or web page) | | |
-liwa | life, living | to live | alive, live (/lajv/), living
+liwa | life, living | to live | alive, live (/lajv/), on (as in electricity, not as a preposition) living
 luhi | | | red |
 luku | eye | see, look at, watch, read sth/sb; (imperative) look, watch out, pay attention | visual(ly) |
 lula | land, earth, country, (outdoor) area | | | precedes place name, eg 'lula Mewika'
 lun | | put sth in place; be there, be present, exist | | prep be (located) in/at/on
-lupa | hole, orifice, window, door | to make a hole in sth | |
+lupa | hole, orifice, window, door | to make a hole in sth | holey |
 lutu | game | play | playful
 mahi | darkness, shadows | darken | black, dark |
 majuta | help | help | helpful | 
@@ -84,13 +85,16 @@ muna | moon, 28 days | | lunar |
 munisu | village, town, city, settlement; a place where >1 group live | | related to human settlements  
 musi | fun, playing, game, recreation, art, entertainment | amuse, entertain sb; play, have fun | artful, fun, recreational | (interj) I'm having fun, Weeee!
 muta | amount, quantity, number-of |  | many, very, much, several, a lot, abundant, numerous |
+nahata | test, examination, investigation, check, question, problem | ask, test, investigate, probe, check, examine | 
 nalan | softness | soften (sth/sb) | soft, fluffy, gentle, gradual | 
+namaku | obligation, requirement, need | to force, to require (with puha) need | should, must, necessary
 nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
-nasa | | to confuse sth/sb, make weird | silly, foolish, drunk, strange, stupid, weird |
+nasu | nose | to smell sth | 
 nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
 natula | nature | | of nature, natural, ruthless, unforgiving, dangerous, harsh, dog-eat-dog |
 nimi | word, name | to name sth; to call sth1 sth2 | |
 nina | bump, nose, hill, mountain, button | to protrude | |
+nisunta | consent, permission | consent, permit, allow | consensual, permitted, allowed
 nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
@@ -102,6 +106,7 @@ pali | activity, work, deed, project | do, make, build, create sth; act, work, f
 pamili | family; group of related things/people | | familial, related, of family
 pan | cereal, grain, rice; any staple food (usually a carbohydrate source) | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | |
+papa | | | | goodbye
 pasa | occurrence | happen, occur, take place, come to be
 pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | simple, easy, light (as in weight)
 pilatu | flatness | | flat
@@ -127,7 +132,9 @@ sikusa | dryness | to dry out, dry sth | dry |
 silumin | grease, oil (cooking, engine or crude), fat (culinary) | lubricate/grease/oil sth | greasy, oily, fatty (culinary), slippery
 simi | | | | what, which, wh- (question word)
 sinpin | front, face, wall | | |
+sinsan | ordered, organised, neat, tidy, straight, regular (geometrically, NOT as in normal)
 sinta | centre, middle | | in the middle, central | 
+sitala | stars, space | | of or related to stars or space
 siwi | high, up, above, top, over, | raise up | elevated, religious, formal (prep) on sth |
 sumin | SOME, somewhat, quite; an uncounted quantity/amount/number of things/people
 sunu | sun, light (as in bright) | to emit light; illuminate sth | having the qualities or characteristics of sunu |
@@ -158,11 +165,11 @@ wajapi | fear | to be scared | scared, scary
 wali | whiteness, lightness | | white, light (colour) |
 waluja | mess, chaos, tangle, disorder | to disorder, tangle, disorganise (sth) | messy, chaotic, disordered, tangled
 wan | unit, element, particle, part, piece | unite, make one | one, a |
-wapa | energy,  electricity, strength, power, intensity, lightning | strengthen, energize, empower, electrify | energetic, electrical, strong, powerful, intensity |
+wapa | energy,  electricity, strength, power, intensity, lightning | strengthen, energize, empower, electrify | energetic, electrical, strong, powerful, intense |
 wasu | bird, winged animal/creature | to fly | of flight; having the power of flight; something which can fly |
 wata | water, liquid, juice, sauce | to water sth; to apply water (to sth); to rinse | wet, liquid |
 wika | distance | move away from, to distance oneself from sth | far, distant, away  |
-wilu | desire, need, will | to want, need, wish, have to, must, will | necessary |
+wilu | desire, will, intent | to want, intend, wish | intentional, deliberate |
 witan | clothing, cloth, fabric | to clothe sb; clothe, dress, decorate | |
 
 Glue Words

@@ -4,7 +4,7 @@ Unnamed Candidate Words
 The strategy here is to freely add potential words for concepts I know Tuki Nuwa doesn't have a word for,
 then later delete the word if I can create a decent equivalent phrase which means the same thing.
 
-THe hardest part of creating a new word is finding a good-sounding lexeme for it,
+The hardest part of creating a new word is finding a good-sounding lexeme for it,
 so that can be deferred until I know the word is definitely being added.
 
 In the meantime, words without a lexeme will be referred to by a short version of their definition, in <angle brackets>.
@@ -79,64 +79,54 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
 +: suluwi | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 + | adhesion | to stick (to sth) | sticky, adhesive |
-?:overlap with susu | smell | to smell
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 + | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
 + | strong, intensity, strength (both as in physical power, and a flavour, or an effect)
 + | fictional, imaginary; story; figurative; metaphorical
-+ | the world of the mind, inside your head
 + | the spritual world, eg religious, holy, divine, spiritual
-+:sinsan | ordered, organised, neat, tidy, straight regular (geometrically, NOT as in normal)
 + | temporary, for now
 + | (for) each, per, every
-+ | test, examination, investigation, check
-+ | question, problem | ask
-+:ansa | answer, solution | answer (sth), solve (sth)
-+humi | home, house; building that people live in | | urban, domestic, household |
++:ansa | answer, solution, result | answer (sth), solve (sth), resolve
++humi | home, dwelling; structure that people live in | | urban, domestic, household |
 + | shape
 + | | bounce | bouncy, springy, resilient; prone to returning to its original shape or position
-+ | share
-+ | obligation, requirement | to force, to require | should, must
++ | sharing | share
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
 + | high-status
 + | click, crack, pop
 +:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
-+ | theft | steal | stolen, thieving
++ make-have without permission | theft | steal | stolen, thieving
 + | | like, enjoy, prefer
 + | | turn, twist, rotate
-push
-pull
 day (because it's pretty basic, universal and useful)
 normal??
 + | through
 + | burn | 
-+ | clean | pali jaki nata
++ | clean | pali jaki nata; kika jaki
 + | music | kalama musi 
 + | old
-+ | consent, permission | consent, permit, allow | consensual, permitted, allowed
 + | | squeeze, crush, hug
 enclose, surround, envelope, circum~
 masina | machine, device, contraption, motor, engine | | mechanical
 pulisu | the police | police sth/sb | 
-papa | | | | goodbye
-(s?)alu | | | | hello
-steep, slope, ?hill?
++ | slope, hill, mountain | | steep
 weather
 still <verb>, continue to <verb>
 unless
 lose something, eg an object (to not have anymore)
-intent, intend, unintentional, deliberate
-wear (clothes)
 put on clothes == come to wear, begin to wear
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
 certainty
-likelihood
++ | likelihood, probability | | likely, probable, probably
 frequency?
 + | slope, hill, mountain | 
 succeed/win
 fail/lose
 describe, property, talk about
+craft, skill, practice of. eg number craft = mathematics
+cause to 
+
 
 Maybes
 -----
@@ -151,7 +141,6 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
 + | participatory, interactive
   | | thick, wide | | obscure
 uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
-ilitun | | | electronic | | don't need a separate word for electronic, when we have *wapa*
 pinsa/sinjan/kinta/sinta/misali/tumaju | thought(s) | THINK | | | similarity to pili 
 + | agreement | agree | | I agree with you *mi pilin i ni: si <correct/true>* 'I think you're right; I agree = 'si <correct>'
 
@@ -160,7 +149,6 @@ Semantic Molecules
 
 Status:Notes | Noun | Verb | Adjective | Other
 -------------|------|------|-----------|------
-+ | nose | 
 +:pima | fingers | 
 + | breast | nina kupa?
 + | bone | 
@@ -169,15 +157,13 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | be on something | 
 + | in front of | 
 + | around | 
-+ | stars | 
 + | ground | apa, supa
-+ | tail | 
-+ | wings | 
 + | wood | kahin kasi?
 + | stone | kahin lula?
-lipusa | lie (as in lie down) | 
++ |  | lie (as in lie down) | lying down
 + | stand | 
 + | laugh | 
+
 
 NSM Non-Universal but Useful Words
 ----------------------------------
@@ -226,7 +212,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | book | 
 + | newspaper | 
 + | God | 
-+ | poison | 
 + | take (someone somewhere) | 
 
 ### Not adding
@@ -249,21 +234,21 @@ baby | jan pi nuwa pulan liki, or jan nuwa "new person"
 stop, stopped, paused | *kama nata `<verb>`* come to not `<verb>` ; pini
 rain | wata tawa apa 'water moving down', wata <sky> 'sky water'
 wind | susu tawa 
-snake | akisi lina 'rope lizard'
+snake | akisi linja 'rope lizard'
 togetherness; together | sama kulapu; awasa
 war | utala satu
-film | tasani tawa "moving picture"
-meat | moku pi suwilu
+film | tasani mupa "moving picture"
+meat | nami pi suwilu
 breath; breathe | nami susu 'eat air'
 blood | wata luhi 'red liquid'
-car | tulu tawa; ula tawa
-bicycle | tulu tawa pi siki tu 'moving tool of two wheels'
-plane | tulu tawa pi wasu
-boat | tulu tawa pi wata
-train | tulu tawa pi lina <metal>
+car | tulu mupa; ula tawa
+bicycle | tulu mupa pi siki tu 'moving tool of two wheels'
+plane | tulu mupa pi wasu
+boat | tulu mupa pi wata
+train | tulu mupa pi lina <metal>
 leather | hiwa suwilu `<dry>` 'dried animal skin'
-drink | moku i wata 'eat water'
-river | wata tawa
+drink | nami i wata 'eat water'
+river | wata mupa
 teeth | hasi uta "mouth knives"
 wife | miwi mi 'my woman'
 husband | misi mi 'my man'
@@ -271,15 +256,15 @@ jagged | hasa
 less | anything that can be said with 'less', can also be said with 'more'
 completely, fully | <full> <like-as-way>
 not at all | nata, <empty> <like-as-way> 
-iron | <metal> <strong>, <metal> upaka
-gold | <metal> jala
+iron | mitalu <strong>, <metal> upaka
+gold | mitalu jala
 coal | <stone> mahi
 wire | lina <metal>; lina wapa 'power/electrical line/rope'
 dog | suwilu amika 'friendly animal'; amika suwilu 'animal friend' :)
 cat | *suwilu humi pi lapi muta* 'house animal which sleeps a lot'?
 horse | suwilu satu pilusi 'big, fast animal'
 cow | 
-pig | 
+pig | suwilu pi nami luhi
 camel | 
 buffalo | 
 moose | suwilu puki kawisa kapi ula liwa lula hilu (animal with head sticks, which lives in cold countries)
@@ -292,7 +277,7 @@ learn | kama sawa
 health | kupa puna
 suka: sugar | suwi
 glass | <stone> pi kanu nata luku
-wool | witan hansi 
+wool | witan pi hansi suwilu 
 the physical world, of the physical world; eg book, newspaper | iju kaja la "regarding earthly stuff"
 east | akawi pi tasani kaja "right, on earth picture"
 west | ajunsi pi tasani kaja "left, on earth picture"
@@ -348,3 +333,12 @@ be born | upin; pali i jan upin
 | | static emotions; motionless; still
 | | false, incorrect, wrong, unreal, pretend, fake
 road | mitan
+intent, intend, intentional, deliberate | wilu
+poison | deadly
+tail | pini; linja hina; linja pini; hina pini (linja)
+electronic | don't need a separate word for electronic, when we have *wapa*
+wear (clothes) | li awin pi kupa (i witan)
+the world of the mind, inside your head | insa kapi wa
+wings | lawan wasu
+push | <cause-to> mupa
+pull | <cause-to> mupa
