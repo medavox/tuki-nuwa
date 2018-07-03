@@ -19,7 +19,7 @@ A statement can be turned into a question by preceding it with *ki*. This word r
 
 *Ki si wilu moku?* Do you want to eat?/Are you hungry?
 
-*Ki mi muta jan? ju ki mi muta jan pi tawa musi?* Are we human? or are we dancers?
+*Ki mi muta li jan? ju ki mi muta li jan pi tawa musi?* Are we human? or are we dancers?
 
 *jan miwi puna luku u, ki si wilu isun e win kapi?* do you want to buy a hat, pretty lady?
 
