@@ -79,3 +79,7 @@ pakala
 pilin
     heart
     touch
+
+nasa 
+    to confuse sth/sb, make weird
+    silly, foolish, drunk, strange, stupid, weird
