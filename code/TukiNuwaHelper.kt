@@ -28,10 +28,20 @@ to construct new words.
 
  * Given the words in the dictionary, what are some unused sounds that could be used for new words?
  */
-private const val consonants = "hjklmnpstw"
+private const val stops = "ptk"
+private const val nasals = "mn"
+private const val fricatives = "hs"
+private const val approximants = "lwj"
+
+private const val consonants = stops+nasals+fricatives+approximants
 private const val vowels = "aiu"
 
 private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
+private val lel = mapOf(
+        'a' to setOf('u'),
+        'm' to setOf('n', 'p'),
+        'w' to setOf('m', 'l', 'j')
+)
 private const val allowSyllableFinalN = true
 
 //ansi colour-terminal escape codes
@@ -39,7 +49,7 @@ private const val allowSyllableFinalN = true
 private const val reset = "\u001B[0m"
 private const val RED = "\u001B[31m"
 private const val YELLOW = "\u001B[33m"
-private val validWord = Regex("[$consonants]?[$vowels]([$consonants][$vowels]n?){0,2}")
+private val validWord = Regex("[$consonants]?[$vowels]n?([$consonants][$vowels]n?){0,2}")
 
 fun main(args: Array<String>) {
     val t = SyllableGenerator()
@@ -383,9 +393,9 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>, complain:Bo
         }
     }
 
-    //check if this word differs from another dictionary word by 1 letter
     for(otherWord in dict) {
-        if(word.length >= 4) {//only check words with >= 4 letters
+        //check if this word differs from another dictionary word by 1 letter
+        /*if(word.length >= 4) {//only check words with >= 4 letters
             var oneLetterDifference = (word.length - otherWord.length == 1
                     && word.contains(otherWord)
                     && word != otherWord)
@@ -411,16 +421,17 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>, complain:Bo
                         "other dictionary word \"$otherWord\" by 1 letter"+reset)
                 complaints++
             }
-        }
+        }*/
+        //check if this word starts with an existing dictionary word
         if(otherWord.length > 2) {
-            //check if the word starts with an existing dictionary word
             if (word.startsWith(otherWord)) {
-                if(complain) o.println(YELLOW + "word \"$word\" starts with" +
-                        " existing dictionary word \"$otherWord\""+ reset)
+                if (complain) o.println(YELLOW + "word \"$word\" starts with" +
+                        " existing dictionary word \"$otherWord\"" + reset)
                 complaints++
             }
-
-            //check if a dictionary word starts with this word
+        }
+        //check if a dictionary word starts with this word
+        if(word.length > 2) {
             if (otherWord.startsWith(word)) {
                 if(complain) o.println(YELLOW + "existing dictionary word \"$otherWord\" starts" +
                         " with word \"$word\""+ reset)
@@ -428,9 +439,6 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>, complain:Bo
             }
         }
     }
-
-
-
 
     //check for similar words
     val similarWords = similarWordsTo(word)
@@ -449,7 +457,8 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>, complain:Bo
 }
 
 internal fun similarWordsTo(word: String): Array<String> {
-    if (word.length == 1) {
+    val letterGroups = setOf(stops, approximants, fricatives, nasals, vowels)
+    if (word.count { it in vowels } == 1) {
         return arrayOf()
     }
     val similarWords = LinkedList<String>()
@@ -466,6 +475,18 @@ internal fun similarWordsTo(word: String): Array<String> {
         }
     }
     for (i in 0 until word.length) {
+        //instead of words that just differ by one letter,
+        //that letter has to be the same type to count as similar (vowel, stop, fricative etc)
+        for(group in letterGroups) {
+            if(word[i] in group) {
+                for(letter in (group.toSet()-word[i])) {
+                    val potentialSimilarWord = replaceCharAt(word, i, letter)
+                    if(validWord.matches(potentialSimilarWord)) { //if the word is valid
+                        similarWords.add(potentialSimilarWord)
+                    }
+                }
+            }
+        }
         //replace u with the other vowels, and the other vowels for u
         if (word[i] == 'a') {//replace a with u
             similarWords.add(replaceCharAt(word, i, 'u'))
@@ -486,51 +507,20 @@ internal fun similarWordsTo(word: String): Array<String> {
                 //remove word-final n,
                 //word-initial n,
                 //and syllable-final n (Ns which occur after a vowel and before another consonant)
-                similarWords.add(word.removeRange(i, i))
-            } else {//replace non-final n with m
-                similarWords.add(replaceCharAt(word, i, 'm'))
+                similarWords.add(word.removeRange(i, i+1))
             }
             if (i == word.length - 2) {//if there's a penultimate n, remove the final vowel
                 similarWords.add(word.substring(0, word.length - 1))
             }
         }
-
-        if (word[i] == 'm') {//replace m with n
-            similarWords.add(replaceCharAt(word, i, 'n'))
-        }
-        if (word[i] == 't') {//replace t with k
-            similarWords.add(replaceCharAt(word, i, 'k'))
-            //similarWords.add(replaceCharAt(word, i, 'p'))
-        }
-        if (word[i] == 'k') {//replace k with t
-            val wurd = replaceCharAt(word, i, 't')
-            if(!containsForbiddenSyllable(wurd)){
-                similarWords.add(wurd)
-            }
-            //similarWords.add(replaceCharAt(word, i, 'p'))
-        }
-        if (word[i] == 'w') {//replace k with t
-            similarWords.add(replaceCharAt(word, i, 'l'))
-            //similarWords.add(replaceCharAt(word, i, 'p'))
-        }
-        if (word[i] == 'l') {//replace k with t
-            val wurd = replaceCharAt(word, i, 'w')
-            if(!containsForbiddenSyllable(wurd)){
-                similarWords.add(wurd)
-            }
-            //similarWords.add(replaceCharAt(word, i, 'p'))
-        }
-
-        //add phonotactically-valid anagrams beginning with the same letter
-        val afterFirst = word.substring(1)
-        val firstLetter = word[0]
-
-        val anagrams = anagram(firstLetter.toString(), afterFirst, TreeSet<String>()).toMutableSet()
-        anagrams.remove(word)//remove the word itself from the list of anagrams
-        similarWords += anagrams
     }
+    //add phonotactically-valid anagrams beginning with the same letter
+    val afterFirst = word.substring(1)
 
-    //val ret = arrayOfNulls<String>(similarWords.size)
+    val anagrams = anagram(word[0].toString(), afterFirst, TreeSet<String>()).toMutableSet()
+    anagrams.remove(word)//remove the word itself from the list of anagrams
+    similarWords += anagrams
+
     return similarWords.toTypedArray()
 }
 
