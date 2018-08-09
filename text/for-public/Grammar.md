@@ -4,11 +4,9 @@
 Part-of-Speech Markers
 =============
 
-Words have an inherent or default part-of-speech role, indicated by their vowel ending (or no inherent role if they end in n).
+A word's role in a sentence is inferred from context, word-order, li and i markers etc.
 
-A word's role in a sentence can often be inferred from context, word-order, li and i markers etc.
-
-But explicit grammar words can be used to indicate part-of-speech when deemed necessary, for instance in a complex noun phrase.
+But if a word's meaning can't be inferred, or a more complex form is required, explicit grammar words can be used to indicate part-of-speech, for instance in a complex noun phrase.
 
 
 
@@ -121,7 +119,6 @@ whether the verb contains change over time (stand up, go to sleep, combust),
  or a state the subject is in (sleeping, standing, burning). 
 
 default: inherent to the verb. stative verbs cannot use continuous aspect, eg \*'i am knowing the answer'
-intransitive
 
 whether they represent something which changes over time,
 or are just something the subject generally does,
