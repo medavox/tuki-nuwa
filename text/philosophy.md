@@ -33,7 +33,7 @@ a higher chance of surviving long enough to mate.
 
 --------
 
-pona's conflations of several distinct concepts pushes toki pona towards a kind of lazy know-it-all:
+the word *`pona`*'s conflations of several distinct concepts pushes toki pona towards a kind of lazy know-it-all:
 
 the moral good != correct != easy
 
@@ -294,3 +294,8 @@ this would remove the problem that some 'words' (lexemes) are really a collectio
 for a word that (in other languages) is a group of words with varying intensity,
 maybe have those variable-intensity words all default to the same low/small intensity:
 eg should/must/obligation starts as should without any modifiers
+
+-------
+
+Have a collection of third-person pronouns which are used for different entites in the context;
+referents for the first, second and third introduced things in a sentence
