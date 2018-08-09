@@ -31,6 +31,12 @@ expand/convert puki to more mean 'near'?; merge with nuni
 
 difference between 'many times' and 'much of the time'?
 
+solution: don't use the word time to mean 'occurrences'
+
+So instead, say 'I do that frequently' or 'I '
+
+or even (the equivalents of) often and for a long time?
+
 ----
 
 luku puna: difference between 'good-looking' and 'seeing well'
@@ -42,6 +48,8 @@ how to say 'show me sth'?
     but how to make it a command?
         u jupa luku puha i sth na mi?
         'make be-seen sth to me'
+    how about u *nisunta luku i mi na ni*
+    'allow/let me to see that' (is it i mi na ni, or i ni na mi?)
 
 ----
 
@@ -109,11 +117,11 @@ But in sentences where one of these roles in the sentence is realised by a phras
 (eg noun-phrase verb-phrase)
 it gets harder to tell what each word is doing:
 
-*suwilu kala li nami pilusi i akisi* The (swimming dog? fish-dog?)
+*suwilu kala li nami pilusi i akisi* The (swimming animal? fish-animal?)
 
 If a noun-phrased is composed of two or more nouns, where the first noun is qualified by the rest
 (eg fish scarf. You know, a scarf for fish),
-then in Tuki Nuwa, it can be hard to tell which POS the qualifying words realise.
+then in Tuki Nuwa, it can be hard to tell which POS the qualifying words are acting as.
 And which POS they realise can change the meaning of the sentence:
 
 *tumu kala* could be fish room or swimming room.
@@ -183,7 +191,14 @@ and if combining them in this way is actually internationally intuitive.
 
 But for now, 6 rules emerge:
 
-word <verb> 
+*noun* <verb> - doing something related to *noun*
+*noun* <adje> - *noun*y; *noun*-like
+
+verb <noun> *verb*ing; the act of *verb*ing
+verb <adje> *verb*y; of or relating to *verb*
+
+adj <noun> *adj*iness; the degree to which something is *adj*-like
+adj <verb> *adj*ify; to make something *adj*-like
 
 
 This is my preferred solution so far. I'll see if there's a chapter on embeddability (or recursion) in Pinker,
@@ -195,7 +210,7 @@ here we remove a different problem,
 which might negate the need to solve this problem entirely:
 
 the word *kala* would no longer mean either "fish" or "swim",
-it would just mean one or the other. 
+it would just mean "fish". Or just "swim". 
 
 noun-phrases like *witan kala* would now **only** mean either "swimming clothes" or "fish clothes" (maybe fishing clothes?),
 not both.
