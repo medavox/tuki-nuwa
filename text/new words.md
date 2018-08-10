@@ -26,15 +26,16 @@ Grammar Words
 -------------
 
 Status:Notes | Usage (= POS) | Meaning
--------------|-------------------|------------------|--------
+-------------|---------------|----------
 + | BE (SOMEONE/SOMETHING) kopula???
 ? probably this is a copula | *<word> <adj>* = to be <adj> | to have the property of the following adj phrase; to be <adj phrase>
 +:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
 + liki  | verb, liki <noun> = <noun>ly etc | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like; LIKE~AS~WAY, similar to, in a similar manner to
 nisa | *nisa <verb>* = the act of <verb>ing, <verb>tion; *nisa <adjective>* = <adj>ness, state of being <adj> | **next word or phrase is a noun**.
-ula | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the following verb-phrase a noun.
+ula/sulu | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the following verb-phrase a noun.
 sa | sa <word> = verb | select verb meaning of next word
    | | select adjective meaning of next word
+ends a noun-phrase
 
 nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun\
 it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
@@ -71,62 +72,63 @@ empty, without, absent, absence
 Main List
 ---------
 
+words in bold have been suggested by the word internationality program,
+as the (usually non-chinese) word with the highest number of speakers that
+ can be converted recognisably to tuki nuwa's phonology
+
 possible lexeme | Noun | Verb | Adjective | Other
 ----------------|------|------|-----------|------
-anka | anger | to be angry | angry/aggressive
+anka/**ila(tu), sinuwan** | anger | to be angry | angry/aggressive
 atapisu, jatun pali pi jan | | | artificial, man-made |
 hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
-+: suluwi | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
-+ | adhesion | to stick (to sth) | sticky, adhesive |
++: suluwi/apuluki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
++ **pikahusu** | adhesion | to stick (to sth) | sticky, adhesive |
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 + | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
-+ | strong, intensity, strength (both as in physical power, and a flavour, or an effect)
 + | fictional, imaginary; story; figurative; metaphorical
-+ | the spritual world, eg religious, holy, divine, spiritual
++ | the spiritual world, eg religious, holy, divine, spiritual
 + | temporary, for now
 + | (for) each, per, every
-+:ansa | answer, solution, result | answer (sth), solve (sth), resolve
-+humi | home, dwelling; structure that people live in | | urban, domestic, household |
-+ | shape
++:ansa, **sulusun** | answer, solution, result | answer (sth), solve (sth), resolve
++**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
++**puluma, pikula** | shape
 + | | bounce | bouncy, springy, resilient; prone to returning to its original shape or position
-+ | sharing | share
++ **hisa** | sharing | share
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
-+ | high-status
++ | high-status, fancy, posh
 + | click, crack, pop
 +:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
 + make-have without permission | theft | steal | stolen, thieving
 + | | like, enjoy, prefer
-+ | | turn, twist, rotate
-day (because it's pretty basic, universal and useful)
-normal??
++ | | turn, twist, rotate, spin
+talan | day (because it's pretty basic, universal and useful)
+normal, usual, regular
 + | through
 + | burn | 
 + | clean | pali jaki nata; kika jaki
 + | music | kalama musi 
-+ | old
++ **pulanta**| old
 + | | squeeze, crush, hug
 enclose, surround, envelope, circum~
 masina | machine, device, contraption, motor, engine | | mechanical
 pulisu | the police | police sth/sb | 
-+ | slope, hill, mountain | | steep
-weather
++ **muntan**, mantu | slope, hill, mountain | | steep
 still <verb>, continue to <verb>
-unless
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
-certainty
 + | likelihood, probability | | likely, probable, probably
 frequency?
-+ | slope, hill, mountain | 
-succeed/win
-fail/lose
+sukisi | succeed/win
+asapa | fail/lose
 describe, property, talk about
 craft, skill, practice of. eg number craft = mathematics
 cause to 
-
+self?
++ | support
++ | subject | about/regarding
 
 Maybes
 -----
@@ -151,7 +153,7 @@ Status:Notes | Noun | Verb | Adjective | Other
 -------------|------|------|-----------|------
 +:pima | fingers | 
 + | breast | nina kupa?
-+ | bone | 
++ **asa(ta)** | bone | 
 + | long | lina
 + | thin | 
 + | be on something | 
@@ -162,7 +164,52 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | stone | kahin lula?
 + |  | lie (as in lie down) | lying down
 + | stand | 
-+ | laugh | 
++ **lisa, lisu** | laugh | 
+
+Words from Donald E Brown's Universal People
+--------------------------------------------
+
+via Steven Pinker's Language Instinct
+
+days
+months
+seasons
+past
+present
+future
+body parts
+inner states (emotions, sensations, thoughts)
+behavioural propensities
+flora
+fauna
+weather
+tools
+space
+motion
+speed
+location
+spatial dimensions
+physical properties
+giving
+lending
+affecting things and people
+numbers (at the very least "one", "two", and "more than two")
+proper names
+possession
+kinship categories, defined in terms of mother, father, son, daughter, and age sequence
+Binary distinctions, including:
+    male and female
+    black and white
+    natural and cultural
+    good and bad
+Logical relations including:
+    not
+    and
+    same
+    equivalent
+    opposite
+general versus particular
+part versus whole
 
 
 NSM Non-Universal but Useful Words
@@ -178,7 +225,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | heart | <middle> kupa
 + | desert | lula sikusa satu
 + | sea | wata satu satu
-+ ila(n)/insula/insilu | island | 
++ ila(n)/**isula**/insilu | island | 
 + | jungle / forest | kasi satu muta sasa
 + | snow | wata hilu hilu pasita
 + | ice | wata hilu hilu kahin
@@ -187,7 +234,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | earthquake | 
 + | grass | kasi kaja 'floor plant'
 + | mosquito | 
-+ | flies | 
++ | flies | pipi wasu muta
 + | week | 
 + | clock | tulu ipuki
 + | hour | 
@@ -232,7 +279,7 @@ Word | Reason for not adding/equivalent phrase
 child | jan nuwa
 baby | jan pi nuwa pulan liki, or jan nuwa "new person"
 stop, stopped, paused | *kama nata `<verb>`* come to not `<verb>` ; pini
-rain | wata tawa apa 'water moving down', wata <sky> 'sky water'
+rain | wata tawa apa 'water moving down', wata kijalu 'sky water'
 wind | susu tawa 
 snake | akisi linja 'rope lizard'
 togetherness; together | sama kulapu; awasa
@@ -342,3 +389,5 @@ the world of the mind, inside your head | insa kapi wa
 wings | lawan wasu
 push | <cause-to> mupa
 pull | <cause-to> mupa
+weather | kijalu li pali seme 'what is the sky doing'
+certainty | know
