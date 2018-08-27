@@ -68,6 +68,8 @@ Status:Reason | Noun | Verb | Adjective | Other
 
 empty, without, absent, absence
 
+random unused lexemes:
+kunhila, kunkila, hanlun, hilatu
 
 Main List
 ---------
@@ -94,7 +96,7 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 +**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
 +**puluma, pikula** | shape
 + | | bounce | bouncy, springy, resilient; prone to returning to its original shape or position
-+ **hisa** | sharing | share
++ **hisa** | sharing | share | why not just *pani pisi* 'part-give', or *pani i pisi na jan* 'give a part to someone'
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
 + | high-status, fancy, posh
@@ -102,11 +104,9 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 +:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
 + make-have without permission | theft | steal | stolen, thieving
 + | | like, enjoy, prefer
-+ | | turn, twist, rotate, spin
-talan | day (because it's pretty basic, universal and useful)
-normal, usual, regular
+**lutata**, **kataja**,  | | turn, twist, rotate, spin
+**likula**, **numali** | normal, usual, regular
 + | through
-+ | burn | 
 + | clean | pali jaki nata; kika jaki
 + | music | kalama musi 
 + **pulanta**| old
@@ -119,8 +119,8 @@ still <verb>, continue to <verb>
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
-+ | likelihood, probability | | likely, probable, probably
-frequency?
+**pusipu** | likelihood, probability, possibility | | likely, probable, probably ! possible != probability
+frequency, often
 sukisi | succeed/win
 asapa | fail/lose
 describe, property, talk about
@@ -128,7 +128,8 @@ craft, skill, practice of. eg number craft = mathematics
 cause to 
 self?
 + | support
-+ | subject | about/regarding
+try, attempt
+careful, caution
 
 Maybes
 -----
@@ -144,7 +145,7 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
   | | thick, wide | | obscure
 uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
 pinsa/sinjan/kinta/sinta/misali/tumaju | thought(s) | THINK | | | similarity to pili 
-+ | agreement | agree | | I agree with you *mi pilin i ni: si <correct/true>* 'I think you're right; I agree = 'si <correct>'
++ | agreement | agree | | I agree with you *mi pilin i ni: si tatu* 'I think you're right; I agree = 'si tatu'
 
 Semantic Molecules
 ------------------
@@ -153,27 +154,32 @@ Status:Notes | Noun | Verb | Adjective | Other
 -------------|------|------|-----------|------
 +:pima | fingers | 
 + | breast | nina kupa?
-+ **asa(ta)** | bone | 
 + | long | lina
 + | thin | 
-+ | be on something | 
+**insima**, **supa**  | be on something | 
 + | in front of | 
 + | around | 
 + | ground | apa, supa
-+ | wood | kahin kasi?
 + | stone | kahin lula?
-+ |  | lie (as in lie down) | lying down
 + | stand | 
-+ **lisa, lisu** | laugh | 
 
 Words from Donald E Brown's Universal People
 --------------------------------------------
 
 via Steven Pinker's Language Instinct
 
-days
-months
-seasons
+Universal group name | Universal group members | Word in Tuki Nuwa
+---------------------|-------------------------|------------------
+day(s)               |                         | tajan
+ | sunday            | tajan sunu
+ | monday            | tajan muna
+ | tuesday           | tajan tu
+ | wednesday         | tajan sinta
+ | thursday          | 
+ | friday            | 
+ | saturday          | 
+months               |                         | muna
+season(s)            |                         | <year> pisi
 past
 present
 future
@@ -222,9 +228,9 @@ NSM Non-Universal but Useful Words
 
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
-+ | heart | <middle> kupa
++ | heart | sinta kupa
 + | desert | lula sikusa satu
-+ | sea | wata satu satu
++ | sea | wata sala
 + ila(n)/**isula**/insilu | island | 
 + | jungle / forest | kasi satu muta sasa
 + | snow | wata hilu hilu pasita
@@ -391,3 +397,4 @@ push | <cause-to> mupa
 pull | <cause-to> mupa
 weather | kijalu li pali seme 'what is the sky doing'
 certainty | know
+burn | pana i iju na sasa 'give fire to something'

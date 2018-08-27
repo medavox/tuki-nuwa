@@ -19,9 +19,10 @@ hapa | having, ownership, property | have, contain | | kama-> get, obtain
 hasaki | knife, blade, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
 hilanu | | | after
-hilu | cold | cool sth down, chill sth; to cool, cool down | cold |
+hilu | cold | cool sth down, chill sth; to cool, cool down | cold
 hina | back, rear end, butt, behind | | back, rear |
 hiwa | outside, surface, skin, shell, husk, bark, shape, peel | to peel, skin, dehusk sb/sth | outer, external |
+hulisun | horizon | lie (as in lie down), lie down | lying down, horizontal
 huta | | | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
 ilin | | precede | before | preposition
 iju | thing, something, stuff, anything, object | | of something |
@@ -55,8 +56,9 @@ kunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, pa
 kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
 lamuli | happiness, laughter | be happy, to laugh | happy/laughing, funny
-lapi | sleep, rest | sleep, rest | sleeping, of sleep |
+lapi | sleep, rest | sleep, rest | of sleep |
 lasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
+lisa | laughter, humor, comedy | laugh | funny, amusing, hilarious etc
 lawan | hand, arm, branch, appendage | to touch with hand | five (5) |
 lili | smallness (eg size) | reduce, shorten sth; shrink, lessen | small, little, a bit, short, few |
 linja | ?LENGTH? long, very thin, floppy thing, e.g. string, rope, hairs, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
@@ -79,6 +81,7 @@ mitan | way, manner, custom, road, path, doctrine, system, method | | |
 mitalu | metal | | metallic; of metal
 miwi | woman, female, girl | | female, feminine, womanly, of womanhood |
 muhali | death | kill sth/sb; die | dead, deadly, fatal |
+muki | wood, tree, timber | | wooden
 mulu | | | more (greater intensity or amount) | 
 muna | moon, 28 days | | lunar |
 munisi | village, town, city, settlement; a place where >1 group live | | related to human settlements  
@@ -90,7 +93,7 @@ namaku | obligation, requirement, need | to force, to require (with puha) need |
 nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
 nasu | nose | to smell sth | 
 nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
-natula | nature | | of nature, natural, ruthless, unforgiving, dangerous, harsh, dog-eat-dog |
+natula | nature, wilderness | | of nature, natural, wild, ruthless, unforgiving, dangerous, harsh, dog-eat-dog |
 nimi | word, name | to name sth; to call sth1 sth2 | |
 nina | bump, nose, hill, mountain, button | to protrude | |
 nisunta | consent, permission | consent, permit, allow | consensual, permitted, allowed
@@ -121,6 +124,7 @@ putala | conflict, disharmony, competition, conflict, struggle, fight, war, batt
 puwanu | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't normally stand on easily (eg, without also using their hands for balance/support) | | |
 sala | salt | | salty |
 sama | self, similarity | | same, similar, equal, of equal status or position, equivalent | (prep) like, as, seem
+sanja | year | | yearly, annual
 sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
 satu | size |  | big, tall, large |
 sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
@@ -140,6 +144,7 @@ supa | horizontal or supporting surface or platform, e.g furniture, table, chair
 susu | air, wind, smell | to smell sth; to have a smell (good or bad) | air-like, ethereal, gaseous |
 suwi | sweets, sweet food, sugar | sweeten | sweet, sugary |
 suwilu | animal, esp. land mammal | | |
+tajan | day (as in unit-of-time) | |
 tali | kind, type | categorise | |
 tan | origin, cause | | | prep from, by, because of, since
 tanka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
@@ -151,13 +156,13 @@ tawa | direction, heading | move towards, to be for something, to agree | -wards
 mupa | movement, transportation | move, displace sth; go to, walk, travel, move | moving, mobile |
 tu | duo, pair | double, separate/split/cut/divide in two | two |
 tuki | language, talking, speech, communication | say, speak; talk, chat, communicate | talking, verbal, language-related, linguistic | (interj) hello! hi!
-tulu | tool, device, machine, thing used for a specific purpose | | |
+tulu | tool, device, machine, thing used for a specific purpose; usage | use | |
 tumu | indoor space, e.g. room, building, cave, hut, shelter; any structure large enough for humans to go under/inside of, which offers at least partial cover/shelter from the elements | | to cover, shelter (sth) |
 tusa | contact, connection | TOUCH, connect | touching, connected
 upaka | weight, difficulty | | heavy, difficult |
 upin | beginning, start, birth, opening | open, turn on, start, be born | open, started, born, begun |
 upusi | reversal, opposite | reverse, invert | opposite of noun/verb, inverse of sth (this is different from nata/not)
-usu | usage | use | | (prep) with (using)
+usata | bone, skeleton, inner supporting structure | support | of bones; skeletal; supporting | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
 uwahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual |
 wajapi | fear | to be scared | scared, scary
@@ -195,4 +200,4 @@ pi   | (sep) of, belonging to
 puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). mi moku puha! = "i am being eaten!"
 si   | you, your
 u    | addressive marker: <jan Atan u> = "hey, adam", "@adam"; (sep) U Imperative: <u namu!> = "eat!"
-wa   | context-phrase separator, topicaliser
+wa   | subject; about/regarding; context-phrase separator, topicaliser
