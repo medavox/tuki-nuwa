@@ -56,12 +56,11 @@ Status:Reason | Noun | Verb | Adjective | Other
 (most is provided by makisu)
 (MORE is covered by word mulu)
 (VERY/MANY is covered by existing word `muta`)
-+:satisu | enough, satisfactorily
+(enough = satisu)
 (SOME is provided by word sumin)
 ((slightly, a little, a bit) is covered by existing word lili)
 (close, near = nuni)
-+ | hardly, barely, only-just
-+:mina | less
+(less = mina)
 (not = nata)
 (absence = kika)
 (anti)
@@ -80,11 +79,9 @@ as the (usually non-chinese) word with the highest number of speakers that
 
 possible lexeme | Noun | Verb | Adjective | Other
 ----------------|------|------|-----------|------
-anka/**ila(tu), sinuwan** | anger | to be angry | angry/aggressive
 atapisu, jatun pali pi jan | | | artificial, man-made |
 hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
-+: suluwi/apuluki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 + **pikahusu** | adhesion | to stick (to sth) | sticky, adhesive |
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 + | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
@@ -92,19 +89,15 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | the spiritual world, eg religious, holy, divine, spiritual
 + | temporary, for now
 + | (for) each, per, every
-+:ansa, **sulusun** | answer, solution, result | answer (sth), solve (sth), resolve
 +**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
-+**puluma, pikula** | shape
 + | | bounce | bouncy, springy, resilient; prone to returning to its original shape or position
-+ **hisa** | sharing | share | why not just *pani pisi* 'part-give', or *pani i pisi na jan* 'give a part to someone'
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
-+ | high-status, fancy, posh
-+ | click, crack, pop
+**ilikan** | social class, status | | high-status, fancy, posh
+bang
 +:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
 + make-have without permission | theft | steal | stolen, thieving
 + | | like, enjoy, prefer
-**lutata**, **kataja**,  | | turn, twist, rotate, spin
 **likula**, **numali** | normal, usual, regular
 + | through
 + | clean | pali jaki nata; kika jaki
@@ -115,12 +108,11 @@ enclose, surround, envelope, circum~
 masina | machine, device, contraption, motor, engine | | mechanical
 pulisu | the police | police sth/sb | 
 + **muntan**, mantu | slope, hill, mountain | | steep
-still <verb>, continue to <verb>
+nina | bump, hill, mountain, button | to protrude | |
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
-**pusipu** | likelihood, probability, possibility | | likely, probable, probably ! possible != probability
-frequency, often
+frequency, often, again, never, sometimes, rarely
 sukisi | succeed/win
 asapa | fail/lose
 describe, property, talk about
@@ -130,6 +122,11 @@ self?
 + | support
 try, attempt
 careful, caution
+cover, obscure, block
+vomit
+control
+binding
+to tie sth
 
 Maybes
 -----
@@ -140,82 +137,80 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
   | knot (connection? mess? order?)
 ? | | | low-status | may just be insulting
 + | | | squat
-  | | uncooked, raw | <cook> puha nata
+  | | uncooked, raw | jatun kukin puha nata
 + | participatory, interactive
   | | thick, wide | | obscure
 uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
-pinsa/sinjan/kinta/sinta/misali/tumaju | thought(s) | THINK | | | similarity to pili 
 + | agreement | agree | | I agree with you *mi pilin i ni: si tatu* 'I think you're right; I agree = 'si tatu'
+text, words
 
 Semantic Molecules
 ------------------
 
 Status:Notes | Noun | Verb | Adjective | Other
 -------------|------|------|-----------|------
-+:pima | fingers | 
 + | breast | nina kupa?
-+ | long | lina
++ | long | *lanki*
 + | thin | 
-**insima**, **supa**  | be on something | 
-+ | in front of | 
+* | be on something | siwi
+**saman**? or already *sinpin* | in front of | 
 + | around | 
-+ | ground | apa, supa
-+ | stone | kahin lula?
-+ | stand | 
++ | ground | *apa*, *supa*
++ | stone | *kahin lula*?
++ | stand | *li siwi puha i nuka*
 
-Words from Donald E Brown's Universal People
---------------------------------------------
 
-via Steven Pinker's Language Instinct
+Excess meanings
+------
 
-Universal group name | Universal group members | Word in Tuki Nuwa
----------------------|-------------------------|------------------
-day(s)               |                         | tajan
- | sunday            | tajan sunu
- | monday            | tajan muna
- | tuesday           | tajan tu
- | wednesday         | tajan sinta
- | thursday          | 
- | friday            | 
- | saturday          | 
-months               |                         | muna
-season(s)            |                         | <year> pisi
-past
-present
-future
-body parts
-inner states (emotions, sensations, thoughts)
-behavioural propensities
-flora
-fauna
-weather
-tools
-space
-motion
-speed
-location
-spatial dimensions
-physical properties
-giving
-lending
-affecting things and people
-numbers (at the very least "one", "two", and "more than two")
-proper names
-possession
-kinship categories, defined in terms of mother, father, son, daughter, and age sequence
-Binary distinctions, including:
-    male and female
-    black and white
-    natural and cultural
-    good and bad
-Logical relations including:
-    not
-    and
-    same
-    equivalent
-    opposite
-general versus particular
-part versus whole
+These meanings, which have been split off from words with other meanings,
+may need re-adding back into the language as new, separate words.
+
+NOTE: DELETE ENTRIES FROM THIS LIST WHEN THEIR MEANING HAS BEEN REASSIGNED!
+
+
+former word | removed meaning (which may need reassigning to a new word)
+------------|-----------------------------------------------------------
+malu        | complex/needlessly complicated
+siwi        | divine
+nasa        | crazy; to confuse sth/sb, make weird; silly, foolish, drunk, strange, stupid, weird
+hilu (was lete) | uncooked, raw
+sunu        | shiny
+puna        | beneficial; benevolent, altruistic, kind, symbiotic; helpful, cooperating; ideal; conducive to overall wellness
+pilin       | heart; touch
+pakala      | ruin, spoil
+sasa        | explosion
+kama        | manage to
+wapa        | fierce, intense, confident
+
+### sewi
+
+* awe-inspiring, inspiring a feeling of wonder, respect and fear; venerable, reverend, estimable, honourable, awe-inspiring, humbling, mesmerizing, venerable, reverend, honourable, looked up to in adoration
+* captivating, causing a hypnotizing effect, able to hold people in an uncontrollable state of admiration; spellbinding, fascinating, mesmerizing, hypnotic, mysteriously impressive, captivating, enchanting
+* having higher powers or effects
+* supernatural
+* interpreted as belonging to a world beyond the ordinary and physical; transcendent, transcending, divine, magical, mysterious, wondrous, miraculous
+* causing supernormal stimulus
+* idealized
+* worshipped
+* physically deep
+* figuratively deep
+
+tasan
+    representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model
+    picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,
+    diagram, chart, graph
+    sculpture , an object made into the shape of something; carving, sculpture, figurine, replica
+
+
+wata
+    a flowing wet substance
+    beverage, a liquid for drinking; beverage, drink, juice
+    a liquid for washing; water
+    bodily fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine (pus?)
+    body of water, an area covered with water; bay, strait, sea, lake, river, stream
+    transitive verb to use telo on; to water, rinse, wash, wet
+    describer having the characteristics or properties of telo; wet, liquid
 
 
 NSM Non-Universal but Useful Words
@@ -266,16 +261,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | newspaper | 
 + | God | 
 + | take (someone somewhere) | 
-
-### Not adding
-
-* a word for amount/intensity?
-* words for frequency -- again,
-        never,
-        often,
-        sometimes,
-        rarely
-    - found: ipuki muta=many times, i.e. often
 
 Probably not adding
 -------------------
@@ -398,3 +383,5 @@ pull | <cause-to> mupa
 weather | kijalu li pali seme 'what is the sky doing'
 certainty | know
 burn | pana i iju na sasa 'give fire to something'
+**hisa** = sharing; share | *pani pisi* 'part-give', or *pani i pisi na jan* 'give a part to someone'
+still <verb>, continue to <verb> | awin

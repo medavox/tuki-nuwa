@@ -48,8 +48,9 @@ how to say 'show me sth'?
     but how to make it a command?
         u jupa luku puha i sth na mi?
         'make be-seen sth to me'
-    how about u *nisunta luku i mi na ni*
+    how about *u nisunta luku i mi na ni*
     'allow/let me to see that' (is it i mi na ni, or i ni na mi?)
+    *u nisunta i ni: mi luku i ni*?
 
 ----
 

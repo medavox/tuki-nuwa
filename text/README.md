@@ -33,7 +33,7 @@ But its extreme simplicity also limits its potential to communicate.
 In this role, it needs words for ideas that were previously left out or ignored.
 
 I'm retooling Toki Pona for this new purpose,
-hopefully without compromising its central philosophy too much.
+without compromising its central philosophy of simplicity.
 
 The goal of this offshoot is different from that of Toki Pona's -- 
 or at least different from its original goal.
