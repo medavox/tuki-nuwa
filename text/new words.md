@@ -38,7 +38,7 @@ sa | sa <word> = verb | select verb meaning of next word
 ends a noun-phrase
 word which precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
 
-nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun\
+nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
 it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
 
 to Xify = jupa
@@ -104,6 +104,8 @@ vomit
 control
 binding
 to tie sth
+there are
+if...then
 
 Semantic Molecules
 ------------------
