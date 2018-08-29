@@ -36,6 +36,7 @@ ula/sulu | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the f
 sa | sa <word> = verb | select verb meaning of next word
    | | select adjective meaning of next word
 ends a noun-phrase
+word which precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
 
 nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun\
 it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
@@ -44,31 +45,7 @@ to Xify = jupa
 to be Xified jupa X puha
 to become X = iku
 
-Comparatives/Quantifiers
-------------
-
-Quantity, amount and intensity are all expressed with the same class of words:
-
-Status:Reason | Noun | Verb | Adjective | Other
---------------|------|------|-----------|------
-(too is covered by word huta)
-(fully is covered by word pulan)
-(most is provided by makisu)
-(MORE is covered by word mulu)
-(VERY/MANY is covered by existing word `muta`)
-(enough = satisu)
-(SOME is provided by word sumin)
-((slightly, a little, a bit) is covered by existing word lili)
-(close, near = nuni)
-(less = mina)
-(not = nata)
-(absence = kika)
-(anti)
-
 empty, without, absent, absence
-
-random unused lexemes:
-kunhila, kunkila, hanlun, hilatu
 
 Main List
 ---------
@@ -127,22 +104,6 @@ vomit
 control
 binding
 to tie sth
-
-Maybes
------
-potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
------------------|------|------|-----------|-------|-----------
-  | danger | | dangerous |
-  |  | | primitive | obscure
-  | knot (connection? mess? order?)
-? | | | low-status | may just be insulting
-+ | | | squat
-  | | uncooked, raw | jatun kukin puha nata
-+ | participatory, interactive
-  | | thick, wide | | obscure
-uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
-+ | agreement | agree | | I agree with you *mi pilin i ni: si tatu* 'I think you're right; I agree = 'si tatu'
-text, words
 
 Semantic Molecules
 ------------------
@@ -262,6 +223,22 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | God | 
 + | take (someone somewhere) | 
 
+Maybes
+-----
+potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
+-----------------|------|------|-----------|-------|-----------
+  | danger | | dangerous |
+  |  | | primitive | obscure
+  | knot (connection? mess? order?)
+? | | | low-status | may just be insulting
++ | | | squat
+  | | uncooked, raw | jatun kukin puha nata
++ | participatory, interactive
+  | | thick, wide | | obscure
+uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
++ | agreement | agree | | I agree with you *mi pilin i ni: si tatu* 'I think you're right; I agree = 'si tatu'
+text, words
+
 Probably not adding
 -------------------
 
@@ -298,14 +275,14 @@ iron | mitalu <strong>, <metal> upaka
 gold | mitalu jala
 coal | <stone> mahi
 wire | lina <metal>; lina wapa 'power/electrical line/rope'
-dog | suwilu amika 'friendly animal'; amika suwilu 'animal friend' :)
-cat | *suwilu humi pi lapi muta* 'house animal which sleeps a lot'?
-horse | suwilu satu pilusi 'big, fast animal'
+dog | animu amika 'friendly animal'; *amika animu* 'animal friend' :)
+cat | *animu humi pi lapi muta* 'house animal which sleeps a lot'?
+horse | *animu satu pilusi* 'big, fast animal'
 cow | 
-pig | suwilu pi nami luhi
+pig | *suwilu pi nami luhi*
 camel | 
 buffalo | 
-moose | suwilu puki kawisa kapi ula liwa lula hilu (animal with head sticks, which lives in cold countries)
+moose | *suwilu puki kawisa kapi ula liwa lula hilu* (animal with head sticks, which lives in cold countries)
 thread | lina lili
 stranger | jan sawa <passive> nata
 juna: youth, young | nuwa

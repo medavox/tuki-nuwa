@@ -9,6 +9,7 @@ ali | life, the universe, everything | | all, every, complete, whole |
 alu | | | | hello
 amika | friend | befriend sb, make friends | friendly
 amu | love | to love (a person) | love |
+animu | animal, esp. land mammal | | |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop, fall  | low, lower, bottom, down |
 asitu | seat, chair, somewhere to sit down | sit, sit down | seated, sat down
 atani | difference | change, alter, modify | different, other | otherwise, or else
@@ -115,7 +116,7 @@ pasa | occurrence | happen, occur, take place, come to be
 pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | simple, easy, light (as in weight)
 pikula | shape, form | to shape, to form | -shaped
 pilatu | flatness | | flat
-pilin | feelings, thoughts, (abstract) thought, emotion | feel, think, sense | sensitive, feeling, empathic |
+pilin | feelings,  emotion | feel, sense | sensitive, feeling, empathic |
 pilusi | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 pima | finger(s) | to touch sth with fingers | 
 pini | end, tip, edge, limit | finish, close, end, turn off (sth) | completed, finished, past, done, ago |
@@ -134,7 +135,7 @@ sama | self, similarity | | same, similar, equal, of equal status or position, e
 san | three, triplet | triple | three
 sanja | year | | yearly, annual
 sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
-satisu | enough | satisfy | enough, satisfactor(il)y
+satasu | enough | satisfy | enough, satisfactor(il)y
 satu | size |  | big, tall, large |
 sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
@@ -154,7 +155,6 @@ sunu | sun, light (as in bright) | to emit light; illuminate sth | having the qu
 supa | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | support | |
 susu | air, wind, smell, gas | to smell sth; to have a smell (good or bad) | air-like, ethereal, gaseous |
 suwi | sweets, sweet food, sugar | sweeten | sweet, sugary |
-suwilu | animal, esp. land mammal | | |
 tajan | day (as in unit-of-time) | |
 tali | kind, type | categorise | |
 tan | origin, cause | | | prep from, by, because of, since

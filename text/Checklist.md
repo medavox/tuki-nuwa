@@ -66,3 +66,25 @@ Logical relations including:
     opposite
 general versus particular
 part versus whole
+
+Comparatives/Quantifiers
+------------
+
+Quantity, amount and intensity are all expressed with the same class of words:
+
+Status:Reason | Noun | Verb | Adjective | Other
+--------------|------|------|-----------|------
+(too is covered by word huta)
+(fully is covered by word pulan)
+(most is provided by makisu)
+(MORE is covered by word mulu)
+(VERY/MANY is covered by existing word `muta`)
+(enough = satisu)
+(SOME is provided by word sumin)
+((slightly, a little, a bit) is covered by existing word lili)
+(close, near = nuni)
+(less = mina)
+(not = nata)
+(absence = kika)
+(anti)
+
