@@ -24,10 +24,10 @@ GOOD 			| puna
 BAD 			| iki
 BIG 			| satu
 SMALL 			| lili
-THINK
+THINK           | manta
 KNOW 			| sawa
 WANT 			| wilu
-FEEL
+FEEL            | pilin
 SEE 			| luku
 HEAR 			| kuti
 SAY 			| tuki
@@ -40,12 +40,12 @@ BE (SOMEWHERE)
 THERE IS
 BE (SOMEONE/SOMETHING)
 (IS) MINE
-LIVE
-DIE 			| muli
+LIVE            | piwa
+DIE 			| muhali
 WHEN~TIME       | ipuki
 NOW 			| ipuki ni (la)
-BEFORE
-AFTER
+BEFORE          | ilin
+AFTER           | hilanu
 A LONG TIME 	| ipuki muta
 A SHORT TIME 	| ipuki lili
 FOR SOME TIME
@@ -78,64 +78,64 @@ mouth | uta
 eyes | luku
 head | kapi
 ears | kutu
-nose | 
-face | 
-teeth | 
-fingers | 
+nose | nasu
+face | sinpin
+teeth | hasaki uta
+fingers | pima
 breast | nina kupa?
 skin | hiwa 
-bones | 
-blood | 
+bones | usata
+blood | wata liwa
 long | lina
 round | siki
-flat | 
+flat | pilatu
 thin | 
 hard | kahin
-soft | 
-sharp | 
+soft | nalan
+sharp | hasaki
 smooth | 
 heavy | upaka
 be on something | 
-at the top | 
-at the bottom | 
-in the middle | 
-in front of | 
+at the top | lun siwi
+at the bottom | luna apa
+in the middle | lun sinta
+in front of | lun sinpin
 around | 
-sky | 
-the Earth | 
+sky | kijalu
+the Earth | kaja
 sun | sunu
 moon | muna
-stars | 
+stars | sitala
 ground | apa, supa
 during the day | ipuki sunu wa
 at night | ipuki mahi wa
 day | ipuki sunu
 water | wata
 fire | sasa
-creature | 
+creature | animu
 grow | kasi
-egg | 
-tail | 
+egg | ajula
+tail | linja kupa hina
 wings | 
-feathers | 
+feathers | hansi wasu
 children | 
 men | misi
 women | miwi
-be born | 
+be born | li upin puha
 mother | mama miwi
 father | mama misi
-wife | 
-husband
-wood | kahin kasi?
+wife | miwi pi jan
+husband | misi pi jan
+wood | muki?
 stone | kahin lula?
-know (someone) | 
-be called | nimi
-hold | 
+know (someone) | sawa i jan
+be called | nimi puha
+hold | awin
 make | pali
 kill | muli
-breathe | 
+breathe | nami i susu
 sleep | lapi
-sit | 
+sit | asitu
 lie | 
 stand | 
 play | 
@@ -147,11 +147,11 @@ Some non-universal but useful words
 
 Non-Universal But Useful Words | Tuki Nuwa word/phrase
 -------------------------------|---------------------
-hungry | wilu moku
+hungry | wilu nami
 brain | kapi ina
 heart | 
 river | wata tawa
-mountain | 
+mountain |
 desert | 
 sea | wata satu satu
 island | 

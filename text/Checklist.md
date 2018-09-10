@@ -46,7 +46,7 @@ speed
 location
 spatial dimensions
 physical properties
-giving
+giving              | pana
 lending
 affecting things and people
 numbers (at the very least "one", "two", and "more than two")
