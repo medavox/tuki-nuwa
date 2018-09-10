@@ -37,6 +37,7 @@ sa | sa <word> = verb | select verb meaning of next word
    | | select adjective meaning of next word
 ends a noun-phrase
 word which precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
+cause to <vrb>
 
 nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
 it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
@@ -61,7 +62,6 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
 + **pikahusu** | adhesion | to stick (to sth) | sticky, adhesive |
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
-+ | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
 + | fictional, imaginary; story; figurative; metaphorical
 + | the spiritual world, eg religious, holy, divine, spiritual
 + | temporary, for now
@@ -79,41 +79,33 @@ bang
 + | through
 + | clean | pali jaki nata; kika jaki
 + | music | kalama musi 
-+ **pulanta**| old
++ **pulanta**, **ansijan**, **antiku**, **pulatan** | old
 + | | squeeze, crush, hug
 enclose, surround, envelope, circum~
 masina | machine, device, contraption, motor, engine | | mechanical
 pulisu | the police | police sth/sb | 
-+ **muntan**, mantu | slope, hill, mountain | | steep
 nina | bump, hill, mountain, button | to protrude | |
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
 frequency, often, again, never, sometimes, rarely
-sukisi | succeed/win
 asapa | fail/lose
 describe, property, talk about
-craft, skill, practice of. eg number craft = mathematics
 cause to 
 self?
-+ | support
-try, attempt
+intanta | try, attempt
 careful, caution
 cover, obscure, block
 vomit
-control
 binding
 to tie sth
+control
+craft, skill, practice of. eg number craft = mathematics
 there are
 if...then
-
-Semantic Molecules
-------------------
-
-Status:Notes | Noun | Verb | Adjective | Other
--------------|------|------|-----------|------
+ownership, property, belongs
+against (as in anti something)
 + | breast | nina kupa?
-+ | long | *lanki*
 + | thin | 
 * | be on something | siwi
 **saman**? or already *sinpin* | in front of | 
@@ -121,7 +113,7 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | ground | *apa*, *supa*
 + | stone | *kahin lula*?
 + | stand | *li siwi puha i nuka*
-
+force sb (to do sth)
 
 Excess meanings
 ------
@@ -142,7 +134,7 @@ sunu        | shiny
 puna        | beneficial; benevolent, altruistic, kind, symbiotic; helpful, cooperating; ideal; conducive to overall wellness
 pilin       | heart; touch
 pakala      | ruin, spoil
-sasa        | explosion
+sasa        | explosion, bang
 kama        | manage to
 wapa        | fierce, intense, confident
 
@@ -364,3 +356,4 @@ certainty | know
 burn | pana i iju na sasa 'give fire to something'
 **hisa** = sharing; share | *pani pisi* 'part-give', or *pani i pisi na jan* 'give a part to someone'
 still <verb>, continue to <verb> | awin
+for (as in with us or against, pro something) | tawa

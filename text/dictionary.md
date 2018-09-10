@@ -17,7 +17,7 @@ awasa | Hunting, gathering, hunter-gathering, collection | to gather; to collect
 awin | memory | stay, wait, remain; carry, keep, continue, hold, remember | remaining, stationary, permanent, sedentary
 hansi | hair, fur, feathers | | hairy, furry, feathery |
 hapa | having, ownership, property | have, contain | | kama-> get, obtain
-hasaki | knife, blade, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
+hasaki | knife, blade, sword, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
 hilanu | | | after
 hilu | cold | cool sth down, chill sth; to cool, cool down | cold
@@ -25,8 +25,9 @@ hina | back, rear end, butt, behind | | back, rear |
 hiwa | outside, surface, skin, shell, husk, bark, shape, peel | to peel, skin, dehusk sb/sth | outer, external |
 hulisun | horizon | lie (as in lie down), lie down | lying down, horizontal
 huta | | | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
-ilin | | precede | before | preposition
 iju | thing, something, stuff, anything, object | | of something |
+ilin | | precede | before | preposition
+imasu | picture, image, drawing, writing | draw, write | |
 insa | inside, inner world, center, stomach | | inner, internal |
 ipuki | time, period of time, moment, duration, situation, occasion | | of or relating to time; temporal |
 isun | shop, store, place of commerce, trade | buy sth, trade, barter; shop | |
@@ -38,10 +39,11 @@ kaja | the Earth, ground | | of/related to the Earth or ground; earthly |
 kajusi | | | brown/grey: colour of stone, mud, metal
 kala | fish, sub-aquatic creature | to swim | fishy; fish-like |
 kama | event, happening, chance, arrival, beginning | bring sth about, summon sth; come, become, arrive, happen, | coming, future |
+kanja | success | succeed/win | winning, successful
 kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; puha -> can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kantu | song | sing | sung
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
-kaputa | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell | ill, sick, unwell, diseased, injured, broken, malfunctional
+kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell | ill, sick, unwell, diseased, injured, broken, malfunctional
 kasi | plant, herb, tree | to grow larger | plant-based |
 lutatun  | rotation, angle | turn, twist, rotate, spin | spinning, turning, rotating, twisting
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
@@ -52,7 +54,7 @@ kipu | square, cube, block | | square-shaped, cube-shaped |
 kiwi | fruit, vegetable, mushroom | | |
 kukin | cooking | to cook (sth) | cooking-relating, culinary
 kulapu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
-kuli | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
+kulu | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
 kunputa | computer; the software world; things 'on' or 'in' computers; the internet; social media | | of computers; related to software |
 kunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like |
 kupa | body, physical state | | of the body |
@@ -80,6 +82,8 @@ malu | negativity, badness, evil | to make bad, to worsen, to have a negative ef
 mama | parent, mother, father | to parent/raise/nuture sb | parental, maternal, paternal |
 mani | money, (material?) wealth, currency, capital | cost | financial, financially, monetary
 manta | thought(s) | THINK | mental; of the mind |
+mila | thousand
+milijun | million
 mina | less
 misi | man, male | | male, masculine, manly, of manhood |
 mitan | way, manner, custom, road, path, doctrine, system, method | | |
@@ -90,6 +94,7 @@ muki | wood, tree, timber | | wooden
 mulu | | | more (greater intensity or amount) | 
 muna | moon, 28 days | | lunar |
 munisi | village, town, city, settlement; a place where >1 group live | | related to human settlements  
+mupa | movement, transportation | move, displace sth; go to, walk, travel, move | moving, mobile |
 musi | fun, playing, game, recreation, art, entertainment | amuse, entertain sb; play, have fun | artful, fun, recreational | (interj) I'm having fun, Weeee!
 muta | amount, quantity, number-of |  | many, very, much, several, a lot, abundant, numerous |
 nahata | test, examination, investigation, check, question, problem | ask, test, investigate, probe, check, examine | 
@@ -116,7 +121,7 @@ pasa | occurrence | happen, occur, take place, come to be
 pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | simple, easy, light (as in weight)
 pikula | shape, form | to shape, to form | -shaped
 pilatu | flatness | | flat
-pilin | feelings,  emotion | feel, sense | sensitive, feeling, empathic |
+pilin | feelings,  emotion | feel, sense (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | sensitive, feeling, empathic |
 pilusi | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 pima | finger(s) | to touch sth with fingers | 
 pini | end, tip, edge, limit | finish, close, end, turn off (sth) | completed, finished, past, done, ago |
@@ -135,7 +140,7 @@ sama | self, similarity | | same, similar, equal, of equal status or position, e
 san | three, triplet | triple | three
 sanja | year | | yearly, annual
 sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
-satasu | enough | satisfy | enough, satisfactor(il)y
+satisu | enough | satisfy | enough, satisfactor(il)y
 satu | size |  | big, tall, large |
 sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
@@ -146,6 +151,7 @@ simi | | | | what, which, wh- (question word)
 sinpin | front, face, wall | | |
 sinsan | ordered, organised, neat, tidy, straight, regular (geometrically, NOT as in normal)
 sinta | centre, middle | | in the middle, central | 
+sinti | hundred
 sinuwan | anger | to be angry | angry
 sitala | stars, space | | of or related to stars or space
 siwi | high, up, above, top, over, | raise up | elevated, religious, formal | (prep) on sth
@@ -155,16 +161,16 @@ sunu | sun, light (as in bright) | to emit light; illuminate sth | having the qu
 supa | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | support | |
 susu | air, wind, smell, gas | to smell sth; to have a smell (good or bad) | air-like, ethereal, gaseous |
 suwi | sweets, sweet food, sugar | sweeten | sweet, sugary |
-tajan | day (as in unit-of-time) | |
+tahala | slope, hill, mountain | | steep
 tali | kind, type | categorise | |
 tan | origin, cause | | | prep from, by, because of, since
 tanka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
 tapalu | work, housework, chores | to work; to do chores | |
-tasan | picture, image, drawing, writing | draw, write | |
+tasa | ten
 tasu | | | only, sole | (conj) but
 tatu | truth; the truth; correctness | | true, right, correct |
-tawa | direction, heading | move towards, to be for something, to agree | -wards, towards, in the direction of | (prep) to, in order to, towards, for, until
-mupa | movement, transportation | move, displace sth; go to, walk, travel, move | moving, mobile |
+tawa | direction, heading | move towards, to be for/pro something, to agree | -wards, towards, in the direction of | (prep) to, in order to, towards, for, until
+tina | day (as in unit-of-time) | |
 tu | duo, pair | double, separate/split/cut/divide in two | two |
 tuki | language, talking, speech, communication | say, speak; talk, chat, communicate | talking, verbal, language-related, linguistic | (interj) hello! hi!
 tulu | tool, device, machine, thing used for a specific purpose; usage | use | |
