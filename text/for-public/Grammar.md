@@ -103,12 +103,14 @@ or some hypothetical action that frequently/habitually takes place
 
 habitual: *john dances*; *john likes to dance*
 
-* complete(perfect) -- a completed action -- 'john has danced'
-* simple(perfective) -- single unit of time
-* continuous/progressive -- an ongoing state or action 'john is dancing'
-* habitual -- this verb occurs multiple discrete times
-* starting(inchoative) -- the action or state is starting
-* prospective -- going to start
+name       | Old Name  | Description                              | Example
+-----------|-----------|------------------------------------------|-----------
+complete   | perfect   | a completed action                       | 'john has danced'
+simple     | perfective| single unit of time                      | 'john dances'
+continuous |progressive| an ongoing state or action               | 'john is dancing'
+habitual   |           | this verb occurs multiple discrete times | 'john dances'
+starting   | inchoative| the action or state is starting
+prospective|           | going to start
 
 
 static(stative)/dynamic
@@ -193,7 +195,7 @@ Can be any one of these (or other more obscure ones; the mood category is pretty
 imperative - *u <verb>!*
 interrogative - *ki si wilu nami?* 'do you want to eat?', *si wilu i simi* 'what do you want?'
 indicative -- statement of fact -- *suwilu li nami i kiwi* 'animal eat(s) fruit'
-conditional, subjunctive, optative -- 
+conditional, subjunctive, optative -- if I were a rich man...
 
 
 
