@@ -36,7 +36,7 @@ private const val approximants = "lwj"
 private const val consonants = stops+nasals+fricatives+approximants
 private const val vowels = "aiu"
 
-private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
+private val forbiddenSyllables = arrayOf("ji", "wu")
 private val lel = mapOf(
         'a' to setOf('u'),
         'm' to setOf('n', 'p'),
