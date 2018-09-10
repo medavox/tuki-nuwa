@@ -46,18 +46,23 @@ private const val allowSyllableFinalN = true
 
 //ansi colour-terminal escape codes
 //https://en.wikipedia.org/wiki/ANSI_escape_code#Escape_sequences
-private const val reset = "\u001B[0m"
-private const val RED = "\u001B[31m"
-private const val YELLOW = "\u001B[33m"
+private const val CSI = "\u001B["
+private const val reset = CSI+"0m"
+private const val RED = CSI+"31m"
+private const val YELLOW = CSI+"33m"
 private val validWord = Regex("[$consonants]?[$vowels]n?([$consonants][$vowels]n?){0,2}")
 
 fun main(args: Array<String>) {
+    if(args.isEmpty()){
+        e.println("ERROR: at least command is required.")
+        return
+    }
     val t = SyllableGenerator()
     val command: String = args[0].toLowerCase()
     when(command) {
         // print all possible syllables
         "syllables", "s" -> {
-            if("[1-3]".toRegex().matches(args[1])) {
+            if(Regex("[1-3]").matches(args[1])) {
                 //print syllables
                 val words: Set<String> = when(args[1].toInt()) {
                     1 -> t.listSingleSyllableWords()
@@ -124,7 +129,7 @@ fun main(args: Array<String>) {
         //display frequencies of letter usage in the dictionary words
         "frequency", "f" -> o.println(analyseLexicalFrequency(dictionary))
         //display all or some (according ot a query) unused lexemes
-        "unused", "u" -> {
+        "unused", "u", "query", "q" -> {
             val query = if(args.size > 3) args[3] else ""
             o.println(queryUnusedWords(t, dictionary, args[2], query))
         }
@@ -340,6 +345,7 @@ fun queryUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:Strin
             startsWith && !endsWith -> it.startsWith(string)
             !startsWith && endsWith -> it.endsWith(string)
             !startsWith && !endsWith -> it.contains(string)
+            string == "-" -> true //don't filter by starts or ends with
             else -> false//should never reach this
         }}) {
             val syllablesByVowel = unusedWord.count { it in vowels }
