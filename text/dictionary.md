@@ -8,12 +8,13 @@ alama | sound, noise, voice | to sound <adj> (eg loud, pleasant, annoyiing, repe
 ali | life, the universe, everything | | all, every, complete, whole |
 alu | | | | hello
 amika | friend | befriend sb, make friends | friendly
-amu | love | to love (a person) | love |
+amula | love | to love (a person) | love |
 animu | animal, esp. land mammal | | |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop, fall  | low, lower, bottom, down |
+asapa | failure | fail, lose | losing
 asitu | seat, chair, somewhere to sit down | sit, sit down | seated, sat down
 atani | difference | change, alter, modify | different, other | otherwise, or else
-awasa | Hunting, gathering, hunter-gathering, collection | to gather; to collect; to hunt | together, gathered, collected |
+awasa | Hunting, gathering, hunter-gathering, collection | to gather, collect, harvest, hunt | together, gathered, collected |
 awin | memory | stay, wait, remain; carry, keep, continue, hold, remember | remaining, stationary, permanent, sedentary
 hansi | hair, fur, feathers | | hairy, furry, feathery |
 hapa | having, ownership, property | have, contain | | kama-> get, obtain
@@ -22,7 +23,7 @@ hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
 hilanu | | | after
 hilu | cold | cool sth down, chill sth; to cool, cool down | cold
 hina | back, rear end, butt, behind | | back, rear |
-hiwa | outside, surface, skin, shell, husk, bark, shape, peel | to peel, skin, dehusk sb/sth | outer, external |
+hiwa | outside, surface, skin, shell, husk, bark, wrapping, peel | to wrap, enclose, envelope, surround sb/sth | outer, external
 hulisun | horizon | lie (as in lie down), lie down | lying down, horizontal
 huta | | | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
 iju | thing, something, stuff, anything, object | | of something |
@@ -30,6 +31,7 @@ ilin | | precede | before | preposition
 imasu | picture, image, drawing, writing | draw, write | |
 insa | inside, inner world, center, stomach | | inner, internal |
 ipuki | time, period of time, moment, duration, situation, occasion | | of or relating to time; temporal |
+isula | island, isolation | isolate | isolated
 isun | shop, store, place of commerce, trade | buy sth, trade, barter; shop | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty sth | dirty, gross, filthy | ew! yuck!
 jala | yellowness, the colour yellow | to make sth yellow | yellow, light green |
@@ -43,7 +45,7 @@ kanja | success | succeed/win | winning, successful
 kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; puha -> can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kantu | song | sing | sung
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
-kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell | ill, sick, unwell, diseased, injured, broken, malfunctional
+kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell, ruin, spoil | ill, sick, unwell, diseased, injured, broken, malfunctional
 kasi | plant, herb, tree | to grow larger | plant-based |
 lutatun  | rotation, angle | turn, twist, rotate, spin | spinning, turning, rotating, twisting
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
@@ -52,6 +54,7 @@ kika | absence, emptiness | throw away, remove, get rid of; to empty sth, to be 
 kipisi | a cut | to cut sth |
 kipu | square, cube, block | | square-shaped, cube-shaped |
 kiwi | fruit, vegetable, mushroom | | |
+kuhula | alcohol | get drunk | alcoholic, drunk
 kukin | cooking | to cook (sth) | cooking-relating, culinary
 kulapu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
 kulu | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
@@ -78,10 +81,12 @@ lutu | game | play | playful
 mahi | darkness, shadows | darken | black, dark |
 majuta | help | help | helpful | 
 makisu | the most, the maximum |  | most 'the most blue' NOT as in 'most of them', 'most dogs love them', 'most everyone thinks so' | -est
+malaki | ownership, property, belongs | own | owning
 malu | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | bad, rotten, negative, evil | oh dear! woe! alas!
 mama | parent, mother, father | to parent/raise/nuture sb | parental, maternal, paternal |
 mani | money, (material?) wealth, currency, capital | cost | financial, financially, monetary
-manta | thought(s) | THINK | mental; of the mind |
+manta | thought(s), mind | THINK | mental; of the mind |
+masina| machine, device, contraption, motor, engine | | mechanical
 mila | thousand
 milijun | million
 mina | less
@@ -102,17 +107,17 @@ nalan | softness | soften (sth/sb) | soft, fluffy, gentle, gradual |
 namaku | obligation, requirement, need | to force, to require (with puha) need | should, must, necessary
 nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
 nasu | nose | to smell sth | 
-nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
-natula | nature, wilderness | | of nature, natural, wild, ruthless, unforgiving, dangerous, harsh, dog-eat-dog |
-nimi | word, name | to name sth; to call sth1 sth2 | |
-nisunta | consent, permission | consent, permit, allow | consensual, permitted, allowed
+nata | nothing, negation, zero; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
+natula | nature, wilderness | | of nature, natural, wild, ruthless, unforgiving, dangerous, harsh, dog-eat-dog, raw, undisturbed, unimproved |
+nimi | word, name | to name sth; *li nimi <sth1> na <sth2>* = to call sth1 sth2 | |
 nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
 nuwa | news, newness, novelty, youth, freshness | | new, young, fresh, additional |
-pakala | accident, mistake | do by mistake, screw up, botch, ruin sth; screw up, fall apart | accidental | damn !
+pa   | bang, pop, (~ muta) explosion | bang, pop, (~ muta) explode
+pakala | accident, mistake | do by mistake | accidental | damn !
 paku | container, box, bowl, cup, glass | to contain sth | |
-pali | activity, work, deed, project | do, make, build, create sth; act, work, function | active, work-related, operating, working |
+pali | activity, deed, project | do, make, build, create sth; act, work, function | active, work-related, operating, working |
 pamili | family; group of related things/people | | familial, related, of family
 pan | cereal, grain, rice; any staple food (usually a carbohydrate source) | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | |
@@ -130,6 +135,7 @@ pisi | part, piece, component  | | |
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with
 pulan | fullness, completion, whole | to fill sth, to fill (up) | full, fully, complete, completely, whole, wholely, entire
 puluki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
+pumisu | consent, permission | consent, permit, allow | consensual, permitted, allowed
 puna | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! OK! Cool! yay!
 pusiki | importance |  | important |
 pusipu | likelihood, probability, possibility, chance | | likely, probable, probably, possibly
@@ -157,16 +163,17 @@ sitala | stars, space | | of or related to stars or space
 siwi | high, up, above, top, over, | raise up | elevated, religious, formal | (prep) on sth
 sulusun | answer, solution, result | answer (sth), solve (sth), resolve
 sumin | SOME, somewhat, quite; an uncounted quantity/amount/number of things/people
+suntala | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
 sunu | sun, light (as in bright) | to emit light; illuminate sth | having the qualities or characteristics of sunu |
 supa | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | support | |
 susu | air, wind, smell, gas | to smell sth; to have a smell (good or bad) | air-like, ethereal, gaseous |
 suwi | sweets, sweet food, sugar | sweeten | sweet, sugary |
-tahala | slope, hill, mountain | | steep
+tahala | slope, hill, mountain, gradient | | steep
 tali | kind, type | categorise | |
 tan | origin, cause | | | prep from, by, because of, since
 tanka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
-tapalu | work, housework, chores | to work; to do chores | |
-tasa | ten
+tapalu | work, craft, housework, chores, career, profession, skill, practice of. eg number craft = mathematics | to work; to do chores | vocational, professional, career-related |
+tisan | ten
 tasu | | | only, sole | (conj) but
 tatu | truth; the truth; correctness | | true, right, correct |
 tawa | direction, heading | move towards, to be for/pro something, to agree | -wards, towards, in the direction of | (prep) to, in order to, towards, for, until
@@ -209,13 +216,16 @@ jupa | adj->verb: to make sth come to have the property of the following adj phr
 ka   | also, too, even, indeed (emphasizes the word(s) before it)
 ki   | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"
+liki | previous word or phrase is an adjective/adverb verb. *<noun> ~* = '<noun>y, <noun>ly'. Optional for increased clarity.
 lu   | she, he, it, they; her, his, its, their
 mi   | i/we; my/our
 na   | precedes the indirect object (second object), in a sentence with a ditransitive verb; eg 'he gives her the ball' = lu li pana i lu __na__ siki.
 ni   | this, that
+nisa | previous word or phrase is a noun. *<verb> nisa* '<verb>ation'; *nisa <adj>* '<adj>iness'. Optional to increase clarity.
 pi   | (sep) of, belonging to
 puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). *mi moku puha*! = "i am being eaten!"
 si   | you, your
 ta   | click, crack, pop
 u    | addressive marker: *jan Atan u* = "hey, adam", "@adam"; (sep) U Imperative: *u namu!* = "eat!"
+ula  | previous word or phrase is a verb. Optional for increased clarity.
 wa   | subject; about/regarding; context-phrase separator, topicaliser

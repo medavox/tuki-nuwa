@@ -12,8 +12,6 @@ merge new grammar word 'liki' with 'sama'
     seem
 split putala into actually physically attack, and more metaphorical/figurative competition or battle
 
-consider whether lina should also mean 'length', 
-    or whether a new word should be constructed to mean 'length' and 'long'
 ?whittle down meanings of nata to just 'not'; record other meanings
 remove negative meanings of pakala (eg 'screw up'): allow for Happy Little Accidents!
 do... something... with lun???
@@ -26,6 +24,7 @@ merge/separate lula and kaja
 merge/separate tapalu and pali?
 kama and pasa both mean happen
 expand/convert puki to more mean 'near'?; merge with nuni
+tusa, pima, lawan all mean touch
 
 ---
 
@@ -33,13 +32,9 @@ difference between 'many times' and 'much of the time'?
 
 solution: don't use the word time to mean 'occurrences'
 
-So instead, say 'I do that frequently' or 'I '
+So instead, say 'I do that frequently'
 
 or even (the equivalents of) often and for a long time?
-
-----
-
-luku puna: difference between 'good-looking' and 'seeing well'
 
 ----
 
@@ -180,7 +175,7 @@ These words could be stacked, so:
 *kala <adj> <vrb>* "to make something fishy"
 *kala <adj> <vrb> <nun>* "the act of making something fishy"
 
-*kala <vrb> <nun>* "swimming"  
+*kala <vrb> <nun>* "swimming"
 
 *kala <vrb> <adj>* "swimmy; of or related to swimming"
 *kala <vrb> <adj> <nun>* "swimminess -- being related to swimming, or the degree to which something is swimmy"

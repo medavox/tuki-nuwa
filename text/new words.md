@@ -22,6 +22,35 @@ adj    | adjective: describing word
 sth    | something
 sb     | someone/somebody
 
+Auxiliary Verbs
+--------------
+
+English has a rich set of auxiliary verbs, which Pinker says are used as 'function words', different than verbs etc.
+They "assert something about the rest of the sentence as a whole".
+
+Though a large group, it is a 'closed class' in natural languages; 
+eg, one that is added to infrequently.
+
+Right now, Tuki Nuwa just throws them in front of the rest of the sentence, as in English.
+But should this be so?
+
+Should we use this system as in English? 
+if so, how?
+if not, what other system can we use to encode meaning?
+(I am rather anglocentric here, can't think of another way to express this other than inflection)
+
+how about a new grammar particle which comes between the auxiliary verb(s) and the actual verb phrase?
+
+----
+
+You know, all that auxiliary verbs do is modify the meaning of the verb they attach to,
+like adverbs.
+
+If there was an adverb in English meaning 'beginningly',
+we could say "He is beginningly doing it," meaning "he's starting to do it".
+
+Nice idea?
+
 Grammar Words
 -------------
 
@@ -29,24 +58,19 @@ Status:Notes | Usage (= POS) | Meaning
 -------------|---------------|----------
 + | BE (SOMEONE/SOMETHING) kopula???
 ? probably this is a copula | *<word> <adj>* = to be <adj> | to have the property of the following adj phrase; to be <adj phrase>
-+:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
-+ liki  | verb, liki <noun> = <noun>ly etc | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like; LIKE~AS~WAY, similar to, in a similar manner to
-nisa | *nisa <verb>* = the act of <verb>ing, <verb>tion; *nisa <adjective>* = <adj>ness, state of being <adj> | **next word or phrase is a noun**.
-ula/sulu | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the following verb-phrase a noun.
-sa | sa <word> = verb | select verb meaning of next word
-   | | select adjective meaning of next word
-ends a noun-phrase
-word which precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
-cause to <vrb>
 
-nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
-it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
++:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
+sulu | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the following verb-phrase a noun.
++ | precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
+cause to <verb>; force/make sb/sth (to <verb>)
+make sth <adj>
+become <adj>
+grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
+(for) each, per, every
 
 to Xify = jupa
 to be Xified jupa X puha
 to become X = iku
-
-empty, without, absent, absence
 
 Main List
 ---------
@@ -57,6 +81,7 @@ as the (usually non-chinese) word with the highest number of speakers that
 
 possible lexeme | Noun | Verb | Adjective | Other
 ----------------|------|------|-----------|------
+LIKE~AS~WAY
 atapisu, jatun pali pi jan | | | artificial, man-made |
 hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
@@ -64,56 +89,49 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 + | fictional, imaginary; story; figurative; metaphorical
 + | the spiritual world, eg religious, holy, divine, spiritual
-+ | temporary, for now
-+ | (for) each, per, every
 +**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
-+ | | bounce | bouncy, springy, resilient; prone to returning to its original shape or position
++ | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
 **ilikan** | social class, status | | high-status, fancy, posh
-bang
-+:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
-+ make-have without permission | theft | steal | stolen, thieving
 + | | like, enjoy, prefer
 **likula**, **numali** | normal, usual, regular
-+ | through
++ | through, pierce
 + | clean | pali jaki nata; kika jaki
 + | music | kalama musi 
 + **pulanta**, **ansijan**, **antiku**, **pulatan** | old
-+ | | squeeze, crush, hug
-enclose, surround, envelope, circum~
-masina | machine, device, contraption, motor, engine | | mechanical
++ | | squeeze, crush, hug, constrict
 pulisu | the police | police sth/sb | 
 nina | bump, hill, mountain, button | to protrude | |
-lose something, eg an object (to not have anymore)
-put on clothes == come to wear, begin to wear
-grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
 frequency, often, again, never, sometimes, rarely
-asapa | fail/lose
 describe, property, talk about
-cause to 
 self?
 intanta | try, attempt
-careful, caution
-cover, obscure, block
-vomit
+**sapatan** | careful, caution
+cover, obscure, block, hide
 binding
 to tie sth
-control
-craft, skill, practice of. eg number craft = mathematics
+**kantula** | control
 there are
 if...then
-ownership, property, belongs
 against (as in anti something)
 + | breast | nina kupa?
-+ | thin | 
+pinju | thin | 
 * | be on something | siwi
 **saman**? or already *sinpin* | in front of | 
 + | around | 
 + | ground | *apa*, *supa*
 + | stone | *kahin lula*?
 + | stand | *li siwi puha i nuka*
-force sb (to do sth)
+take
+between
+half
+general
+specific
+
+lose something, eg an object (to not have anymore)
+put on clothes == come to wear, begin to wear
++ make-have without permission | theft | steal | stolen, thieving
 
 Excess meanings
 ------
@@ -127,14 +145,9 @@ NOTE: DELETE ENTRIES FROM THIS LIST WHEN THEIR MEANING HAS BEEN REASSIGNED!
 former word | removed meaning (which may need reassigning to a new word)
 ------------|-----------------------------------------------------------
 malu        | complex/needlessly complicated
-siwi        | divine
-nasa        | crazy; to confuse sth/sb, make weird; silly, foolish, drunk, strange, stupid, weird
-hilu (was lete) | uncooked, raw
-sunu        | shiny
+nasa        | crazy; to confuse sth/sb; silly, foolish, strange, stupid, weird
+hilatu      | uncooked, raw
 puna        | beneficial; benevolent, altruistic, kind, symbiotic; helpful, cooperating; ideal; conducive to overall wellness
-pilin       | heart; touch
-pakala      | ruin, spoil
-sasa        | explosion, bang
 kama        | manage to
 wapa        | fierce, intense, confident
 
@@ -151,7 +164,7 @@ wapa        | fierce, intense, confident
 * physically deep
 * figuratively deep
 
-tasan
+tasan/imasu
     representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model
     picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,
     diagram, chart, graph
@@ -181,7 +194,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | heart | sinta kupa
 + | desert | lula sikusa satu
 + | sea | wata sala
-+ ila(n)/**isula**/insilu | island | 
 + | jungle / forest | kasi satu muta sasa
 + | snow | wata hilu hilu pasita
 + | ice | wata hilu hilu kahin
@@ -278,7 +290,7 @@ camel |
 buffalo | 
 moose | *suwilu puki kawisa kapi ula liwa lula hilu* (animal with head sticks, which lives in cold countries)
 thread | lina lili
-stranger | jan sawa <passive> nata
+stranger | jan sawa puha nata
 juna: youth, young | nuwa
 wheel | siki
 flour | nunka nami
@@ -357,3 +369,6 @@ burn | pana i iju na sasa 'give fire to something'
 **hisa** = sharing; share | *pani pisi* 'part-give', or *pani i pisi na jan* 'give a part to someone'
 still <verb>, continue to <verb> | awin
 for (as in with us or against, pro something) | tawa
+vomit | pana (pi uta) i telo jaki
+temporary, for now | *pi ipuki ni tasu*
+receive | *pana puha*

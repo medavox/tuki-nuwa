@@ -3,21 +3,31 @@ Words from Donald E Brown's Universal People
 
 via Steven Pinker's Language Instinct
 
+noneday
+oneday
+twosday
+threesday
+foursday
+fiveday
+sixturday
+
+
+
 Universal group name | Universal group members | Word in Tuki Nuwa
 ---------------------|-------------------------|------------------
-day(s)               |                         | tajan
-   sunday            | tajan sunu
-   monday            | tajan muna
-   tuesday           | tajan tu
-   wednesday         | tajan sinta
-   thursday          | 
-   friday            | 
-   saturday          | 
-months               |                         | muna
-season(s)            |                         | <year> pisi
-past                 |                         | jatun; ipuki jatun
+day(s)               |                         | tina
+   sunday            | tina nata or tina sunu
+   monday            | tina wan or tina muna
+   tuesday           | tina tu
+   wednesday         | tina san
+   thursday          | tina kata
+   friday            | tina lawan
+   saturday          | tina pulan
+months               |                         | ipuki muna
+season(s)            |                         | sanja pisi
+past                 |                         | jatun nisa; ipuki jatun
 present              |                         | ipuki ni
-future               |                         | hinsu; ipuki hinsu
+future               |                         | hinsu nisa; ipuki hinsu
 body parts           |                         | pisi kupa
    torso             | kupa
    head              | kapi

@@ -210,3 +210,40 @@ Germanic languages: preposition-numeral-adjective-noun
 Romance languages:  preposition-numeral-noun-adjective
 Bantu languages:    preposition-noun-numeral-adjective
 
+---------
+
+All nouns only *have* an adjectival property:
+
+*wata li hapa wata liki nisa* water **has** wet(ness)
+\* *wata li wata liki* water **is** wet
+
+-----
+
+You can use the Part-Of-Speech-Marking words to precisely refer to a specific concept, if needs be.
+
+Using *kala* "fish / fishy, fish-like / to swim" (noun, adjective or verb -- depending on use in sentence):
+
+*liki kala* "fishy"  
+*ula kala* "to swim"  
+*nisa kala* "(a) fish"  
+
+*nisa liki kala* "fishiness (the degree to which something is fishy, or the state of being fishy), fishness (the quality of being fish-like), fish-hood"  
+*ula liki kala* "to make something fishy"
+*nisa ula liki kala* "the act of making something fishy"
+
+*nisa ula kala* "swimming"
+
+*liki ula kala* "swimmy; of or related to swimming". eg tulu luku pi liki ula kala - eye tools for swimming = swimming goggles.
+*nisa liki ula kala* "swimminess -- being related to swimming, or the degree to which something is swimmy"
+*ula nisa kala* "doing something related to fish" you might think "fishing", but no -- that would be *awasa kala*.
+
+6 rules emerge:
+
+ula  *noun* - doing something related to *noun*
+liki *noun* - *noun*y; *noun*-like
+
+nisa *verb* - *verb*ing; the act of *verb*ing
+liki *verb* - *verb*y; of or relating to *verb*
+
+nisa *adj* - *adj*iness; the degree to which something is *adj*-like
+ula  *adj* - *adj*ify; to make something *adj*-like

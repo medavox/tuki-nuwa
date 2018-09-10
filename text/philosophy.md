@@ -299,3 +299,8 @@ eg should/must/obligation starts as should without any modifiers
 
 Have a collection of third-person pronouns which are used for different entites in the context;
 referents for the first, second and third introduced things in a sentence
+
+-----
+
+nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
+it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
