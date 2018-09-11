@@ -1,5 +1,6 @@
 Word | Noun | Verb | Modifier |  Other (interj, conj, prep)
 -----|------|------|----------|----------------------------
+a    |      |      |          | and
 ajula | egg, seed |  | 
 ajunsi | left (NOT politically or 'remaining') | | left (spatial) |
 akawi | right (NOT correctness or political) | | right (spatial) |
@@ -16,10 +17,12 @@ asitu | seat, chair, somewhere to sit down | sit, sit down | seated, sat down
 atani | difference | change, alter, modify | different, other | otherwise, or else
 awasa | Hunting, gathering, hunter-gathering, collection | to gather, collect, harvest, hunt | together, gathered, collected |
 awin | memory | stay, wait, remain; carry, keep, continue, hold, remember | remaining, stationary, permanent, sedentary
+ha   | | | | ah, ha, uh, oh, ooh, aw, well
 hansi | hair, fur, feathers | | hairy, furry, feathery |
 hapa | having, ownership, property | have, contain | | kama-> get, obtain
 hasaki | knife, blade, sword, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
+hi   | | | | (interj) hey! (calling sb's attention)
 hilanu | | | after
 hilu | cold | cool sth down, chill sth; to cool, cool down | cold
 hina | back, rear end, butt, behind | | back, rear |
@@ -36,6 +39,8 @@ isun | shop, store, place of commerce, trade | buy sth, trade, barter; shop | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty sth | dirty, gross, filthy | ew! yuck!
 jala | yellowness, the colour yellow | to make sth yellow | yellow, light green |
 jan | person, people, human, being, somebody, anybody | personify, anthropomorphise, humanize, personalize | human, somebody's, personal, of people |
+ju   | | | | or
+ka   | | | | also, too, even, indeed (emphasizes the word(s) before it)
 kahin | hard thing, rock, stone, metal, mineral, clay | | hard, solid, stone-like, made of stone or metal (kahin kasi = wood) |
 kaja | the Earth, ground | | of/related to the Earth or ground; earthly |
 kajusi | | | brown/grey: colour of stone, mud, metal
@@ -72,6 +77,7 @@ lili | smallness (eg size) | reduce, shorten sth; shrink, lessen | small, little
 linja | long, very thin, floppy thing, e.g. string, rope, hairs, thread, cord, chain, wire  | | fibrous
 lipu | flat and bendable thing, e.g. paper, card, ticket, leaf. Also book, page (of book, or web page) | | |
 liwa | life, living | to live | alive, live (/lajv/), on (as in electricity, not as a preposition) living
+lu   | | | | she, he, it, they; her, his, its, their
 luhi | | | red |
 luku | eye | see, look at, watch, read sth/sb; (imperative) look, watch out, pay attention | visual(ly) |
 lula | land, earth, country, (outdoor) area | | | precedes place name, eg 'lula Mewika'
@@ -87,6 +93,7 @@ mama | parent, mother, father | to parent/raise/nuture sb | parental, maternal, 
 mani | money, (material?) wealth, currency, capital | cost | financial, financially, monetary
 manta | thought(s), mind | THINK | mental; of the mind |
 masina| machine, device, contraption, motor, engine | | mechanical
+mi   | | | | i/we; my/our
 mila | thousand
 milijun | million
 mina | less
@@ -110,6 +117,7 @@ nasu | nose | to smell sth |
 nata | nothing, negation, zero; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
 natula | nature, wilderness | | of nature, natural, wild, ruthless, unforgiving, dangerous, harsh, dog-eat-dog, raw, undisturbed, unimproved |
 nimi | word, name | to name sth; *li nimi <sth1> na <sth2>* = to call sth1 sth2 | |
+ni   | | | | this, that
 nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
@@ -149,6 +157,7 @@ sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | h
 satisu | enough | satisfy | enough, satisfactor(il)y
 satu | size |  | big, tall, large |
 sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
+si   | | | | you, your
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
 sikaha | safety, protection | protect, to make sth safe | safe, protected
 sikusa | dryness | to dry out, dry sth | dry |
@@ -205,27 +214,17 @@ Glue Words
 
 Word | Meaning
 -----|--------
-an   | and
-ha   | ah, ha, uh, oh, ooh, aw, well
-hi   | (interj) hey! (calling sb's attention)
 hinsu | noun: the future. future-tense marker; replaces li in a sentence. *Ipuki kama wa, mi hinsu pali i lu.* "I'll do it later."
 i    | marks start of object noun-phrase (introduces a direct object)
 jatun | noun: the past. past-tense marker; replaces li in a sentence. *Lu jatun pini i ni* "he started this/that"
-ju   | or
 jupa | adj->verb: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; *sasa mupa li jupa hilu i mi*  "the wind is making me cold"; *mi jupa sikaha i tumu*  "I'm making the room safe"
-ka   | also, too, even, indeed (emphasizes the word(s) before it)
 ki   | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"
 liki | previous word or phrase is an adjective/adverb verb. *<noun> ~* = '<noun>y, <noun>ly'. Optional for increased clarity.
-lu   | she, he, it, they; her, his, its, their
-mi   | i/we; my/our
 na   | precedes the indirect object (second object), in a sentence with a ditransitive verb; eg 'he gives her the ball' = lu li pana i lu __na__ siki.
-ni   | this, that
 nisa | previous word or phrase is a noun. *<verb> nisa* '<verb>ation'; *nisa <adj>* '<adj>iness'. Optional to increase clarity.
 pi   | (sep) of, belonging to
 puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). *mi moku puha*! = "i am being eaten!"
-si   | you, your
-ta   | click, crack, pop
 u    | addressive marker: *jan Atan u* = "hey, adam", "@adam"; (sep) U Imperative: *u namu!* = "eat!"
 ula  | previous word or phrase is a verb. Optional for increased clarity.
 wa   | subject; about/regarding; context-phrase separator, topicaliser
