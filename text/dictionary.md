@@ -7,7 +7,7 @@ akawi | right (NOT correctness or political) | | right (spatial) |
 akisi | reptile, amphibian, scaly/slimy animal/creature | | akisi-looking, akisi-like |
 alama | sound, noise, voice | to sound <adj> (eg loud, pleasant, annoyiing, repetitive), sound sth (eg a bell, an alarm) play (an instrument); make noise | noisy, loud |
 ali | life, the universe, everything | | all, every, complete, whole |
-alu | | | | hello
+alu | | | | hello! hi!
 amika | friend | befriend sb, make friends | friendly
 amula | love | to love (a person) | love |
 animu | animal, esp. land mammal | | |
@@ -67,6 +67,7 @@ kunputa | computer; the software world; things 'on' or 'in' computers; the inter
 kunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like |
 kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
+kuwisi | question, query | ask, query, question | questioning, quizzical
 lamuli | happiness, laughter | be happy, to laugh | happy/laughing, funny
 lanki | LENGTH | to lengthen sth; to get longer, lengthen | long
 lapi | sleep, rest | sleep, rest | of sleep |
@@ -91,6 +92,7 @@ malaki | ownership, property, belongs | own | owning
 malu | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | bad, rotten, negative, evil | oh dear! woe! alas!
 mama | parent, mother, father | to parent/raise/nuture sb | parental, maternal, paternal |
 mani | money, (material?) wealth, currency, capital | cost | financial, financially, monetary
+mansa | meat, flesh, muscle | | meaty, muscly, muscled
 manta | thought(s), mind | THINK | mental; of the mind |
 masina| machine, device, contraption, motor, engine | | mechanical
 mi   | | | | i/we; my/our
@@ -122,7 +124,7 @@ nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
 nuwa | news, newness, novelty, youth, freshness | | new, young, fresh, additional |
-pa   | bang, pop, (~ muta) explosion | bang, pop, (~ muta) explode
+pa   | click, crack, bang, pop, (~ satu) explosion | bang, pop, (~ muta) explode
 pakala | accident, mistake | do by mistake | accidental | damn !
 paku | container, box, bowl, cup, glass | to contain sth | |
 pali | activity, deed, project | do, make, build, create sth; act, work, function | active, work-related, operating, working |
@@ -140,6 +142,7 @@ pima | finger(s) | to touch sth with fingers |
 pini | end, tip, edge, limit | finish, close, end, turn off (sth) | completed, finished, past, done, ago |
 pipi | bug, insect, spider; arthropod, eg lobster | | |
 pisi | part, piece, component  | | |
+pita | stone, rock | | rocky, stony
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with
 pulan | fullness, completion, whole | to fill sth, to fill (up) | full, fully, complete, completely, whole, wholely, entire
 puluki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
@@ -153,10 +156,11 @@ sala | salt | | salty |
 sama | self, similarity | | same, similar, equal, of equal status or position, equivalent | (prep) like, as, seem
 san | three, triplet | triple | three
 sanja | year | | yearly, annual
+sapatan | caution | be careful | careful, cautious
 sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
 satisu | enough | satisfy | enough, satisfactor(il)y
 satu | size |  | big, tall, large |
-sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
+sawa | knowledge, wisdom, information, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
 si   | | | | you, your
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
 sikaha | safety, protection | protect, to make sth safe | safe, protected

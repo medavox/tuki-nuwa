@@ -27,6 +27,8 @@ Auxiliary Verbs
 
 English has a rich set of auxiliary verbs, which Pinker says are used as 'function words', different than verbs etc.
 They "assert something about the rest of the sentence as a whole".
+Wikipedia says they "add functional or grammatical meaning to the clause in which it appears,
+such as to express tense, aspect, modality, voice, emphasis etc"
 
 Though a large group, it is a 'closed class' in natural languages; 
 eg, one that is added to infrequently.
@@ -106,8 +108,7 @@ nina | bump, hill, mountain, button | to protrude | |
 frequency, often, again, never, sometimes, rarely
 describe, property, talk about
 self?
-intanta | try, attempt
-**sapatan** | careful, caution
+tintati intinta | try, attempt
 cover, obscure, block, hide
 binding
 to tie sth
@@ -121,13 +122,13 @@ pinju | thin |
 **saman**? or already *sinpin* | in front of | 
 + | around | 
 + | ground | *apa*, *supa*
-+ | stone | *kahin lula*?
 + | stand | *li siwi puha i nuka*
 take
 between
 half
 general
 specific
+law, rule
 
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
@@ -236,7 +237,6 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
   | danger | | dangerous |
   |  | | primitive | obscure
   | knot (connection? mess? order?)
-? | | | low-status | may just be insulting
 + | | | squat
   | | uncooked, raw | jatun kukin puha nata
 + | participatory, interactive
