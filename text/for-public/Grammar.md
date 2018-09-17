@@ -116,7 +116,6 @@ prospective|           | going to start
 static(stative)/dynamic
 ------
 
-
 whether the verb contains change over time (stand up, go to sleep, combust),
  or a state the subject is in (sleeping, standing, burning). 
 
@@ -158,17 +157,40 @@ ditransitive (3 arguments): the does something to/at the object, which involves 
  
 *john gives the ball to Mary*
 
-`give(john, ball, mary)`
+`give(john, mary, ball)`
 
 or 
 
-`john.give(ball, mary)`
+`john.give(mary, ball)`
 
 transitivity is more up for debate: it may not be a sophisticated enough system for desrcibing
 what is actually going on with language. 
 
 Pinker suggests in thr language instinct that each verb is listed in the mental dictionary
 as needing a specific set of arguments, each with a type (such as noun phrase, preposition-phrase).
+
+valency
+------
+
+This more complex system is called valency, and we're going to start looking at it.
+
+Along with the already-described transitivity options, there are extra types of valency:
+
+Transitivity    | Valency     | verb arguments | example
+----------------|-------------|----------------|------------
+(not described) | Avalent     | 0 (only takes a dummy argument) | the *it* in 'It rains' refers to nothing
+intransitive    | monovalent  | 1              | He slept
+transitive      | bivalent    | 2              | They stabbed Jon
+ditransitive    | trivalent?  | 3              | He gave Mary the ball
+
+Some verbs only take a certain type of argument;
+eg in English, the second argument of the verb *put* must be a locative clause (describing a location):
+
+I put the cup *on the table*
+
+\*I put the cup *table*
+
+The concept of valency could even be extended to describe complex set phrases, such as if/then.
 
 Moods
 ----
@@ -190,11 +212,13 @@ deontic -- could, should, must, desire
 
 epistemic -- likelihood or possibility, inferentiality
 
-Can be any one of these (or other more obscure ones; the mood category is pretty open-ended).
+Can be any one of these (or other more obscure ones; the mood category seems pretty open-ended).
 
-imperative - *u <verb>!*
-interrogative - *ki si wilu nami?* 'do you want to eat?', *si wilu i simi* 'what do you want?'
-indicative -- statement of fact -- *suwilu li nami i kiwi* 'animal eat(s) fruit'
+fancy mood name | description    | example
+----------------|----------------|--------
+indicative      | a statement    | *mi wilu nami* 'I want to eat'
+interrogative   | a question     | *ki si wilu nami?* 'do you want to eat?'; *si wilu i simi* 'what do you want?'
+imperative      | a command      | *u nami!* 'Eat!'
 conditional, subjunctive, optative -- if I were a rich man...
 
 
@@ -209,6 +233,8 @@ Chinese languages:  numeral-adjective-noun-postposition
 Germanic languages: preposition-numeral-adjective-noun
 Romance languages:  preposition-numeral-noun-adjective
 Bantu languages:    preposition-noun-numeral-adjective
+
+Tuki Nuwa:          
 
 ---------
 
