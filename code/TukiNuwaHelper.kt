@@ -54,7 +54,7 @@ private val validWord = Regex("[$consonants]?[$vowels]n?([$consonants][$vowels]n
 
 fun main(args: Array<String>) {
     if(args.isEmpty()){
-        e.println("ERROR: at least command is required.")
+        e.println("ERROR: at least one command is required.")
         return
     }
     val t = SyllableGenerator()
@@ -113,7 +113,7 @@ fun main(args: Array<String>) {
 
     val dictionary = scrapeWordsFromDictionary(dict)
     when(command) {
-        //check the dictionary for errors, both proper and bad ideas
+        //check the dictionary for errors, both proper ones and bad ideas
         "lint", "l" -> {
             var complaints = 0
             if(args.size == 3) {
@@ -543,16 +543,12 @@ private fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
     val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
     val words = mutableListOf<String>()
     for (i in 2 until byLine.size) {//start after the table heading
-        //o.println("line: "+byLine[i]);
         val pat = Pattern.compile("([$consonants$vowels]+)[ \t]*\\|.*")
         val mat = pat.matcher(byLine[i])
         if(!mat.matches()) {
             //e.println("line ${i+1} is not a word row:\"${byLine[i]}\"")
             continue
         }
-        //o.println("group count: "+mat.groupCount());
-        //o.println("group :"+mat.group());
-        //o.println("matches: "+mat.matches());
         words.add(mat.replaceAll("$1"))
     }
     o.println("dictionary words: ${words.size}")
