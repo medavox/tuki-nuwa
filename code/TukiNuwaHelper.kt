@@ -37,12 +37,6 @@ private const val consonants = stops+nasals+fricatives+approximants
 private const val vowels = "aiu"
 
 private val forbiddenSyllables = arrayOf("ji", "wu")
-private val lel = mapOf(
-        'a' to setOf('u'),
-        'm' to setOf('n', 'p'),
-        'w' to setOf('m', 'l', 'j')
-)
-private const val allowSyllableFinalN = true
 
 //ansi colour-terminal escape codes
 //https://en.wikipedia.org/wiki/ANSI_escape_code#Escape_sequences
@@ -361,8 +355,6 @@ fun queryUnusedWords(t:SyllableGenerator, dictionary:Array<String>, string:Strin
     }
     return ret.toString()
 }
-
-
 
 private fun containsForbiddenSyllable(word: String): Boolean {
     for (forbSyl in forbiddenSyllables) {
