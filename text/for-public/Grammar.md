@@ -8,8 +8,6 @@ A word's role in a sentence is inferred from context, word-order, li and i marke
 
 But if a word's meaning can't be inferred, or a more complex form is required, explicit grammar words can be used to indicate part-of-speech, for instance in a complex noun phrase.
 
-
-
 Forming Questions
 ==========
 

@@ -15,6 +15,7 @@ split putala into actually physically attack, and more metaphorical/figurative c
 ?whittle down meanings of nata to just 'not'; record other meanings
 remove negative meanings of pakala (eg 'screw up'): allow for Happy Little Accidents!
 do... something... with lun???
+do something with jupa
 
 partial overlap
 ----
