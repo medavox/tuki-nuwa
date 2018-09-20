@@ -106,6 +106,79 @@ fun main(args: Array<String>) {
         return
     }
 
+    //search the definitions of each word to try and find duplicate/similar/overlapping entries
+    if(command == "duplicates" || command == "d") {
+        val wholeDict = dict.readText()
+        val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }
+        val tnByWordsInProgress = mutableMapOf<String, Array<String>>()
+        //create a map of each tuki nuwa word, and the english words in its definitions
+        for (line in byLine) {//start after the table heading
+            val pat = "(^[$consonants$vowels]+)[ \t]*\\|"
+            val pati = Regex(pat+".*")
+            val definitionWords = line.replace(Regex(pat), "")
+            val tnWord = line.replace(pati, "$1")
+            val defWords:Array<String> = definitionWords.replace(Regex("[^a-zA-Z ]+"), " ")
+                    .split(" ").filter { it.isNotEmpty() }.map{ it.toLowerCase() }
+                    .toTypedArray()
+            o.println(tnWord+": "+Arrays.toString(defWords))
+            if(!line.matches(pati)) {
+                //e.println("line ${i+1} is not a word row:\"${byLine[i]}\"")
+                continue
+            }
+
+            tnByWordsInProgress.put(tnWord, defWords)
+        }
+        val tnByWords:Map<String, Array<String>> = tnByWordsInProgress
+        val englishWordsByFrequency = mutableMapOf<String, Int>()
+        val englishWordToTnWordOccurences = mutableMapOf<String, MutableSet<String>>()
+        for(entry in tnByWords.entries) {
+            for(englishWord in entry.value) {
+                val currentFreq = englishWordsByFrequency[englishWord]
+                if(currentFreq == null) {
+                    englishWordsByFrequency.put(englishWord, 1)
+                }else {
+                    englishWordsByFrequency.put(englishWord, currentFreq+1)
+                }
+
+                val currentTnWords = englishWordToTnWordOccurences[englishWord]
+                if(currentTnWords == null) {
+                    englishWordToTnWordOccurences.put(englishWord, mutableSetOf(entry.key))
+                }else {
+                    currentTnWords.add(entry.key)
+                    //todo:check if just doing above works
+                    // (existing val is a reference to the same set that is in the map),
+                    //or not (the reference is a copy-on-write reference, or something..?)
+                }
+            }
+        }
+        val sortedByFrequency:List<Pair<String, Int>> = englishWordsByFrequency.toList()
+                .sortedByDescending { (_, v) -> v }
+        for(freqPair in sortedByFrequency) {
+            if(freqPair.second < 2) continue//if there <2 occurrences, it can't be a duplicate!
+            val tnWords = englishWordToTnWordOccurences[freqPair.first]
+            if(tnWords != null && tnWords.size > 1) {
+                System.out.println("the word \"${freqPair.first}\" occurs ${freqPair.second} times," +
+                    "in the definitions of the following tuki nuwa words:")
+
+                for(tnWord in tnWords) {
+                    System.out.println("\t$tnWord")
+                }
+            }
+        }
+        return
+        /*a map of all words and their definitions
+        a map of each english word used in definitions to the TN words that have it
+        maybe a frequency mapping of the number times each word is used in total?
+
+        so:
+        create the second 2 maps using the first map.
+        sort the frequency map by lowest occurrences.
+        starting from words that occur 2 times,
+        list the english words which occur in more than one TN word entry,
+        including the TN entries they occur in
+        */
+    }
+
     val dictionary = scrapeWordsFromDictionary(dict)
     when(command) {
         //check the dictionary for errors, both proper ones and bad ideas
