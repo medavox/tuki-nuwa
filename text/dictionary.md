@@ -67,7 +67,7 @@ kunputa | computer; the software world; things 'on' or 'in' computers; the inter
 kunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like |
 kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
-kuwisi | question, query | ask, query, question | questioning, quizzical
+kuwisi | question, query | ask, query, question | questioning, quizzical | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 lamuli | happiness, laughter | be happy, to laugh | happy/laughing, funny
 lanki | LENGTH | to lengthen sth; to get longer, lengthen | long
 lapi | sleep, rest | sleep, rest | of sleep |
@@ -222,13 +222,13 @@ hinsu | noun: the future. future-tense marker; replaces li in a sentence. *Ipuki
 i    | marks start of object noun-phrase (introduces a direct object)
 jatun | noun: the past. past-tense marker; replaces li in a sentence. *Lu jatun pini i ni* "he started this/that"
 jupa | adj->verb: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; *sasa mupa li jupa hilu i mi*  "the wind is making me cold"; *mi jupa sikaha i tumu*  "I'm making the room safe"
-ki   | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
+ki   | subclause marker: marks the start of a subclause
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"
 liki | previous word or phrase is an adjective/adverb verb. *<noun> ~* = '<noun>y, <noun>ly'. Optional for increased clarity.
 na   | precedes the indirect object (second object), in a sentence with a ditransitive verb; eg 'he gives her the ball' = lu li pana i lu __na__ siki.
 nisa | previous word or phrase is a noun. *<verb> nisa* '<verb>ation'; *nisa <adj>* '<adj>iness'. Optional to increase clarity.
 pi   | (sep) of, belonging to
-puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). *mi moku puha*! = "i am being eaten!"
+puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). *mi nami puha*! = "i am being eaten!"
 u    | addressive marker: *jan Atan u* = "hey, adam", "@adam"; (sep) U Imperative: *u namu!* = "eat!"
 ula  | previous word or phrase is a verb. Optional for increased clarity.
 wa   | subject; about/regarding; context-phrase separator, topicaliser
