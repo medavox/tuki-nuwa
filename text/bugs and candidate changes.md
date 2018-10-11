@@ -66,6 +66,11 @@ why not instead just:
 
 difference between vt 'make someone laugh' and vt 'laugh at someone'?
 
+
+----
+
+replace *pasila* 'simple' with a word for 'complexity |  complicate | complex, complicated'
+
 -----
 
 how to convey an adjective which is completed transforming verb? eg cooked fish
