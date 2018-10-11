@@ -140,7 +140,7 @@ lie |
 stand | 
 play | 
 laugh | 
-sing | 
+sing | kantu
 
 Some non-universal but useful words
 ==========
