@@ -3,7 +3,9 @@
 Lesson 1: Introduction
 =====
 
-toki! I'm glad you've decided to give these lessons a look. Hopefully
+Alu!
+
+I'm glad you've decided to give these lessons a look. Hopefully
 this introduction will answer any questions you may have. If you're
 thinking about learning Toki Pona, hopefully this introduction will also
 give you a feel for what lies ahead.

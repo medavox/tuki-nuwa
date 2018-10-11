@@ -1,19 +1,17 @@
-[o kama sona e toki pona!](okamasona.php){.oks}
+[o kama sona e Tuki Nuwa!](okamasona.php){.oks}
 
 Lesson 2: Alphabet and Pronunciation
 ======
 
 
-There are fourteen letters in the Toki Pona alphabet: nine consonants (j
-k l m n p s t w) and three vowels (a e i o u).
+There are thirteen letters in the Tuki Nuwa alphabet: ten consonants
+(h j k l m n p s t w) and three vowels (a i u).
 
 ```
 a h i j k l m n p s t u w
 ```
 
 Each letter only ever makes one sound, but how you pronounce that sound is up to you.
-
-
 
 
 Consonants
@@ -52,8 +50,8 @@ In English, vowels are pronounced many different ways depending on the
 word. In Tuki Nuwa, though, the vowels are all regular and never change
 pronunciation.
 
-If you're familiar with Spanish, Italian, or Esperanto, you'll recognize
-that Toki Pona's vowels are the same as in those languages. Study this
+If you're familiar with Spanish, Italian, or Esperanto, you'll recognise
+that Tuki Nuwa's vowels are the same as in those languages. Study this
 chart:
 
   -------- --------------------
@@ -64,27 +62,27 @@ chart:
   -------- --------------------
 
 Now that you've learned the alphabet, check out this neat little picture
-by Nikitia Ayzikovsky, an early Toki Pona speaker. It shows fourteen
-different Toki Pona words, each beginning with a different letter from
-the Toki Pona alphabet, and there's also a picture of what each word
+by Nikitia Ayzikovsky, an early Tuki Nuwa speaker. It shows fourteen
+different Tuki Nuwa words, each beginning with a different letter from
+the Tuki Nuwa alphabet, and there's also a picture of what each word
 represents. (Note that Elena \[Greek\] is an unofficial word. When this
-graphic was made, Toki Pona had no nouns beginning with the letter e.)
+graphic was made, Tuki Nuwa had no nouns beginning with the letter e.)
 
 ![](learn/oks/aei.jpg)
 More Advanced Stuff
 
 As long as you've mastered the above material, you know everything you
-need to continue learning basic Toki Pona. If learning the alphabet and
+need to continue learning basic Tuki Nuwa. If learning the alphabet and
 pronunciation was easy for you and if you feel confident, go ahead and
 read the rest of this lesson now. However, if you had a difficult time
 with the above material, just focus on it for now, and return to finish
 this lesson at a later time. (The information is still important if you
-hope to master Toki Pona, so come back to it later.)
+hope to master Tuki Nuwa, so come back to it later.)
 
-There are a few more things to learn about Toki Pona pronunciation and
+There are a few more things to learn about Tuki Nuwa pronunciation and
 style:
 
-Toki Pona words don't need to be capitalized, even at the beginning of 
+Tuki Nuwa words don't need to be capitalized, even at the beginning of 
 a sentence!
 Capitalise them if you want to, but know that *there is no wrong way
 to capitalise Tuki Nuwa*.
@@ -95,10 +93,10 @@ Capitalize unofficial words (i.e., the names of people, places,
 religions, etc.) A few examples:\
 jan Susan li pona. = Susan is good. (Susan, a person's name, is the only
 word capitalized in this sentence.)\
-ma Elopa li suli. = Europe is big. (Europe isn't one of Toki Pona's 120
+ma Elopa li suli. = Europe is big. (Europe isn't one of Tuki Nuwa's 120
 official words, so it's capitalized.)
 
-Because Toki Pona has so few consonants, you have some flexibility with
+Because Tuki Nuwa has so few consonants, you have some flexibility with
 pronouncing them. In addition to the pronunciations you learned above,
 here's a quick list of some of the alternate pronunciations that certain
 consonants can have:
@@ -111,7 +109,7 @@ consonants can have:
   s        zoo
   -------- --------------------
 
-Toki Pona's syllables all follow a pattern: consonant + vowel + optional
+Tuki Nuwa's syllables all follow a pattern: consonant + vowel + optional
 n. If a syllable is at the beginning of a word, the consonant is
 optional. (For example, ali and unpa don't begin with consonants.) The
 optional n is forbidden if the next syllable begins with m or n. Four
