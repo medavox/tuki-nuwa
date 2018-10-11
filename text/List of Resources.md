@@ -47,3 +47,14 @@ Adding Words
 https://www.learnthat.org/pages/view/roots.html
 https://www.learnthat.org/pages/view/suffix.html
 
+Published Works
+========
+
+* Stephen Pinker, *The Language Instinct*, 1994
+* George Lakoff and Mark Johnson, *Metaphors We Live By*, 1980
+* 
+
+Learning From The Past Attempts of Others
+======
+
+[JBR's ranto pages](http://jbr.me.uk/ranto/), dissecting Esperanto -- used as a list of pointers of what *not* to do
