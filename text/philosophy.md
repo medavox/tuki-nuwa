@@ -304,3 +304,15 @@ referents for the first, second and third introduced things in a sentence
 
 nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
 it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
+
+-----
+
+consider making all verbs in the language have the same inherent stativity. That makes it so there's less to learn.
+
+----
+
+Successuve *li*s in a sentence shouldn't connect the verbs with implied 'and's, as in Toki Pona.
+
+Instead, the verbs should act as auxiliaries:
+
+*li kama li kanu li mupa* - 'come to be able to move'
