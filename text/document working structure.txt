@@ -1,0 +1,17 @@
+for each part of the language,
+have a document that is official (for external use), 
+and a document discussing possible additions (for me:  like a wiki's talk page)
+
+the parts of the language:
+
+alphabet, sounds & pronunciation (basically done)
+dictionary/word list
+general grammar of the language
+numbers
+grammar for specific words & constructions
+conceptual metaphors used
+vocab sets (subsets of the main dictionary)
+    body parts
+
+
+change the landing page for new ideas from 'new words' to 'how to say'
