@@ -52,7 +52,7 @@ Published Works
 
 * Stephen Pinker, *The Language Instinct*, 1994
 * George Lakoff and Mark Johnson, *Metaphors We Live By*, 1980
-* 
+* Guy Deutscher, *The Unfolding of Langugage*, 2006
 
 Learning From The Past Attempts of Others
 ======
