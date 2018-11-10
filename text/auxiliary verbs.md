@@ -1,3 +1,5 @@
+these are actually more like modal verbs, but this document is under heavy wip anyway.
+
 start to
 stop, finish xing
 try to
