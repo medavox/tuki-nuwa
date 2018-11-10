@@ -176,7 +176,7 @@ Along with the already-described transitivity options, there are extra types of 
 
 Transitivity    | Valency     | verb arguments | example
 ----------------|-------------|----------------|------------
-(not described) | Avalent     | 0 (only takes a dummy argument) | the *it* in 'It rains' refers to nothing
+(not described) | Avalent     | 0 (only takes a dummy argument) | the *it* in "It's raining" refers to nothing
 intransitive    | monovalent  | 1              | He slept
 transitive      | bivalent    | 2              | They stabbed Jon
 ditransitive    | trivalent?  | 3              | He gave Mary the ball
