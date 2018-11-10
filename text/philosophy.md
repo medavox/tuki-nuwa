@@ -309,6 +309,17 @@ it's not unnecessary, because nouns may be used as part of a phrase, where their
 
 consider making all verbs in the language have the same inherent stativity. That makes it so there's less to learn.
 
+so all verbs could be stative, eg *mi lapi* = 'I am sleeping', not 'i go to sleep'.
+
+Could use go to express the dynamic form, eg *mi mupa li lapi* = 'I go sleep'.
+
+*lu li muhali* = he/she/it is dead
+
+*lu li mupa li muhali* = he/she/it dies
+
+*mi pali li muhali i lu* = I kill him/her/it
+
+
 ----
 
 Successuve *li*s in a sentence shouldn't connect the verbs with implied 'and's, as in Toki Pona.
