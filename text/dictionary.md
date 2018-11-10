@@ -19,7 +19,7 @@ awasa | Hunting, gathering, hunter-gathering, collection | to gather, collect, h
 awin | memory | stay, wait, remain; carry, keep, continue, hold, remember | remaining, stationary, permanent, sedentary
 ha   | | | | ah, ha, uh, oh, ooh, aw, well
 hansi | hair, fur, feathers | | hairy, furry, feathery |
-hapa | having, ownership, property | have, contain | | kama-> get, obtain
+hapa | having, possession | have, contain | | kama-> get, obtain
 hasaki | knife, blade, sword, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
 hi   | | | | (interj) hey! (calling sb's attention)
@@ -48,7 +48,7 @@ kala | fish, sub-aquatic creature | to swim | fishy; fish-like |
 kama | event, happening, chance, arrival, beginning | bring sth about, summon sth; come, become, arrive, happen, | coming, future |
 kanja | success | succeed/win | winning, successful
 kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; puha -> can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
-kantu | song | sing | sung
+kantu | song, music | to sing, make music | sung, musical
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
 kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell, ruin, spoil | ill, sick, unwell, diseased, injured, broken, malfunctional
 kasi | plant, herb, tree | to grow larger | plant-based |
@@ -73,7 +73,8 @@ lanki | LENGTH | to lengthen sth; to get longer, lengthen | long
 lapi | sleep, rest | sleep, rest | of sleep |
 lasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
 lisa | laughter, humor, comedy | laugh | funny, amusing, hilarious etc
-lawan | hand, arm, branch, appendage | to touch with hand | five (5) |
+lawan | hand, arm, branch, appendage | to touch with hand |
+likula | law, rule, norm | | normal, usual, regular
 lili | smallness (eg size) | reduce, shorten sth; shrink, lessen | small, little, a bit, short, few |
 linja | long, very thin, floppy thing, e.g. string, rope, hairs, thread, cord, chain, wire  | | fibrous
 lipu | flat and bendable thing, e.g. paper, card, ticket, leaf. Also book, page (of book, or web page) | | |
@@ -201,7 +202,7 @@ upin | beginning, start, birth, opening | open, turn on, start, be born | open, 
 upusi | reversal, opposite | reverse, invert | opposite of noun/verb, inverse of sth (this is different from nata/not)
 usata | bone, skeleton, inner supporting structure | support | of bones; skeletal; supporting | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
-uwahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual |
+uwahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual, sexy |
 wajapi | fear | to be scared | scared, scary
 wali | whiteness, lightness | | white, light (colour) |
 waluja | mess, chaos, tangle, disorder | to disorder, tangle, disorganise (sth) | messy, chaotic, disordered, tangled
@@ -220,7 +221,7 @@ Word | Meaning
 -----|--------
 hinsu | noun: the future. future-tense marker; replaces li in a sentence. *Ipuki kama wa, mi hinsu pali i lu.* "I'll do it later."
 i    | marks start of object noun-phrase (introduces a direct object)
-jatun | noun: the past. past-tense marker; replaces li in a sentence. *Lu jatun pini i ni* "he started this/that"
+jatun | noun: the past. past-tense marker; replaces li in a sentence. *Lu jatun upin i ni* "he started this/that"
 jupa | adj->verb: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; *sasa mupa li jupa hilu i mi*  "the wind is making me cold"; *mi jupa sikaha i tumu*  "I'm making the room safe"
 ki   | subclause marker: marks the start of a subclause
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"

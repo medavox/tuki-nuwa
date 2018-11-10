@@ -49,7 +49,7 @@ You know, all that auxiliary verbs do is modify the meaning of the verb they att
 like adverbs.
 
 If there was an adverb in English meaning 'beginningly',
-we could say "He is beginningly doing it," meaning "he's starting to do it".
+we could say "He is beginningly doing it," meaning "he's beginning to do it".
 
 Nice idea?
 
@@ -62,7 +62,7 @@ Status:Notes | Usage (= POS) | Meaning
 ? probably this is a copula | *<word> <adj>* = to be <adj> | to have the property of the following adj phrase; to be <adj phrase>
 
 +:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
-sulu | <noun> ula <verb> = something which <verb>s, a <verb>er | makes the following verb-phrase a noun.
+sulu | <noun> ula <verb> = something/one which <verb>s, a <verb>er | makes the following verb-phrase a noun.
 + | precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
 cause to <verb>; force/make sb/sth (to <verb>)
 make sth <adj>
@@ -87,48 +87,53 @@ LIKE~AS~WAY
 atapisu, jatun pali pi jan | | | artificial, man-made |
 hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
-+ **pikahusu** | adhesion | to stick (to sth) | sticky, adhesive |
++ **pikahusu** | adhesion | to stick (to sth), binding, connect, touch | sticky, adhesive |
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
-+ | fictional, imaginary; story; figurative; metaphorical
+**nalati, mitapu** | fictional, imaginary; story; figurative; metaphorical
 + | the spiritual world, eg religious, holy, divine, spiritual
-+**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
+**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
 + | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position
 + | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
 **ilikan** | social class, status | | high-status, fancy, posh
 + | | like, enjoy, prefer
-**likula**, **numali** | normal, usual, regular
 + | through, pierce
 + | clean | pali jaki nata; kika jaki
-+ | music | kalama musi 
++ | music | kalama musi
 + **pulanta**, **ansijan**, **antiku**, **pulatan** | old
 + | | squeeze, crush, hug, constrict
-pulisu | the police | police sth/sb | 
 nina | bump, hill, mountain, button | to protrude | |
 frequency, often, again, never, sometimes, rarely
 describe, property, talk about
 self?
 tintati intinta | try, attempt
 cover, obscure, block, hide
-binding
 to tie sth
 **kantula** | control
 there are
+THERE IS | *lun ni li hapa*.
 if...then
 against (as in anti something)
 + | breast | nina kupa?
 pinju | thin | 
 * | be on something | siwi
-**saman**? or already *sinpin* | in front of | 
 + | around | 
 + | ground | *apa*, *supa*
 + | stand | *li siwi puha i nuka*
 take
 between
-half
 general
 specific
-law, rule
+**minuta** | minute
+stop, stopped, paused | *kama nata `<verb>`* come to not `<verb>` ; pini
+fair
+lock | to lock | locked
+any
+take
+give
+certainty
+main, fundamental
+text, book, pamphlet, words
 
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
@@ -203,11 +208,10 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | earthquake | 
 + | grass | kasi kaja 'floor plant'
 + | mosquito | 
-+ | flies | pipi wasu muta
 + | week | 
 + | clock | tulu ipuki
-+ | hour | 
-+:sikun | second | 
+**hawa** | hour | 
+**sikun** | second | 
 + | teacher | 
 + | doctor | 
 + | nurse | 
@@ -252,7 +256,6 @@ Word | Reason for not adding/equivalent phrase
 -----|----------------------------------------
 child | jan nuwa
 baby | jan pi nuwa pulan liki, or jan nuwa "new person"
-stop, stopped, paused | *kama nata `<verb>`* come to not `<verb>` ; pini
 rain | wata tawa apa 'water moving down', wata kijalu 'sky water'
 wind | susu tawa 
 snake | akisi linja 'rope lizard'
@@ -274,7 +277,6 @@ teeth | hasi uta "mouth knives"
 wife | miwi mi 'my woman'
 husband | misi mi 'my man'
 jagged | hasa
-less | anything that can be said with 'less', can also be said with 'more'
 completely, fully | <full> <like-as-way>
 not at all | nata, <empty> <like-as-way> 
 iron | mitalu <strong>, <metal> upaka
@@ -299,7 +301,7 @@ health | kupa puna
 suka: sugar | suwi
 glass | <stone> pi kanu nata luku
 wool | witan pi hansi suwilu 
-the physical world, of the physical world; eg book, newspaper | iju kaja la "regarding earthly stuff"
+the physical world, of the physical world; eg book, newspaper | iju kaja wa "regarding earthly stuff"
 east | akawi pi tasani kaja "right, on earth picture"
 west | ajunsi pi tasani kaja "left, on earth picture"
 north | siwi pi tasani kaja
@@ -341,7 +343,6 @@ a size you can hold in your arms
 a size you can carry
 a size 2 people can carry
 BE (SOMEWHERE) | *li lun*
-THERE IS | *lun ni li hapa*.
 PLACE~WHERE~SOMEWHERE | *i lun*
 place, location | *i lun*
 creature | *suwilu* will do
@@ -364,7 +365,6 @@ wings | lawan wasu
 push | <cause-to> mupa
 pull | <cause-to> mupa
 weather | kijalu li pali seme 'what is the sky doing'
-certainty | know
 burn | pana i iju na sasa 'give fire to something'
 **hisa** = sharing; share | *pani pisi* 'part-give', or *pani i pisi na jan* 'give a part to someone'
 still <verb>, continue to <verb> | awin
@@ -372,3 +372,7 @@ for (as in with us or against, pro something) | tawa
 vomit | pana (pi uta) i telo jaki
 temporary, for now | *pi ipuki ni tasu*
 receive | *pana puha*
+in front of | *lun sinpin* 
+half | pisi tu
+police | <law> keeper 
+flies | pipi wasu
