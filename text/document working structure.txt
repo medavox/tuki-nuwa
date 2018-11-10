@@ -7,11 +7,15 @@ the parts of the language:
 alphabet, sounds & pronunciation (basically done)
 dictionary/word list
 general grammar of the language
-numbers
 grammar for specific words & constructions
+repair strategies (how to pronounce a foreign word with foreign sounds)
 conceptual metaphors used
 vocab sets (subsets of the main dictionary)
     body parts
+    days of the week
+    months, seasons
+    numbers
+    elements
 
 
 change the landing page for new ideas from 'new words' to 'how to say'
