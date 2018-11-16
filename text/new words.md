@@ -4,7 +4,7 @@ Unnamed Candidate Words
 The strategy here is to freely add potential words for concepts I know Tuki Nuwa doesn't have a word for,
 then later delete the word if I can create a decent equivalent phrase which means the same thing.
 
-The hardest part of creating a new word is finding a good-sounding lexeme for it,
+The hardest part of creating a new word is finding a lexeme for it,
 so that can be deferred until I know the word is definitely being added.
 
 In the meantime, words without a lexeme will be referred to by a short version of their definition, in <angle brackets>.
@@ -42,6 +42,30 @@ if not, what other system can we use to encode meaning?
 (I am rather anglocentric here, can't think of another way to express this other than inflection)
 
 how about a new grammar particle which comes between the auxiliary verb(s) and the actual verb phrase?
+
+Examples/List
+-----
+
+these are actually more like modal verbs, but this document is under heavy wip anyway.
+
+start to
+stop, finish xing
+try to
+fail to
+<ability>could, able to
+<obligation/expectation>should, ought (/must, have to)
+want to
+would
+cause to
+<certainty>:definitely
+<probability>
+allow
+
+make sb do sth; force sb to do sth
+allow
+
+repeat
+
 
 ----
 
@@ -134,7 +158,7 @@ give
 certainty
 main, fundamental
 text, book, pamphlet, words
-
+significance | to matter | signficant
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 + make-have without permission | theft | steal | stolen, thieving
