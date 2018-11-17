@@ -9,9 +9,9 @@ X   | Y
 4   | kata
 5   | lawan (hand)
 6   | pulan (full/whole)
-7   | pulan a wan
-8   | pulan a tu
-9   | pulan a san
+7   | pulan a wan, sipita?
+8   | pulan a tu, ata?
+9   | pulan a san, nuna?
 10  | pulan a kata, tisan
 11  | pulan a lawan
 12  | pulan tu
