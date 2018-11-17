@@ -75,6 +75,41 @@ removed all consonant clusters (nanpa, unpa, tenpo, monsi, linja)
 I've removed syllable-final n sounds. N can now only be used as a consonant, or at the end of the whole word -- 
 NOT at the end of a syllable, next to another consonant.
 
+------
+
+the word *`pona`*'s conflation of several distinct concepts pushes toki pona towards a kind of lazy know-it-all:
+
+the moral good != correct != easy
+
+* the correct course of action isn't always whatever's easiest.
+    - like doing the household chores.
+* doing the right thing -- what it is morally right to do -- isn't always easy.
+    - Like admitting you did something bad.
+* being right doesn't make you a good person; you can be an asshole with the truth. eg:-
+    - "it's your own fault you're in this mess anyway; I don't have to help you".
+    - "you're just upset because your family is dead",
+    - "there's no point trying to save you -- you're probably going to die anyway"
+
+status:implemented -- we now have the words puna, pasilu and tatu.
+
+---------
+
+The base list of words should use the research on 
+[Semantic Primes](https://en.wikipedia.org/wiki/Semantic_primes) and a 
+[Natural Semantic Metalanguage](https://intranet.secure.griffith.edu.au/schools-departments/natural-semantic-metalanguage). 
+Multiple primes can still be rolled into one lexeme,
+but I think all `~`64 semantic primes should be expressible in toki nawa.
+
+------
+
+I'm not using normal English terms for grammar (eg perfect), because they are outdated,
+and have no relation whatsoever to the grammatical feature they represent.
+
+-----
+
+nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
+it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
+
 
 Discarded Ideas
 ---------------
@@ -113,3 +148,24 @@ Alternatively only use words from widely-spread lingua francas: latin, arabic, s
 and then MAYBE other prestige languages: english, french, russian
 
 -----
+
+consider modifying or removing words for 'male' and 'female' to reflect non-binary reality. After all: GENDER IS A SOCIAL CONSTRUCT. Why have two whole words for easily splitting people into two groups based on an unimportant property?
+
+-----
+
+even if using single-vowel word endings to denote parts of speech didn't work,
+still try and find a way to create a regular system of how words sound given their meaning,
+so learners can make a likely guess at a word's meaning based on how it sounds.
+It could also help memory by allowing learners to learn groups of words according to a pattern.
+
+The words don't vary by this system; they just follow a predictable pattern,
+which helps in guessing their meaning
+
+-----
+
+* make the sounds for words align with the research on human-universal sound choices for primitive meanings
+    - [https://www.scientificamerican.com/article/some-rules-of-language-are-wired-in-the-brain/]
+    - [https://www.sciencealert.com/here-s-why-sometimes-we-can-guess-the-meanings-of-foreign-words]
+    - (need higher-quality references, with actually listed data)
+    - here's the paper which the possibly-bogus articles are based on:-
+    - [https://www.sciencedirect.com/science/article/pii/S0010027714002339]

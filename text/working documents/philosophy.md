@@ -9,7 +9,7 @@ AKA easy to learn, easy to use.
 
 Complexity is not inherently bad.
 
-Complexity is a tool; and like any tool, it can be used for good or bad; or in a good or bad way.
+Complexity is a tool; and like any tool, it can be used for good or bad -- in a good or bad way.
 People who do bad don't always mean to.
 
 ------
@@ -31,49 +31,11 @@ in pre-history, those at the highest point had the best chance of spotting preda
 This probably gave those with a genetically-ordained preference for being higher up
 a higher chance of surviving long enough to mate.
 
---------
-
-the word *`pona`*'s conflations of several distinct concepts pushes toki pona towards a kind of lazy know-it-all:
-
-the moral good != correct != easy
-
-* the correct course of action isn't always whatever's easiest.
-	- like doing the household chores.
-* doing the right thing -- what it is morally right to do -- isn't always easy. 
-	- Like admitting you did something bad.
-* being right doesn't make you a good person; you can be an asshole with the truth. eg:-
-	- "it's your own fault you're in this mess anyway; I don't have to help you".
-	- "you're just upset because your family is dead",
-	- "there's no point trying to save you -- you're probably going to die anyway"
-
-status:implemented -- we now have the words puna, pasilu and tatu.
-
----------
-
-The base list of words should use the research on 
-[Semantic Primes](https://en.wikipedia.org/wiki/Semantic_primes) and a 
-[Natural Semantic Metalanguage](https://intranet.secure.griffith.edu.au/schools-departments/natural-semantic-metalanguage). 
-Multiple primes can still be rolled into one lexeme,
-but I think all `~`64 semantic primes should be expressible in toki nawa.
-
-this language will still lean heavily on phrases as compound words.
-
-status:implemented
-
 -----
 
 All words will use three or fewer syllables, but preferably two or fewer.
 
 status:still OK!
-
------
-
-* make the sounds for words align with the research on human-universal sound choices for primitive meanings
-    - [https://www.scientificamerican.com/article/some-rules-of-language-are-wired-in-the-brain/]
-    - [https://www.sciencealert.com/here-s-why-sometimes-we-can-guess-the-meanings-of-foreign-words]
-    - (need higher-quality references, with actually listed data)
-    - here's the paper which the possibly-bogus articles are based on:-
-    - [https://www.sciencedirect.com/science/article/pii/S0010027714002339]
 
 -----
 
@@ -104,8 +66,8 @@ They must be replaced by better phrases.
 
 ------
 
-Use a 'medieval' numbering system -- similar to the french vigisemal ('four twenties and ten')
-will be used. This might involve one or two new words to keep the number-parts straight,
+Use a 'medieval' numbering system -- similar to the french vigisemal ('four twenties and ten').
+This might involve one or two new words to keep the number-parts straight,
 properly separated from each other.
 
 Toki Nawa should still have a version of Toki Pona's aversion to 'big' numbers -- 
@@ -122,11 +84,6 @@ un tu pi wuka = one two of five = (1 + 2) * 5 = 15
 word order must be followed more strictly than in canonical toki pona -- 
 see [Reading Toki Pona is Hard](http://www.suburbandestiny.com/?p=845)
 
-------
-
-consider modifying or removing words for 'male' and 'female' to reflect non-binary reality. After all: GENDER IS A SOCIAL CONSTRUCT. Why have two whole words for easily splitting people into two groups based on an unimportant property?
-
-
 -----
 
 There's a loose 3-tiered system for the number of syllables a word has:
@@ -136,13 +93,6 @@ Single-syllable words are generally grammar-glue words, or very common words.
 Double-syllable lexemes are used for common function words (be, do, go, food/feed etc).
 
 Triple-syllable words are for the more obscure or esoteric words, and everything else.
-
-------
-
-I'm not using normal English terms for grammar (eg perfect), because they are outdated,
-and have no relation whatsoever to the grammatical feature they represent.
-
-For instance, I think calling it the complete tense is much clearer than calling it the perfect tense.
 
 -----
 
@@ -177,7 +127,7 @@ Policy for filling the dictionary (done once while building the vocab, not addin
 find a word from a language which is either widely spoken or has a lot of speakers, 
 which can be simplified to fit tuki nuwa's phonotactics, and still be recognisable.
 
-If that fails, make up a new sound which is suitably distinguished from existing words.
+If that fails, make up a new sound which is sufficiently distinguished from existing words.
 
 Where a lexeme for a word came from is irrelevant to learning or using the language, and has not been recorded.
 
@@ -213,15 +163,6 @@ every verb is present-tense active by default.
 
 -----
 
-even if using single-vowel word endings to denote parts of speech didn't work,
-still try and find a way to create a regular system of how words sound given their meaning,
-so learners can make a likely guess at a word's meaning based on how it sounds.
-
-The words don't vary by this system; they just follow a predictable pattern,
-which helps in guessing their meaning
-
------
-
 provide a facility for defining new words for the duration of a conversation (or article, chapter, book etc).
 These loanwords can come from shared knowledge the speakers have (words common to their language),
 and don't have to strictly follow Tuki Nuwa's phonology rules.
@@ -229,12 +170,6 @@ and don't have to strictly follow Tuki Nuwa's phonology rules.
 It's helpful to define these loanwords at the beginning of the discourse.
 These loanwords are expected to mostly consist of nouns specific to the topic,
 serving as ad-hoc vocabulary which make conversations shorter.
-
-
-have a small set of words whose meaning can be assigned in a sentence;
-essentially pronouns, but which can stand in for any noun-phrase.
-
-Each one can be used to talk about something whose full description/name is too long. 
 
 ----
 
@@ -284,10 +219,10 @@ or simply,
 ----------
 
 maybe the meaning of a word as an adjective should be required to mean exactly the same thing as the word used as a noun.
-eg, [todo: example]
+eg, [todo: example] 
 this would remove the problem that some 'words' (lexemes) are really a collection of closely-related (or sometimes not-so-closely-related) words which differ by part of speech -- meaning learning one word really means learning two or three words -- a noun, a verb, an adhective, and maybe something else.
 
-(in my opinion, rolling several words into one lexeme like this is a 'trick' to keep the word count down...)
+(in my opinion, rolling several words into one lexeme like this is a bit of a 'cheat' to keep the word count down...)
 
 -----
 
@@ -300,10 +235,11 @@ eg should/must/obligation starts as should without any modifiers
 Have a collection of third-person pronouns which are used for different entites in the context;
 referents for the first, second and third introduced things in a sentence
 
------
 
-nisa might be unnecessary, as the position of the phrase in the sentence indicates whether a word is a noun  
-it's not unnecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
+have a small set of words whose meaning can be assigned in a sentence;
+essentially pronouns, but which can stand in for any noun-phrase.
+
+Each one can refer to something whose full description/name is too long.
 
 -----
 
@@ -322,7 +258,7 @@ Could use go to express the dynamic form, eg *mi mupa li lapi* = 'I go sleep'.
 
 ----
 
-Successuve *li*s in a sentence shouldn't connect the verbs with implied 'and's, as in Toki Pona.
+Successive *li*s in a sentence shouldn't connect the verbs with implied 'and's, as in Toki Pona.
 
 Instead, the verbs should act as auxiliaries:
 
