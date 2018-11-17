@@ -96,11 +96,11 @@ mani | money, (material?) wealth, currency, capital | cost | financial, financia
 mansa | meat, flesh, muscle | | meaty, muscly, muscled
 manta | thought(s), mind | THINK | mental; of the mind |
 masina| machine, device, contraption, motor, engine | | mechanical
+masu | man, male | | male, masculine, manly, of manhood |
 mi   | | | | i/we; my/our
 mila | thousand
 milijun | million
 mina | less
-misi | man, male | | male, masculine, manly, of manhood |
 mitan | way, manner, custom, road, path, doctrine, system, method | | |
 mitalu | metal | | metallic; of metal
 miwi | woman, female, girl | | female, feminine, womanly, of womanhood |
