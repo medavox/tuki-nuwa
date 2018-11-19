@@ -46,6 +46,23 @@ private const val RED = CSI+"31m"
 private const val YELLOW = CSI+"33m"
 private val validWord = Regex("[$consonants]?[$vowels]n?([$consonants][$vowels]n?){0,2}")
 
+/*enum class Commands(val names:Array<String>,
+                    val description:String,
+                    val usage:String,
+                    val arguments:Array<String>,
+                    val function:(Array<String>)->Unit) {
+    SYLLABLES(arrayOf("syllables", "s"),
+            "print all possible syllables",
+            "{syllables|s} ")
+}*/
+
+/*a lot of this program is effectively querying a database of words.
+* there are 3 word sets:
+*
+* all possible words
+* all real words
+* all unused words*/
+//todo: combine random into query, as a query without a word, random output, limited to x lines
 fun main(args: Array<String>) {
     if(args.isEmpty()){
         e.println("ERROR: at least one command is required.")
@@ -529,6 +546,11 @@ fun lintAWordAgainstTheDictionary(word: String, dict: Array<String>, complain:Bo
 }
 
 internal fun similarWordsTo(word: String): Array<String> {
+    fun String.replaceCharAt(index: Int, replacement: Char): String {
+        val myName = StringBuilder(this)
+        myName.setCharAt(index, replacement)
+        return myName.toString()
+    }
     val letterGroups = setOf(stops, approximants, fricatives, nasals, vowels)
     if (word.count { it in vowels } == 1) {
         return arrayOf()
@@ -552,7 +574,7 @@ internal fun similarWordsTo(word: String): Array<String> {
         for(group in letterGroups) {
             if(word[i] in group) {
                 for(letter in (group.toSet()-word[i])) {
-                    val potentialSimilarWord = replaceCharAt(word, i, letter)
+                    val potentialSimilarWord = word.replaceCharAt(i, letter)
                     if(validWord.matches(potentialSimilarWord)) { //if the word is valid
                         similarWords.add(potentialSimilarWord)
                     }
@@ -561,16 +583,16 @@ internal fun similarWordsTo(word: String): Array<String> {
         }
         //replace u with the other vowels, and the other vowels for u
         if (word[i] == 'a') {//replace a with u
-            similarWords.add(replaceCharAt(word, i, 'u'))
+            similarWords.add(word.replaceCharAt(i, 'u'))
         }
 
         if (word[i] == 'u') {//replace u with a and i
-            similarWords.add(replaceCharAt(word, i, 'a'))
-            similarWords.add(replaceCharAt(word, i, 'i'))
+            similarWords.add(word.replaceCharAt(i, 'a'))
+            similarWords.add(word.replaceCharAt(i, 'i'))
         }
 
         if (word[i] == 'i') {//replace i with u
-            similarWords.add(replaceCharAt(word, i, 'u'))
+            similarWords.add(word.replaceCharAt(i, 'u'))
         }
 
         if (word[i] == 'n') {
@@ -594,13 +616,6 @@ internal fun similarWordsTo(word: String): Array<String> {
     similarWords += anagrams
 
     return similarWords.toTypedArray()
-}
-
-
-private fun replaceCharAt(victim: String, index: Int, replacement: Char): String {
-    val myName = StringBuilder(victim)
-    myName.setCharAt(index, replacement)
-    return myName.toString()
 }
 
 private fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
