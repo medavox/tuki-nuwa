@@ -52,7 +52,6 @@ kantu | song, music | to sing, make music | sung, musical
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
 kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell, ruin, spoil | ill, sick, unwell, diseased, injured, broken, malfunctional
 kasi | plant, herb, tree | to grow larger | plant-based |
-lutatun  | rotation, angle | turn, twist, rotate, spin | spinning, turning, rotating, twisting
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
 kijalu | sky, heaven, weather | | of/relating to the sky, heavenly
 kika | absence, emptiness | throw away, remove, get rid of; to empty sth, to be empty | none, no (thing); absent, missing, without; empty  | -less
@@ -63,11 +62,11 @@ kuhula | alcohol | get drunk | alcoholic, drunk
 kukin | cooking | to cook (sth) | cooking-relating, culinary
 kulapu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
 kulu | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
-kunputa | computer; the software world; things 'on' or 'in' computers; the internet; social media | | of computers; related to software |
 kunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like |
+kunputa | computer; the software world; things 'on' or 'in' computers; the internet; social media | | of computers; related to software |
 kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
-kuwisi | question, query | ask, query, question | questioning, quizzical | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
+kuwi | question, query | ask, query, question | questioning, quizzical | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 lamuli | happiness, laughter | be happy, to laugh | happy/laughing, funny
 lanki | LENGTH | to lengthen sth; to get longer, lengthen | long
 lapi | sleep, rest | sleep, rest | of sleep |
@@ -85,6 +84,7 @@ luku | eye | see, look at, watch, read sth/sb; (imperative) look, watch out, pay
 lula | land, earth, country, (outdoor) area | | | precedes place name, eg 'lula Mewika'
 lun | | put sth in place; be there, be present, exist | | prep be (located) in/at/on
 lupa | hole, orifice, window, door | to make a hole in sth | holey |
+lutasun  | rotation, angle | turn, twist, rotate, spin | spinning, turning, rotating, twisting
 lutu | game | play | playful
 mahi | darkness, shadows | darken | black, dark |
 majuta | help | help | helpful | 
@@ -93,7 +93,7 @@ malaki | ownership, property, belongs | own | owning
 malu | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | bad, rotten, negative, evil | oh dear! woe! alas!
 mama | parent, mother, father | to parent/raise/nuture sb | parental, maternal, paternal |
 mani | money, (material?) wealth, currency, capital | cost | financial, financially, monetary
-mansa | meat, flesh, muscle | | meaty, muscly, muscled
+mansi | meat, flesh, muscle | | meaty, muscly, muscled
 manta | thought(s), mind | THINK | mental; of the mind |
 masina| machine, device, contraption, motor, engine | | mechanical
 masu | man, male | | male, masculine, manly, of manhood |
@@ -101,6 +101,7 @@ mi   | | | | i/we; my/our
 mila | thousand
 milijun | million
 mina | less
+minuta | minute (unit of time)
 mitan | way, manner, custom, road, path, doctrine, system, method | | |
 mitalu | metal | | metallic; of metal
 miwi | woman, female, girl | | female, feminine, womanly, of womanhood |
@@ -114,7 +115,7 @@ musi | fun, playing, game, recreation, art, entertainment | amuse, entertain sb;
 muta | amount, quantity, number-of |  | many, very, much, several, a lot, abundant, numerous |
 nahata | test, examination, investigation, check, question, problem | ask, test, investigate, probe, check, examine | 
 nalan | softness | soften (sth/sb) | soft, fluffy, gentle, gradual | 
-namaku | obligation, requirement, need | to force, to require (with puha) need | should, must, necessary
+namaku | obligation, requirement, necessity, need | to force, to require (with puha) need | should, must, necessary
 nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
 nasu | nose | to smell sth | 
 nata | nothing, negation, zero; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
@@ -125,7 +126,7 @@ nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
 nuwa | news, newness, novelty, youth, freshness | | new, young, fresh, additional |
-pa   | click, crack, bang, pop, (~ satu) explosion | bang, pop, (~ muta) explode
+pa   | click, crack, bang, pop, (~ satu) explosion | bang, pop, (~ muta) explode, burst
 pakala | accident, mistake | do by mistake | accidental | damn !
 paku | container, box, bowl, cup, glass | to contain sth | |
 pali | activity, deed, project | do, make, build, create sth; act, work, function | active, work-related, operating, working |
@@ -140,22 +141,23 @@ pilatu | flatness | | flat
 pilin | feelings,  emotion | feel, sense (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | sensitive, feeling, empathic |
 pilusi | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 pima | finger(s) | to touch sth with fingers | 
-pini | end, tip, edge, limit | finish, close, end, turn off (sth) | completed, finished, past, done, ago |
+pini | end, tip, edge, limit | finish, close, end, stop, turn off (sth) | completed, finished, past, done, ago |
 pipi | bug, insect, spider; arthropod, eg lobster | | |
-pisi | part, piece, component  | | |
+pisu | part, piece, component  | | |
 pita | stone, rock | | rocky, stony
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with
 pulan | fullness, completion, whole | to fill sth, to fill (up) | full, fully, complete, completely, whole, wholely, entire
 puluki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 pumisu | consent, permission | consent, permit, allow | consensual, permitted, allowed
 puna | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! OK! Cool! yay!
-pusiki | importance |  | important |
+pusiki | importance, significance | to matter, to be important | important, significant, main, fundamental
 pusipu | likelihood, probability, possibility, chance | | likely, probable, probably, possibly
 putala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
 puwanu | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't normally stand on easily (eg, without also using their hands for balance/support) | | |
 sala | salt | | salty |
 sama | self, similarity | | same, similar, equal, of equal status or position, equivalent | (prep) like, as, seem
 san | three, triplet | triple | three
+sanita | hygiene, cleanliness | clean | clean, hygienic, sanitary
 sanja | year | | yearly, annual
 sapatan | caution | be careful | careful, cautious
 sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
@@ -165,6 +167,7 @@ sawa | knowledge, wisdom, information, understanding | know, understand, know ho
 si   | | | | you, your
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
 sikaha | safety, protection | protect, to make sth safe | safe, protected
+sikun | second (unit of time) | 
 sikusa | dryness | to dry out, dry sth | dry |
 silumin | grease, oil (cooking, engine or crude), fat (culinary) | lubricate/grease/oil sth | greasy, oily, fatty (culinary), slippery
 simi | | | | what, which, wh- (question word)
@@ -187,16 +190,17 @@ tali | kind, type | categorise | |
 tan | origin, cause | | | prep from, by, because of, since
 tanka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
 tapalu | work, craft, housework, chores, career, profession, skill, practice of. eg number craft = mathematics | to work; to do chores | vocational, professional, career-related |
-tisan | ten
 tasu | | | only, sole | (conj) but
 tatu | truth; the truth; correctness | | true, right, correct |
 tawa | direction, heading | move towards, to be for/pro something, to agree | -wards, towards, in the direction of | (prep) to, in order to, towards, for, until
 tina | day (as in unit-of-time) | |
+tisan | ten
 tu | duo, pair | double, separate/split/cut/divide in two | two |
 tuki | language, talking, speech, communication | say, speak; talk, chat, communicate | talking, verbal, language-related, linguistic | (interj) hello! hi!
 tulu | tool, device, machine, thing used for a specific purpose; usage | use | |
 tumu | indoor space, e.g. room, building, cave, hut, shelter; any structure large enough for humans to go under/inside of, which offers at least partial cover/shelter from the elements | | to cover, shelter (sth) |
 tusa | contact, connection | TOUCH, connect | touching, connected
+ula | hour (unit of time)
 upaka | weight, difficulty | | heavy, difficult |
 upin | beginning, start, birth, opening | open, turn on, start, be born | open, started, born, begun |
 upusi | reversal, opposite | reverse, invert | opposite of noun/verb, inverse of sth (this is different from nata/not)
@@ -231,5 +235,5 @@ nisa | previous word or phrase is a noun. *<verb> nisa* '<verb>ation'; *nisa <ad
 pi   | (sep) of, belonging to
 puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). *mi nami puha*! = "i am being eaten!"
 u    | addressive marker: *jan Atan u* = "hey, adam", "@adam"; (sep) U Imperative: *u namu!* = "eat!"
-ula  | previous word or phrase is a verb. Optional for increased clarity.
+sula  | previous word or phrase is a verb. Optional for increased clarity.
 wa   | subject; about/regarding; context-phrase separator, topicaliser

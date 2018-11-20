@@ -29,19 +29,13 @@ Status:Notes | Usage (= POS) | Meaning
 -------------|---------------|----------
 + | BE (SOMEONE/SOMETHING) kopula???
 ? probably this is a copula | *<word> <adj>* = to be <adj> | to have the property of the following adj phrase; to be <adj phrase>
-
 +:iku | iku <adj> = become <adj>| to gain the property of the following adj phrase (by oneself); to become `<adj phrase>`, to get `<adj phrase>`; consider using kama (come to)
-sulu | <noun> ula <verb> = something/one which <verb>s, a <verb>er | makes the following verb-phrase a noun.
 + | precedes an embedded sentence; functions similarly to 'that' (and 'to'?) in "If I'd known that you wanted to come with us"
 cause to <verb>; force/make sb/sth (to <verb>)
 make sth <adj>
-become <adj>
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
 (for) each, per, every
 
-to Xify = jupa
-to be Xified jupa X puha
-to become X = iku
 
 Main List
 ---------
@@ -59,54 +53,77 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + **pikahusu** | adhesion | to stick (to sth), binding, connect, touch | sticky, adhesive |
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
 **nalati, mitapu** | fictional, imaginary; story; figurative; metaphorical
-+ | the spiritual world, eg religious, holy, divine, spiritual
-**humi,kasa** | home, dwelling; structure that people live in | | urban, domestic, household |
++ god(s), religion, the spiritual world | | religious, holy, divine, spiritual, godly
+**kasa** | house, dwelling; any structure which something spends time in | | domestic, household |
 + | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position
-+ | the state of being awake | wake, wake up, awake | awake
++ | the state of being awake; wakefulness | wake, wake up, awake | awake
 + | quality (as in grade)
 **ilikan** | social class, status | | high-status, fancy, posh
 + | | like, enjoy, prefer
 + | through, pierce
-+ | clean | pali jaki nata; kika jaki
 + | music | kalama musi
 + **pulanta**, **ansijan**, **antiku**, **pulatan** | old
-+ | | squeeze, crush, hug, constrict
++ | | squeeze, crush, hug, constrict, pressure, push 
 nina | bump, hill, mountain, button | to protrude | |
-frequency, often, again, never, sometimes, rarely
+frequency, often, again, never, sometimes, rarely, frequently
 describe, property, talk about
 self?
-tintati intinta | try, attempt
-cover, obscure, block, hide
+**intansa intan intansun intansu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional
+cover
+barrier, blockage | block | blocking
 to tie sth
 **kantula** | control
-there are
 THERE IS | *lun ni li hapa*.
 if...then
 against (as in anti something)
 + | breast | nina kupa?
 pinju | thin | 
-* | be on something | siwi
-+ | around | 
++ | around, surround
+around, near, nearby
 + | ground | *apa*, *supa*
 + | stand | *li siwi puha i nuka*
 take
-between
 general
 specific
-**minuta** | minute
-stop, stopped, paused | *kama nata `<verb>`* come to not `<verb>` ; pini
-fair
-lock | to lock | locked
-any
-take
-give
-certainty
-main, fundamental
+**justisa** fair
+lock | to lock | locked | upin kanu nata
+any, every
+certainty, accuracy
 text, book, pamphlet, words
-significance | to matter | signficant
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 + make-have without permission | theft | steal | stolen, thieving
+care (as in "I don't care")
+**kumunikasi**, **linkuwa**
+put, place
+mix
+please
+surroundings, nearby, environs
+turn into sth; turn sth1 into sth2
+
+
+Wider Range of Animal Names, Farm Terms
+-----
+
+Not sure if I'm going to actually include any of these yet;
+But it might (*might*) be a good idea to have some more specific
+names for certain animals, and/or groups of animals
+
+word  | meaning
+------|---------
+kanin | dog
+ku    | cow
+lama  | goat, sheep, llama,
+?     | horse, zebra, donkey, etc
+?     | piglike animals
+?     | chicken
+?     | cat
+?     | rodents & rabbits
+?     | milk
+?     | poo
+?     | wee
+?     | blood
+?     | vomit, or any bad liquid coming from the mouth
 
 Excess meanings
 ------
@@ -120,24 +137,11 @@ NOTE: DELETE ENTRIES FROM THIS LIST WHEN THEIR MEANING HAS BEEN REASSIGNED!
 former word | removed meaning (which may need reassigning to a new word)
 ------------|-----------------------------------------------------------
 malu        | complex/needlessly complicated
-nasa        | crazy; to confuse sth/sb; silly, foolish, strange, stupid, weird
+nasa        | to confuse sth/sb;
 hilatu      | uncooked, raw
 puna        | beneficial; benevolent, altruistic, kind, symbiotic; helpful, cooperating; ideal; conducive to overall wellness
 kama        | manage to
 wapa        | fierce, intense, confident
-
-### sewi
-
-* awe-inspiring, inspiring a feeling of wonder, respect and fear; venerable, reverend, estimable, honourable, awe-inspiring, humbling, mesmerizing, venerable, reverend, honourable, looked up to in adoration
-* captivating, causing a hypnotizing effect, able to hold people in an uncontrollable state of admiration; spellbinding, fascinating, mesmerizing, hypnotic, mysteriously impressive, captivating, enchanting
-* having higher powers or effects
-* supernatural
-* interpreted as belonging to a world beyond the ordinary and physical; transcendent, transcending, divine, magical, mysterious, wondrous, miraculous
-* causing supernormal stimulus
-* idealized
-* worshipped
-* physically deep
-* figuratively deep
 
 tasan/imasu
     representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model
@@ -168,20 +172,16 @@ Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
 + | heart | sinta kupa
 + | desert | lula sikusa satu
-+ | sea | wata sala
 + | jungle / forest | kasi satu muta sasa
-+ | snow | wata hilu hilu pasita
-+ | ice | wata hilu hilu kahin
++ | snow | wata pasita pi hilu muta
++ | ice | wata hilu kahin
 + | flood | wata muta <too> 'too much water'
 + | drought | ipuki sikusa muta
 + | earthquake | 
 + | grass | kasi kaja 'floor plant'
 + | mosquito | 
 + | week | 
-+ | clock | tulu ipuki
-**hawa** | hour | 
-**sikun** | second | 
-+ | teacher | 
+teacher | jan ki li pana sawa
 + | doctor | 
 + | nurse | 
 + | border | 
@@ -215,7 +215,7 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
 + | participatory, interactive
   | | thick, wide | | obscure
 uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
-+ | agreement | agree | | I agree with you *mi pilin i ni: si tatu* 'I think you're right; I agree = 'si tatu'
++ | agreement | agree | | I agree with you *mi manta i ni: si tatu* 'I think you're right; I agree = 'si tatu'
 text, words
 
 Probably not adding
@@ -256,7 +256,7 @@ dog | animu amika 'friendly animal'; *amika animu* 'animal friend' :)
 cat | *animu humi pi lapi muta* 'house animal which sleeps a lot'?
 horse | *animu satu pilusi* 'big, fast animal'
 cow | 
-pig | *suwilu pi nami luhi*
+pig | *animu mansa pi nasu*
 camel | 
 buffalo | 
 moose | *suwilu puki kawisa kapi ula liwa lula hilu* (animal with head sticks, which lives in cold countries)
@@ -345,3 +345,13 @@ in front of | *lun sinpin*
 half | pisi tu
 police | <law> keeper 
 flies | pipi wasu
+hide, obscure | li pali pi kanu luku nata
+be on something | siwi
+crazy | manta kaputi
+between | lun tu 
+clock | tulu ipuki
+sea | wata sala satu
+silly, foolish, stupid | kika sawa
+separate, split | `tu` as a verb
+weird, odd, strange, unusual | likula nata; likula upusi; likula kika
+as (as in, 'as a dog') | sama
