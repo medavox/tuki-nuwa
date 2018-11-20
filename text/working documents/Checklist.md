@@ -16,7 +16,7 @@ sixturday
 Universal group name | Universal group members | Word in Tuki Nuwa
 ---------------------|-------------------------|------------------
 day(s)               |                         | tina
-   sunday            | tina nata or tina sunu
+   sunday            | tina sunu
    monday            | tina wan or tina muna
    tuesday           | tina tu
    wednesday         | tina san
@@ -79,22 +79,3 @@ part versus whole
 
 Comparatives/Quantifiers
 ------------
-
-Quantity, amount and intensity are all expressed with the same class of words:
-
-Status:Reason | Noun | Verb | Adjective | Other
---------------|------|------|-----------|------
-(too is covered by word huta)
-(fully is covered by word pulan)
-(most is provided by makisu)
-(MORE is covered by word mulu)
-(VERY/MANY is covered by existing word `muta`)
-(enough = satisu)
-(SOME is provided by word sumin)
-((slightly, a little, a bit) is covered by existing word lili)
-(close, near = nuni)
-(less = mina)
-(not = nata)
-(absence = kika)
-(anti)
-

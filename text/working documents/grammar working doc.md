@@ -31,6 +31,8 @@ Could also do with making sure I understand these myself
 Embedded clauses
 ================
 
+AKA Subordination in The Unfolding of Language, and probably elsewhere.
+
 The argument can be made that embeddability only makes the grammar harder to learn,
 and that a tool which is for basic communication needs to not make itself overly complex.
 
@@ -39,8 +41,9 @@ in more roundabout ways in Tuki Nuwa.
 
 Let's try translating these:
 
-I wish I'd known you wanted to come with us
-mi wilu i ni: mi jatun sawa i ni: si wilu mupa 
+I wish I'd known you wanted to come with us  
+*mi wilu i ni: mi jatun sawa i ni: si wilu mupa*
+
 The list of reasons I want to do that is very small
 The coat that I got from last year's fair is looking shabby now
 [The fact] that you got her to do it for you is appalling
@@ -112,6 +115,7 @@ make sb do sth; force sb to do sth
 allow
 
 repeat
+to be in the process of Xing
 ```
 
 You know, all that auxiliary verbs do is modify the meaning of the verb they attach to,

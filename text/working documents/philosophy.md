@@ -109,8 +109,8 @@ actual, real/figurative, metaphorical
 good/bad
 ```
 
-where good means 'useful, helpful, altruistic, seen favourably'
-and bad means 'useless, unhelpful, evil, seen unfavourably'
+where good means 'useful, helpful, altruistic, safe, seen favourably'
+and bad means 'useless, unhelpful, evil, dangerous, seen unfavourably'
 
 eg, room === cave; hand === paw; injured === damaged, page === leaf (which we already do sometimes in english)
 
@@ -196,25 +196,7 @@ The Best Drink.
 
 Ti.
 
-ki si wilu i Ti?
-
-------
-
-
-Answering yes-no questions without words for yes or no
-------
-
-This is less difficult than you might think:
-
-*Ki si wilu nami?* 'Are you hungry'/'Do you want to eat?'
-
-*tatu!* "correct!"
-*mi wilu nami* "I want to eat"
-*mi wilu nami ka!* "I do indeed want to eat!"
-
-*mi wilu nami nata* "i don't want to eat"/"I'm not hungry"
-or simply,
-*nata*
+kiwu si wilu i Ti?
 
 ----------
 
@@ -241,6 +223,8 @@ essentially pronouns, but which can stand in for any noun-phrase.
 
 Each one can refer to something whose full description/name is too long.
 
+These are called the proximate and obviative referents.
+
 -----
 
 consider making all verbs in the language have the same inherent stativity. That makes it so there's less to learn.
@@ -263,3 +247,72 @@ Successive *li*s in a sentence shouldn't connect the verbs with implied 'and's, 
 Instead, the verbs should act as auxiliaries:
 
 *li kama li kanu li mupa* - 'come to be able to move'
+
+--------
+
+consider this idea from 2 angles:
+
+1. most words can't be verbs on their own -- they need a particle word from a small closed class, 
+defining what kind of verb it is:
+
+as a holdable object
+
+become dead (die -- receive, gain death)
+----
+
+make sth dead (kill -- give death)
+-----
+
+be dead (without a time component)
+-----
+
+lose death (stop being dead)
+----
+let go of/abandon/lose/drop
+un-become dead
+
+scary vs scared -- habitually give fear vs has received fear
+in the process of
+take?
+has verbed/has been verbed
+
+
+as a quantity
+------
+* keep/hold/retain heat
+* increase heat
+    - make sth more hot
+* decrease heat
+    - make sth less hot
+
+
+2. most words aren't verbs -- they need to be used with one of the few verbs in the language, 
+to express the relevant process.
+This avoids each word having its own stativity/passivity when used as a verb.
+
+
+
+|
+V
+a --> b
+
+a Xs (optional b, with c, at d, during e etc)
+
+
+
+      |
+      V
+a --> b
+
+b is Xed (by optional a)
+
+
+ |
+ V
+ a ---+
+/\    |
+ |    |
+  ----+
+
+a Xs itself
+

@@ -16,6 +16,7 @@ vocab sets (subsets of the main dictionary)
     months, seasons
     numbers
     elements
+    names of letters (ay bee see etc)
 
 
 change the landing page for new ideas from 'new words' to 'how to say'

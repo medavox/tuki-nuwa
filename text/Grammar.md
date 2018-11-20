@@ -13,21 +13,69 @@ Forming Questions
 
 A statement can be turned into a question by preceding it with *ki*. This word roughly translates as *is it the case that*.
 
-*Ki si wilu moku?* Do you want to eat?/Are you hungry?
+*Kuwi si wilu moku?* Do you want to eat?/Are you hungry?
 
-*Ki mi muta li jan? ju ki mi muta li jan pi tawa musi?* Are we human? or are we dancers?
+*Kuwi mi muta li jan? ju kuwi mi muta li jan pi tawa musi?* Are we human? or are we dancers?
 
-*jan miwi puna luku u, ki si wilu isun e win kapi?* do you want to buy a hat, pretty lady?
+*miwi puna luku u, kuwi si wilu isun e win kapi?* do you want to buy a hat, pretty lady?
 
-*ki jan nuwa li lapi?* (are the children/is the child) asleep?
+*kuwi jan nuwa li lapi?* (are the children/is the child) asleep?
+
+
+Answering yes-no questions without words for yes or no
+------
+
+This is less difficult than you might think:
+
+*Kuwi si wilu li nami?* 'Are you hungry'/'Do you want to eat?'
+
+*tatu!* "correct!"
+*mi wilu nami* "I want to eat"
+*mi wilu nami ka!* "I do indeed want to eat!"
+
+*mi wilu nami nata* "i don't want to eat"/"I'm not hungry"
+or simply,
+*nata*
+
 
 Forming if-Then Constructions
 ======
 
-Making Comparisons
-=======
 
+Degrees of Intensity & Making Comparisons
+========
 
+Because Tuki Nuwa has so few words, 
+there's often only one word to express a certain concept.
+
+[todo: examples]
+
+In order to express greater or lesser degrees of intensity,
+or even the opposite end of the 'scale',
+Tuki Nuwa has a rich set of intensity words:
+
+Quantity, amount and intensity are all expressed with the same class of words:
+
+Word     | Meaning in English
+---------|--------------
+huta     | too
+pulan    | fully
+makisu   | most
+mulu     | MORE
+muta     | VERY/MANY
+satisu   | enough
+sumin    | SOME, somewhat
+sama     | same, equal
+lili     | slightly, a little, a bit
+nuni     | close, near
+mina     | less
+nata     | not
+kika     | absence
+anti     | opposite
+
+`mi pulan huta. Mi manta i ni: mi hinsu pa!`
+
+"I'm too full. I think I'm going to burst!"
 
 Topic Marker
 ===========
@@ -47,7 +95,9 @@ Past, Present and Future
 
 When a verb takes place in the present, we use li to seperate the noun doing the verb, from the verb itself.
 
-If it happens in the future or the past, we use different words blah1 and blah2:
+If it happens in the future , we use `hinsu`:
+
+If it happens in the past , we use `jatun`:
 
 
 
@@ -60,9 +110,10 @@ If the subject of a sentence does something to itself, we use *sama* after the o
 
 she calls herself Alex
 
-*mi kika jaki i mi sama*
 
-I'm washing ("removing dirt" from) myself
+*mi sanita i mi sama*
+
+I'm washing (cleaning) myself
 
 
 --------
