@@ -127,7 +127,7 @@ we could say "He is beginningly doing it," meaning "he's beginning to do it".
 Nice idea?
 
 
-Regularising Verb Valency Intuitively
+Making Verb Valency Regular & Intuitive
 =======================================
 
 Or, How to Keep Verb Valency From Becoming an 
@@ -161,3 +161,6 @@ All nouns only *have* an adjectival property:
 \* *wata li wata liki* water **is** wet
 
 -----
+
+todo: teach how to use conceptual metaphor to get around the few words,
+talk about things we don't have an actual word for
