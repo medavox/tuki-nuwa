@@ -43,6 +43,14 @@ but I think that its inability to express fundamental parts of human existence s
 
 This document is a work-in-progress.
 
+Tuki Nuwa is intended to be a supplemental language,
+enhancing and extending the existing words two people might already both know.
+
+These common words could be international words (taxi, hotel), 
+medical terms, scientific and technological terms etc.
+But the useful overlap will depend on what the speakers both know they both know.
+
+
 Word Definition Changes
 =====
 
