@@ -60,8 +60,8 @@ They are usually pronounced in any of the following ways:
 
 Letter  | Pronunciation examples
 --------|-----------------------
-h		| [h], [χ], [x], [ɦ], [ħ], [ç], [ʝ], [ʁ], [ʕ]
-j		| [j], [i]
+h		| [h], [χ], [x], [ɦ], [ħ], [ç], [ʁ], [ʕ]
+j		| [j], [i], [ʝ]
 k		| [k], [g], [q], [ɢ]
 l 		| [l], [ɫ], [ɺ], [r], basically any l- or r-like sound you can make
 m 		| [m], [ɱ], ¯\_(ツ)_/¯
