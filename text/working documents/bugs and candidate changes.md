@@ -44,7 +44,7 @@ how to say 'show me sth'?
     but how to make it a command?
         u jupa luku puha i sth na mi?
         'make be-seen sth to me'
-    how about *u nisunta luku i mi na ni*
+    how about *u nisunta li luku i mi na ni*
     'allow/let me to see that' (is it i mi na ni, or i ni na mi?)
     *u nisunta i ni: mi luku i ni*?
 
@@ -226,3 +226,22 @@ Furthermore, it also creates a new problem:
 if every word can only mean one thing (as any POS),
 then we'll need a hecking lot more separate lexemes
 for all these now-separate words.
+
+-----
+
+This root-class system is apparently similar enough to Esperanto's that the same criticisms may apply:
+from [http://jbr.me.uk/ranto/o.html]:
+"
+Class‐Switching – any given root can take any one of the endings, reducing the number of separate dictionary entries required: a verb can become an adjective, or a noun can become an adverb, without retaining any trace of its history.  (The more normal approach in natural languages is for class‐switching to involve adding some sort of extra suffix, so users can easily tell that for instance the noun goodness is derived from an adjective.)
+
+Unfortunately… this radically artificial approach has unpleasant effects.  For a start, a single noun may be associated with more than one adjective – take for instance the roots dent‐, sun‐, viv‑.  As nouns they mean “tooth, sun, life”, but the adjectives are ambiguous in each case between “pertaining to” and “richly supplied with” the noun (“dental/toothy”, “solar/sunny”, “biotic/lively”).  Even when the class‐switching might work neatly, it often doesn't: for instance, nouns converted to verbs may end up either transitive (broso/brosi = “a brush/to brush”) or intransitive (fajro/fajri = “a fire/to be on fire”).  Compare also the haphazard behaviour of roots like timo = “fear” and naŭzo = “disgust”.
+"
+
+-----
+[http://jbr.me.uk/ranto/n.html]:
+
+"A genuinely Turkish‐style Esperanto would handle all the various modal, reflexive, conditional, or aspectual forms of verbs by stacking verb endings, so that (for instance) mi ne estos vidita = “I won't have been seen” would use perfect, passive, future, negative, and subject‐agreement endings to form something like, say, vid‐iv‐at‐ur‑en‑im. "
+
+------
+
+Consider morphophonology: how (in a word) nearby sounds affect each other's pronunciation
