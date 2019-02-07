@@ -100,7 +100,18 @@ mix
 please
 surroundings, nearby, environs
 turn into sth; turn sth1 into sth2
-
+run
+jump
+markings
+climb
+wall, fence
+follow
+itch, scratch
+defence
+tight/loose
+bend, flex | bendy, flexible
+stretch
+threat, threaten, threatening
 
 Wider Range of Animal Names, Farm Terms
 -----
