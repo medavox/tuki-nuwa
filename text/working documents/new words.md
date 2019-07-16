@@ -36,13 +36,17 @@ make sth <adj>
 grammar words for how two consecutive nouns (or NPs) are related: belonging, type of, etc
 (for) each, per, every
 
+Adjectifiers
+------
+
+Turn the following content-word into an adjective.
+
 
 Main List
 ---------
 
 words in bold have been suggested by the word internationality program,
-as the (usually non-chinese) word with the highest number of speakers that
- can be converted recognisably to tuki nuwa's phonology
+as the word with the highest number of speakers that can be converted recognisably to tuki nuwa's phonology
 
 possible lexeme | Noun | Verb | Adjective | Other
 ----------------|------|------|-----------|------
@@ -67,7 +71,7 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 nina | bump, hill, mountain, button | to protrude | |
 frequency, often, again, never, sometimes, rarely, frequently
 describe, property, talk about
-self?
+self, reflexive pronoun
 **intansa intan intansun intansu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional
 cover
 barrier, blockage | block | blocking
@@ -93,7 +97,7 @@ text, book, pamphlet, words
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 + make-have without permission | theft | steal | stolen, thieving
-care (as in "I don't care")
+care, worry (as in "I don't care")
 **kumunikasi**, **linkuwa**
 put, place
 mix
@@ -112,6 +116,17 @@ tight/loose
 bend, flex | bendy, flexible
 stretch
 threat, threaten, threatening
+choose, pick, select
+system, structure
+strange
+reach
+boring, boredom, bored
+on the contrary, actually, de:doch, however
+lazy
+tired
+secret,private
+matter, worth -- as in, it doesn't matter
+
 
 Wider Range of Animal Names, Farm Terms
 -----
@@ -250,7 +265,7 @@ bicycle | tulu mupa pi siki tu 'moving tool of two wheels'
 plane | tulu mupa pi wasu
 boat | tulu mupa pi wata
 train | tulu mupa pi lina <metal>
-leather | hiwa suwilu `<dry>` 'dried animal skin'
+leather | hiwa suwilu sikusa 'dried animal skin'
 drink | nami i wata 'eat water'
 river | wata mupa
 teeth | hasi uta "mouth knives"
@@ -366,3 +381,4 @@ silly, foolish, stupid | kika sawa
 separate, split | `tu` as a verb
 weird, odd, strange, unusual | likula nata; likula upusi; likula kika
 as (as in, 'as a dog') | sama
+cave | tumu natula

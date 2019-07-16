@@ -7,9 +7,8 @@ creating an ideal auxiliary language.
 For that, the language should be easy to learn, and be as easy to understand as possible.
 AKA easy to learn, easy to use.
 
-Complexity is not inherently bad.
-
-Complexity is a tool; and like any tool, it can be used for good or bad -- in a good or bad way.
+Complexity is not inherently bad; complexity is a tool. 
+And like any tool, it can be used for good or bad -- in a good or bad way.
 People who do bad don't always mean to.
 
 ------
@@ -29,7 +28,7 @@ probably caused by evolutionary psychological biases:
 in pre-history, those at the highest point had the best chance of spotting predators, avoiding floods.
 
 This probably gave those with a genetically-ordained preference for being higher up
-a higher chance of surviving long enough to mate.
+a better chance of surviving long enough to mate.
 
 -----
 
@@ -58,7 +57,7 @@ It also means that `~`120 words is a lie.
 Baaad toki pona. 
 
 Instead, commonly used phrases for things should be intuitive enough to occur naturally to new speakers.
-(That is, speakers who have just finished learning the language, and are using for the first time,
+(That is, speakers who have just finished learning the language, and are using it for the first time,
 construct the phrase from scratch in the same way as others.)
 
 If they don't, they are just arbitrary symbols for things (AKA words) which learners would have to memorise.
@@ -77,7 +76,7 @@ People prefer not to read out a lot of significant digits anyway (at least in En
 
 I still need to figure out how to make that limitation an inherent property.
 
-un tu pi wuka = one two of five = (1 + 2) * 5 = 15
+un tu pi luka = one two of five = (1 + 2) * 5 = 15
 
 -------
 
@@ -110,7 +109,7 @@ good/bad
 ```
 
 where good means 'useful, helpful, altruistic, safe, seen favourably'
-and bad means 'useless, unhelpful, evil, dangerous, seen unfavourably'
+and bad means 'useless, unhelpful, harmful, evil, dangerous, seen unfavourably'
 
 eg, room === cave; hand === paw; injured === damaged, page === leaf (which we already do sometimes in english)
 
@@ -133,7 +132,10 @@ Where a lexeme for a word came from is irrelevant to learning or using the langu
 
 ------
 
-Learning materials for the language should be worded as simply as possible. Getting bogged down in precise linguistic terminology is unnecessary for learning the language itself, and only alienates learners who aren't linguists, and forces linguistically-aware readers to scan over needless exposition.
+Learning materials for the language should be worded as simply as possible. 
+Getting bogged down in precise linguistic terminology is unnecessary for learning the language itself,
+and alienates learners who aren't linguists, 
+and forces linguistically-aware readers to scan over needless exposition.
 
 Examples of words to avoid in general learning materials:
 
@@ -316,3 +318,36 @@ b is Xed (by optional a)
 
 a Xs itself
 
+------
+
+Instead of using various prepositions & quantifiers for adding spatial, time, quantity modifiers to verbs ("move a little bit"),
+just use adverbs:
+
+move space-wise small
+move speed-wise small
+move quantity-wise small
+
+------
+
+maybe instead of having a word mean very similar things when used differently (eg suno = bright, light up, Light),
+
+have the different POS uses have completely different meanings. This might lead to less ambiguity overall
+
+----
+
+Past 150, other good (memorable) numbers of words to have in the language:
+
+250
+360
+365
+
+-----
+
+For the sake of recognisability, it may be worth including the vowels e and o again.
+Recognisability of both spelling and pronunciation:
+many romance words would become recognisable again with these.
+`>=`5-vowel systems are very common corss-linguistically;
+
+The only language which doesn't support this is Arabic; but
+1. This is only Modern Standard Arabic, and
+2. Arabic does have short and long vowels, so there may be some overlap with these.

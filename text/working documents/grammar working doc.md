@@ -20,6 +20,8 @@ Tuki Nuwa is shaping up so far to be entirely right-branching,
 but it'd be worth explicitly defining the canonical order;
 or at least explicitly leaving it undefined.
 
+Whatever the decision, the language docs need to say something about it.
+
 Topic-Prominent Sentences
 =========================
 

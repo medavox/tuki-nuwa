@@ -62,6 +62,7 @@ private val validWord = Regex("[$consonants]?[$vowels]n?([$consonants][$vowels]n
 * all possible words
 * all real words
 * all unused words*/
+//todo: look for groups of words that sound identical to any multi-syllabic word
 //todo: combine random into query, as a query without a word, random output, limited to x lines
 fun main(args: Array<String>) {
     if(args.isEmpty()){

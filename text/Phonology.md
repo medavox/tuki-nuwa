@@ -45,7 +45,7 @@ Cyrillic letter | Latin letter
 Phonology
 =========
 
-Or, How Toki Nawa is Spoken
+Or, How Tuki Nuwa is Spoken
 ------
 
 Consonants
