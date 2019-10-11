@@ -351,3 +351,15 @@ many romance words would become recognisable again with these.
 The only language which doesn't support this is Arabic; but
 1. This is only Modern Standard Arabic, and
 2. Arabic does have short and long vowels, so there may be some overlap with these.
+
+-----
+
+Our new word registry seems to be exploding with terms for different domains,
+eg quality, moral goodness;
+the idea we had earlier, that these are not just different senses of 'good',
+is increasingly seeming like my own philosphical-language style bias,
+and is becoming increasingly at odds with keeping the word count down 
+(and by extension the language complexity as a whole)
+
+Maybe it's ok just to use the word 'good' for a variety of meanings?!
+I mean, English does it
