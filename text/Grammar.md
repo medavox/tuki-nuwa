@@ -6,12 +6,16 @@ Part-of-Speech Markers
 
 A word's role in a sentence is inferred from context, word-order, li and i markers etc.
 
-But if a word's meaning can't be inferred, or a more complex form is required, explicit grammar words can be used to indicate part-of-speech, for instance in a complex noun phrase.
+But if a word's meaning couldn't be inferred from context,
+or a more complex form is required,
+explicit grammar words can be used to indicate part-of-speech, 
+for instance in a complex noun phrase.
 
 Forming Questions
 ==========
 
-A statement can be turned into a question by preceding it with *ki*. This word roughly translates as *is it the case that*.
+A statement can be turned into a question by preceding it with *ki*. 
+This word can be roughly translated into English as *is it the case that...?*.
 
 *Kuwi si wilu moku?* Do you want to eat?/Are you hungry?
 
