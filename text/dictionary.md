@@ -14,6 +14,7 @@ animu | animal, esp. land mammal | | |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop, fall  | low, lower, bottom, down |
 asapa | failure | fail, lose | losing
 asitu | seat, chair, somewhere to sit down | sit, sit down | seated, sat down
+ata   | eight
 atani | difference | change, alter, modify | different, other | otherwise, or else
 awasa | Hunting, gathering, hunter-gathering, collection | to gather, collect, harvest, hunt | together, gathered, collected |
 awin | memory | stay, wait, remain; carry, keep, continue, hold, remember | remaining, stationary, permanent, sedentary
@@ -125,6 +126,7 @@ ni   | | | | this, that
 nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
+nupi | nine
 nuwa | news, newness, novelty, youth, freshness | | new, young, fresh, additional |
 pa   | click, crack, bang, pop, (~ satu) explosion | bang, pop, (~ muta) explode, burst
 pakala | accident, mistake | do by mistake | accidental | damn !
@@ -151,7 +153,7 @@ puluki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 pumisu | consent, permission | consent, permit, allow | consensual, permitted, allowed
 puna | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! OK! Cool! yay!
 pusiki | importance, significance | to matter, to be important | important, significant, main, fundamental
-pusipu | likelihood, probability, possibility, chance | | likely, probable, probably, possibly
+pusipu | likelihood, probability, possibility, chance, luck | | likely, probable, probably, possibly (~ puna) lucky
 putala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
 puwanu | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't normally stand on easily (eg, without also using their hands for balance/support) | | |
 sala | salt | | salty |
