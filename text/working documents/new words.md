@@ -126,6 +126,15 @@ lazy
 tired
 secret,private
 matter, worth -- as in, it doesn't matter
+kindness
+main
+find, discover (not as in think)
+common/rare
+make it so that ...
+resist
+allow
+deny
+prevent
 
 
 Wider Range of Animal Names, Farm Terms
