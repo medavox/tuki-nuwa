@@ -204,7 +204,7 @@ kiwu si wilu i Ti?
 
 maybe the meaning of a word as an adjective should be required to mean exactly the same thing as the word used as a noun.
 eg, [todo: example] 
-this would remove the problem that some 'words' (lexemes) are really a collection of closely-related (or sometimes not-so-closely-related) words which differ by part of speech -- meaning learning one word really means learning two or three words -- a noun, a verb, an adhective, and maybe something else.
+this would remove the problem that some 'words' (lexemes) are really a collection of closely-related (or sometimes not-so-closely-related) words which differ by part of speech -- meaning learning one word really means learning two or three words -- a noun, a verb, an adjective, and maybe something else.
 
 (in my opinion, rolling several words into one lexeme like this is a bit of a 'cheat' to keep the word count down...)
 
@@ -217,8 +217,7 @@ eg should/must/obligation starts as should without any modifiers
 -------
 
 Have a collection of third-person pronouns which are used for different entites in the context;
-referents for the first, second and third introduced things in a sentence
-
+referents for the first, second and third things introduced in a discourse
 
 have a small set of words whose meaning can be assigned in a sentence;
 essentially pronouns, but which can stand in for any noun-phrase.
@@ -338,6 +337,7 @@ have the different POS uses have completely different meanings. This might lead 
 Past 150, other good (memorable) numbers of words to have in the language:
 
 250
+300
 360
 365
 
@@ -346,7 +346,7 @@ Past 150, other good (memorable) numbers of words to have in the language:
 For the sake of recognisability, it may be worth including the vowels e and o again.
 Recognisability of both spelling and pronunciation:
 many romance words would become recognisable again with these.
-`>=`5-vowel systems are very common corss-linguistically;
+`>=`5-vowel systems are very common cross-linguistically;
 
 The only language which doesn't support this is Arabic; but
 1. This is only Modern Standard Arabic, and
@@ -363,3 +363,10 @@ and is becoming increasingly at odds with keeping the word count down
 
 Maybe it's ok just to use the word 'good' for a variety of meanings?!
 I mean, English does it
+
+-------------------
+
+english is such a flexible, expressive language,
+with a thousand ways to say anything.
+
+Tuki Nuwa doesn't have to be as flexible as English, to be useful.
