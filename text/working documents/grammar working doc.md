@@ -71,6 +71,8 @@ Or, how to make adjectives out of completed verbs without being too verbose
 If-Then Constructions
 =====================
 
+<https://en.wikipedia.org/wiki/Conditional_sentence>
+
 To do!
 
 Auxiliary Verbs
@@ -166,3 +168,9 @@ All nouns only *have* an adjectival property:
 
 todo: teach how to use conceptual metaphor to get around the few words,
 talk about things we don't have an actual word for
+
+
+-------
+
+There's a general split between languages where adjectives are more like nouns,
+and languages where they're more like verbs.
