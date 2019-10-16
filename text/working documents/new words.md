@@ -139,6 +139,7 @@ real
 throw
 catch
 type, kind, version
+evidentiality: supposedly, apparently, obviously
 
 
 Wider Range of Animal Names, Farm Terms

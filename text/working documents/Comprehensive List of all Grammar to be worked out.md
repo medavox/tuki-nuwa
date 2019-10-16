@@ -28,6 +28,15 @@ Aspect
 Modality
 ========
 
+Voice
+=====
+
+"Some languages have even more grammatical voices. For example, Classical Mongolian features five voices: active, passive, causative, reciprocal, and cooperative. Hebrew has active, passive, causative, intensive and reflexive voices.
+
+The antipassive voice deletes or demotes the object of transitive verbs, and promotes the actor to an intransitive subject. This voice is very common among ergative–absolutive languages (which may feature passive voices as well), but also occurs among nominative–accusative languages. "
+
+does that mean that reflexiveness is a voice?
+
 Forming Questions
 ================
 
@@ -51,8 +60,14 @@ Converting to/from other parts of speech
 Number-Pronouncing System
 ========================
 
-Valency - Default, Increasing, Decreasing
+Valency - Default, How to Increase, Decrease
 ========================================
 
 Reflexivity
+==========
+
+Possession
+==========
+
+Imperatives
 ==========

@@ -369,4 +369,7 @@ I mean, English does it
 english is such a flexible, expressive language,
 with a thousand ways to say anything.
 
+we've practically got parallel sets of vocabulary for different registers,
+thanks to germanic, latin/greek and french words for the same thing.
+
 Tuki Nuwa doesn't have to be as flexible as English, to be useful.

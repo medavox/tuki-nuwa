@@ -57,8 +57,11 @@ starting   | inchoative| the action or state is starting
 prospective|           | going to start
 
 
-static(stative)/dynamic
-------
+Stativity
+--------
+
+choices: static(stative) / dynamic
+
 
 whether the verb contains change over time (stand up, go to sleep, combust),
  or a state the subject is in (sleeping, standing, burning). 
@@ -110,7 +113,7 @@ or
 transitivity is more up for debate: it may not be a sophisticated enough system for desrcibing
 what is actually going on with language. 
 
-Pinker suggests in thr language instinct that each verb is listed in the mental dictionary
+In **The Language Instinct**, Pinker suggests that each verb is listed in the mental dictionary
 as needing a specific set of arguments, each with a type (such as noun phrase, preposition-phrase).
 
 valency

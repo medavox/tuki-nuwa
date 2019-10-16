@@ -9,7 +9,7 @@ Or, How Toki Nawa is Spelled
 The entire alphabet of Tuki Nuwa is:
 
 ```
-a h i j k l m n p s t u w
+a e i j k l m n o p s t u
 ```
 Each letter makes only one sound, but how you pronounce that sound is up to you.
 
@@ -17,18 +17,12 @@ These letters have been picked because their sounds all occur (in some form) in
 all of the world's most widely-spoken languages.
 
 You may not speak a language *at home* with all these sounds in,
-but you probably use one regularly (at work, in school etc) that does.
+but you might use one regularly (at work, in school etc) that does.
 
-or, if you prefer Cyrillic:
-
-```
-а в и й к л м н п с т у х
-```
 
 Cyrillic letter | Latin letter
 ----------------|----------------
 а 			    | a
-в 			    | w
 и				| i
 й				| j
 к				| k
