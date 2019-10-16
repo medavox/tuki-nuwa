@@ -135,6 +135,10 @@ resist
 allow
 deny
 prevent
+real
+throw
+catch
+type, kind, version
 
 
 Wider Range of Animal Names, Farm Terms
