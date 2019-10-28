@@ -346,10 +346,10 @@ Past 150, other good (memorable) numbers of words to have in the language:
 For the sake of recognisability, it may be worth including the vowels e and o again.
 Recognisability of both spelling and pronunciation:
 many romance words would become recognisable again with these.
-`>=`5-vowel systems are very common cross-linguistically;
+Also,`>=`5-vowel systems are very common cross-linguistically;
 
 The only language which doesn't support this is Arabic; but
-1. This is only Modern Standard Arabic, and
+1. This is only Modern Standard Arabic (some Arabic dialects have e and o), and
 2. Arabic does have short and long vowels, so there may be some overlap with these.
 
 -----
@@ -372,4 +372,53 @@ with a thousand ways to say anything.
 we've practically got parallel sets of vocabulary for different registers,
 thanks to germanic, latin/greek and french words for the same thing.
 
-Tuki Nuwa doesn't have to be as flexible as English, to be useful.
+Tuki Nuwa doesn't have to be as flexible as English to be useful.
+
+
+-----------
+
+how about we do actually have words for yes and no (ja & no),
+because that's what most languages do (I think?!)
+And then the word for no is also the negative particle
+
+this is a good time to make a more general point about the slightly conflicting aims:
+
+word count
+ease of use & learning
+familiarity
+
+it can't be familiar to everyone, 
+but we can have the vocabulary target the majority via the word-internationality program.
+So how do we do the same for the grammar (make it familiar to as many as possible)?
+and do we even want to try to do that?
+the commonest grammar structures are not necessarily the easiest to learn!
+
+-------
+
+
+it's worth bearing in mind, that all the undistinguished properties of words
+(gender, naturalness etc) are only useful if they don't need specifiying in EVERY usage.
+
+There should be places we can use the word, and the meaning is obvious from context
+without adding specifiers
+
+If every usage of an undistinguished word needs a qualifier to make it make sense,
+maybe it's just better to have 2+ words...?
+
+-------
+
+are 'know' and 'think' just two different points on a certainty scale?
+could we therefore combine them into one word,
+and differentiate them with certainty qualifiers?
+
+or is that a bit silly for words as basic as 'think' and 'know'?
+are they actually basic?
+
+--------------
+
+consider giving grammar words like jatun and puha a role also as a content word,
+eg puha could mean happen?
+
+this is more naturalistic, which isn't itself a good reason to do it in this lang;
+but it may make the language more intuitive, and reduce the word count,
+therefore easier to learn

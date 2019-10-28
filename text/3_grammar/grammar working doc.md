@@ -19,7 +19,7 @@ Embedded clauses
 AKA Subordination in The Unfolding of Language, and probably elsewhere.
 
 The argument can be made that embeddability only makes the grammar harder to learn,
-and that a tool which is for basic communication needs to not make itself overly complex.
+and that a tool which is for basic communication shouldn't make itself overly complex.
 
 Perhaps the meaning of more complex constuctions in English can even be expressed,
 in more roundabout ways in Tuki Nuwa.
@@ -149,3 +149,10 @@ talk about things we don't have an actual word for
 
 There's a general split between languages where adjectives are more like nouns,
 and languages where they're more like verbs.
+
+--------
+
+pursuant to pinker's idea that auxiliary verbs make some comment about the core sentence clause:
+isn't that also what adverbs are for? modifying the central verb?
+
+maybe this is what the NSM LIKE-AS-WAY is meant for?
