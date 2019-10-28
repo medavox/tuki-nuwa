@@ -56,7 +56,7 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | smooth |
 + **pikahusu** | adhesion | to stick (to sth), binding, connect, touch | sticky, adhesive |
 *ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
-**nalati, mitapu** | fictional, imaginary; story; figurative; metaphorical
+**nalati, metapu** | fictional, imaginary; story; figurative; metaphorical
 + god(s), religion, the spiritual world | | religious, holy, divine, spiritual, godly
 **kasa** | house, dwelling; any structure which something spends time in | | domestic, household |
 + | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position
@@ -72,11 +72,11 @@ nina | bump, hill, mountain, button | to protrude | |
 frequency, often, again, never, sometimes, rarely, frequently
 describe, property, talk about
 self, reflexive pronoun
-**intansa intan intansun intansu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional
-cover
+**intensa inten intensun intensu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional
+cover | wilu nisa
 barrier, blockage | block | blocking
 to tie sth
-**kantula** | control
+**kontola** | control
 THERE IS | *lun ni li hapa*.
 if...then
 against (as in anti something)
@@ -383,11 +383,11 @@ temporary, for now | *pi ipuki ni tasu*
 receive | *pana puha*
 in front of | *lun sinpin* 
 half | pisi tu
-police | <law> keeper 
+police | <law> keeper ; jan pi putala tawa lekula (fight-for-law man)  
 flies | pipi wasu
 hide, obscure | li pali pi kanu luku nata
 be on something | siwi
-crazy | manta kaputi
+crazy | menta kaputi
 between | lun tu 
 clock | tulu ipuki
 sea | wata sala satu
