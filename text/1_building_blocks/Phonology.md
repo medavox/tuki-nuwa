@@ -6,12 +6,13 @@ Orthography
 Or, How Toki Nawa is Spelled
 ---------
 
-The entire alphabet of Tuki Nuwa is:
+The alphabet of Tuki Nuwa is:
 
 ```
 a e i j k l m n o p s t u
 ```
-Each letter makes only one sound, but how you pronounce that sound is up to you.
+Each letter makes only one sound, 
+but there is some leeway in to how to pronounce that sound.
 
 These letters have been picked because their sounds all occur (in some form) in
 all of the world's most widely-spoken languages.
@@ -19,33 +20,16 @@ all of the world's most widely-spoken languages.
 You may not speak a language *at home* with all these sounds in,
 but you might use one regularly (at work, in school etc) that does.
 
-
-Cyrillic letter | Latin letter
-----------------|----------------
-а 			    | a
-и				| i
-й				| j
-к				| k
-л				| l
-м				| m
-н				| n
-п				| p
-с				| s
-т				| t
-у				| u
-х				| h
-
-
 Phonology
 =========
 
-Or, How Tuki Nuwa is Spoken
+Or, The sounds of Tuki Nuwa
 ------
 
 Consonants
 ======
 
-There are 10 consonants in Tuki Nuwa. 
+There are 8 consonants in Tuki Nuwa. 
 
 Toki Nawa allows a lot of flexibility in pronunciation; 
 as long as you make yourself understood, `ali li puna`!
@@ -54,7 +38,6 @@ They are usually pronounced in any of the following ways:
 
 Letter  | Pronunciation examples
 --------|-----------------------
-h		| [h], [χ], [x], [ɦ], [ħ], [ç], [ʁ], [ʕ]
 j		| [j], [i], [ʝ]
 k		| [k], [g], [q], [ɢ]
 l 		| [l], [ɫ], [ɺ], [r], basically any l- or r-like sound you can make
@@ -63,13 +46,12 @@ n 		| [n], [ŋ], [ɲ], [ɴ]
 p 		| [p], [b], [f], [v]
 s 		| [s], [z], [ʃ], [ʒ], [θ], [ð], [ʂ], [ʐ], [ɕ], [ʑ]
 t 		| [t], [d]
-w 		| [w], [ʋ], [v]
 
 
 Vowels
 ======
 
-Toki Nawa has only 3 vowels : a i u.
+Toki Nawa has 5 vowel sounds : a e i o u.
 
 Their pronunciation should be fairly self-explanatory (if you read the latin alphabet),
 but here are some example pronunciations anyway.
@@ -79,15 +61,37 @@ as long as people can tell them apart.
 Letter  | Pronunciation examples
 --------|-----------------------
 a 		| [a ɑ æ ɐ ]
-i 		| [i y e ɪ ]
-u 		| [u ɯ o ʊ ]
+e       | [e ɛ ]
+i 		| [i y ɪ ]
+o       | [o  ]
+u 		| [u ʊ ɒ ɔ ]
+
+
+vowels are more disinguished by closeness and roundedness,
+rather than backness.
+
+* a is an open unrounded vowel
+* e is a mid unrounded vowel
+* i is a close unrounded vowel
+* o is a close-mid, open-mid or open rounded vowel, 
+  usually (but not always) more back
+* u is a close rounded vowel, usually (but not always) more back
+
+For English Speakers
+-------------------
+
+* a is pronounced as in p**a**n
+* e is pronounced as in p**e**n or p**ay**, never as in b**ee**n
+* i is pronounced as in b**i**n or b**ee**n, never as in b**i**te or p**ie**
+* o is pronounced as in **o**n, b**o**ne or b**ore**
+* u is pronounced as in s**oo**n or w**ou**ld, never as in **you**
 
 We all vary our pronunciation of any language anyway,
 when we whisper, speak with our mouth full, sing, or shout.
 
-Don't worry!
+As long as you are understood, all is good -- *ale li pona*.
 
-Stress is always on the first syllable.
+Stress is always on the first syllable of each word.
 
 Phonotactics
 =========
@@ -98,15 +102,6 @@ Or, In What Order Letters Can Appear
 Toki Nawa syllables follows a consonant-vowel structure.
 The first syllable of a word might just be a vowel.
 
-Words may be one, two or three syllables, including the POS ending.
-
-N sounds may ONLY occur at the beginning of a root word. 
-After that, they might be used to used to distinguish additional POS tags,
-eg `nuka` 'leg/foot', `nuku` 'to kick' vs `nukuna` 'the act of kicking'
-
-(LUUUUUUPAAAAAAAAAA! ⚽)
+Words can be one, two or three syllables.
 
 [todo: move the following section to another file, eg grammar]
-
-glue words (nima lili taki) don't take endings.
-They are usually very small, one or two syllables.
