@@ -1,86 +1,6 @@
 * To emphasise an adjective, repeat that adjective. Or use whatever passes for 'very' these days
 
 
-Part-of-Speech Markers
-=============
-
-A word's role in a sentence is inferred from context, word-order, li and i markers etc.
-
-But if a word's meaning couldn't be inferred from context,
-or a more complex form is required,
-explicit grammar words can be used to indicate part-of-speech, 
-for instance in a complex noun phrase.
-
-Forming Questions
-==========
-
-A statement can be turned into a question by preceding it with *ki*. 
-This word can be roughly translated into English as *is it the case that...?*.
-
-*Kuwi si wilu moku?* Do you want to eat?/Are you hungry?
-
-*Kuwi mi muta li jan? ju kuwi mi muta li jan pi tawa musi?* Are we human? or are we dancers?
-
-*miwi puna luku u, kuwi si wilu isun e win kapi?* do you want to buy a hat, pretty lady?
-
-*kuwi jan nuwa li lapi?* (are the children/is the child) asleep?
-
-
-Answering yes-no questions without words for yes or no
-------
-
-This is less difficult than you might think:
-
-*Kuwi si wilu li nami?* 'Are you hungry'/'Do you want to eat?'
-
-*tatu!* "correct!"
-*mi wilu nami* "I want to eat"
-*mi wilu nami ka!* "I do indeed want to eat!"
-
-*mi wilu nami nata* "i don't want to eat"/"I'm not hungry"
-or simply,
-*nata*
-
-
-Forming if-Then Constructions
-======
-
-
-Degrees of Intensity & Making Comparisons
-========
-
-Because Tuki Nuwa has so few words, 
-there's often only one word to express a certain concept.
-
-[todo: examples]
-
-In order to express greater or lesser degrees of intensity,
-or even the opposite end of the 'scale',
-Tuki Nuwa has a rich set of intensity words:
-
-Quantity, amount and intensity are all expressed with the same class of words:
-
-Word     | Meaning in English
----------|--------------
-huta     | too
-pulan    | fully
-makisu   | most
-mulu     | MORE
-muta     | VERY/MANY
-satisu   | enough
-sumin    | SOME, somewhat
-sama     | same, equal
-lili     | slightly, a little, a bit
-nuni     | close, near
-mina     | less
-nata     | not
-kika     | absence
-anti     | opposite
-
-`mi pulan huta. Mi manta i ni: mi hinsu pa!`
-
-"I'm too full. I think I'm going to burst!"
-
 Topic Marker
 ===========
 
@@ -94,33 +14,15 @@ In the past, I didn't eat fruit (or I didn't eat the fruit)
 
 It can also be used to separate a complex subject- or object-phrase from the rest of the sentence
 
-Past, Present and Future
-======
+Part-of-Speech Markers
+=============
 
-When a verb takes place in the present, we use li to seperate the noun doing the verb, from the verb itself.
+A word's role in a sentence is inferred from li and i markers, word-order, context etc.
 
-If it happens in the future , we use `hinsu`:
-
-If it happens in the past , we use `jatun`:
-
-
-
-Reflexive Pronouns
-======
-
-If the subject of a sentence does something to itself, we use *sama* after the object:
-
-*lu li nimi i lu sama na Alex*
-
-she calls herself Alex
-
-
-*mi sanita i mi sama*
-
-I'm washing (cleaning) myself
-
-
---------
+But if a word's meaning wouldn't be inferred from context,
+or a more complex form is required,
+explicit grammar words can be used to indicate part-of-speech, 
+for instance in a complex noun phrase.
 
 You can use the Part-Of-Speech-Marking words to precisely refer to a specific concept, if needs be.
 

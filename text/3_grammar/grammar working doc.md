@@ -5,23 +5,6 @@ This document is intended to serve as a grammar counterpart to the new-words doc
 a landing-place for new ideas to possibly realise in tuki nuwa,
 and a sort of checklist of things we still need to do
 
-Branching
-=========
-
-We need to explicitly define the word order in noun phrases(left- or right-branching):
-
-
-Chinese languages:  numeral-adjective-noun-postposition
-Germanic languages: preposition-numeral-adjective-noun
-Romance languages:  preposition-numeral-noun-adjective
-Bantu languages:    preposition-noun-numeral-adjective
-
-Tuki Nuwa is shaping up so far to be entirely right-branching,
-but it'd be worth explicitly defining the canonical order;
-or at least explicitly leaving it undefined.
-
-Whatever the decision, the language docs need to say something about it.
-
 Topic-Prominent Sentences
 =========================
 
@@ -66,14 +49,6 @@ The '__Cooked__ Fish' Problem
 -----------------------------
 
 Or, how to make adjectives out of completed verbs without being too verbose
-
-
-If-Then Constructions
-=====================
-
-<https://en.wikipedia.org/wiki/Conditional_sentence>
-
-To do!
 
 Auxiliary Verbs
 ===============

@@ -12,9 +12,9 @@ In Tuki Nuwa, these are expressed with either *li* (present),
 
 eg:
 
-*lu li nami* = 'he's eating'
-*lu jatun nami* = 'he ate'
-*lu hinsu nami* = 'he'll eat
+*lu li nomi* = 'he's eating'
+*lu jatun nomi* = 'he ate'
+*lu hinsu nomi* = 'he'll eat
 
 In the classical interpretations of the grammar of some languages, 
 all sorts of concepts are sometimes lumped in under tense.
