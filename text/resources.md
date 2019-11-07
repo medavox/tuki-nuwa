@@ -58,3 +58,12 @@ Learning From The Past Attempts of Others
 ======
 
 [JBR's ranto pages](http://jbr.me.uk/ranto/), dissecting Esperanto -- used as a list of pointers of what *not* to do
+
+Grammar
+=====
+
+Mandarin Chinese: A Functional Reference Grammar (1981) by Charles N Li & Sandra A Thompson
+
+The Syntax Construction Kit (2018) by Mark Rosenfelder 
+
+The Typology Archive, by Frans Plank et al, hosted by the University Konstanz 
