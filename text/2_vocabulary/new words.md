@@ -89,16 +89,16 @@ around, near, nearby
 take
 general
 specific
-**justisa** fair
-lock | to lock | locked | upin kanu nata
+fair
+lock | to lock | locked | open kanu nata
 any, every
-certainty, accuracy
+certainty, accuracy, sure
 text, book, pamphlet, words
 lose something, eg an object (to not have anymore)
 put on clothes == come to wear, begin to wear
 + make-have without permission | theft | steal | stolen, thieving
 care, worry (as in "I don't care")
-**kumunikasi**, **linkuwa**
+komunike, **lenkuwa**
 put, place
 mix
 please
@@ -140,6 +140,15 @@ throw
 catch
 type, kind, version
 evidentiality: supposedly, apparently, obviously
+dot, point, speck, thing which is too tiny to appear more than a dot
+case, occurrence, instance
+crunch, crunchy
+trust
+bored, boring
+sad
+embarassed, ashamed
+guilty
+beyond, past, trans-
 
 
 Wider Range of Animal Names, Farm Terms
@@ -153,7 +162,7 @@ word  | meaning
 ------|---------
 kanin | dog
 ku    | cow
-lama  | goat, sheep, llama,
+lama  | goat, sheep, camel, llama
 ?     | horse, zebra, donkey, etc
 ?     | piglike animals
 ?     | chicken
@@ -190,7 +199,7 @@ tasan/imasu
     sculpture , an object made into the shape of something; carving, sculpture, figurine, replica
 
 
-wata
+aku
     a flowing wet substance
     beverage, a liquid for drinking; beverage, drink, juice
     a liquid for washing; water
@@ -250,11 +259,10 @@ potential lexeme | Noun | Verb | Adjective | Other | Reason to be unsure
   | danger | | dangerous |
   |  | | primitive | obscure
   | knot (connection? mess? order?)
-+ | | | squat
++ | | | squat, crouch
   | | uncooked, raw | jatun kukin puha nata
 + | participatory, interactive
   | | thick, wide | | obscure
-uki | | | | OK | do we NEED a word for OK, when we have *puna* etc?
 + | agreement | agree | | I agree with you *mi manta i ni: si tatu* 'I think you're right; I agree = 'si tatu'
 text, words
 
@@ -264,7 +272,7 @@ Probably not adding
 Word | Reason for not adding/equivalent phrase
 -----|----------------------------------------
 child | jan nuwa
-baby | jan pi nuwa pulan liki, or jan nuwa "new person"
+baby | jan open, or jan nuwa "new person"
 rain | wata tawa apa 'water moving down', wata kijalu 'sky water'
 wind | susu tawa 
 snake | akisi linja 'rope lizard'
@@ -383,7 +391,7 @@ temporary, for now | *pi ipuki ni tasu*
 receive | *pana puha*
 in front of | *lun sinpin* 
 half | pisi tu
-police | <law> keeper ; jan pi putala tawa lekula (fight-for-law man)  
+police | jan lekula awen <law> keeper ; jan pi putala tawa lekula (fight-for-law man)  
 flies | pipi wasu
 hide, obscure | li pali pi kanu luku nata
 be on something | siwi
