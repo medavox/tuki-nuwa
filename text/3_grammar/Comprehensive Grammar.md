@@ -1,12 +1,3 @@
-Phonology
-========
-
-Phonotactics
-========
-
-Most Complex Syllable Structure
-------
-
 Subject/Verb/Object Order
 ========================
 
@@ -117,7 +108,7 @@ Subordinate/Dependent Clauses
 Content (noun) Clauses
 -----
 
-These function as a noun themselves. There are 2 types, 
+These function as nouns themselves. There are 2 types, 
 Declarative and Interrogative:
 
 
