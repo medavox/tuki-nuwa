@@ -58,7 +58,7 @@ Baaad toki pona.
 
 Instead, commonly used phrases for things should be intuitive enough to occur naturally to new speakers.
 (That is, speakers who have just finished learning the language, and are using it for the first time,
-construct the phrase from scratch in the same way as others.)
+can construct the phrase from scratch in the same way as others.)
 
 If they don't, they are just arbitrary symbols for things (AKA words) which learners would have to memorise.
 They must be replaced by better phrases.
@@ -422,3 +422,108 @@ eg puha could mean happen?
 this is more naturalistic, which isn't itself a good reason to do it in this lang;
 but it may make the language more intuitive, and reduce the word count,
 therefore easier to learn
+
+------
+
+consider using a different marker word from li,
+to mark auxiliary verbs. Or a different marker for the 'main' verb,
+if that is a meaningful distinction
+
+-----------
+
+make sure there are nouns for objects, classified by shape.
+So a word for sheet-like things,
+rope-like things,
+pole-like things
+
+-------
+
+semantically, even if we manage to split every possible meaning into its polar opposites
+(if they even exist), there's no guarantee that these are considered the opposites
+in all languages -- and that they won't shift in each language over time
+
+------
+
+grammar-wise, we can leave out clefting - 
+the ability to move a part of the sentence away from its normal position.
+
+It's unnecessary, and overcomplicates the grammar
+
+-------
+
+some ideas pilfered from the relevant chapter(s) of Mark Rosenfelder's Syntax Construction Kit:
+
+* include valence info in dictionary entries
+* topics: how do people focus information
+* stress: "I **did** do my homework", "**You** can't come!"
+* Abbreviation & truncation: what can they leave out? what can they *never* leave out?
+* in English, nouns (as well as adjectives) can be used as modifiers to another noun
+  "tax commission president"
+* Adjectives can take complements, such as an NP "afraid of dentists",
+  or an entire clause "eager to go fishing"
+* provide example(s) that are invalid (marked with an asterisk), to also show what *can't* be done
+    - maybe even examples that are dubious (marked with ?)
+* Hindi's relative clauses really attach to the sentence, not the NP?!
+* head-marking vs dependent-marking
+* causative is a valency-changing operation
+* Explicitly consider all combinations of subject/object in main clause and subclause,
+  to make sure your examples parse, especially if you don't have case marking
+* you might think any verb used with another verb is auxiliary.
+  This may work when the subjects are the same:
+
+  I want to live on Europa
+
+  -but almost all of these verbs, unlike auxiliaries, allow other subjects:
+
+  I want Peter Thiel to live on Europa
+
+  So the deep structure is really
+
+  I want [I live on Europa]
+* Reflexivisation - when should you use reflexives?
+* you need not only a system for pronouncing numbers, 
+but also a system for pronouncing arithmetic - eg *two plus two is four*
+
+-------
+
+adjectives can have their own object PPs
+
+(*angry at the world*)
+or even sentences (*ready to buy a drink*)
+
+In English, we can't use adjectives with complements as noun modifiers:
+
+\*We're looking for a good at math candidate
+
+But in German we can.
+
+Adverbs normally can't take complements, even if their adjective forms do:
+
+\* angrily at the world
+
+But there are a few exceptions:
+
+*fortunately for us*
+
+
+--------
+
+
+Relational grammar is the name of the theory introducing verb valence
+
+-----
+
+Mandarin doesn't have much morphology, so relies heavily on syntax.
+This already makes it a great fit for my language,
+but borrowing heavily from Mandarin grammar allows it to contribute something to the language
+to that end, try and get a copy of
+Li and Thompson's 'Mandarin Chinese' (1981)
+
+------
+
+
+Toki Kaja (this language) is Toki Pona's younger brother that went to college
+
+------
+
+POS markers should go before the thing they're marking
