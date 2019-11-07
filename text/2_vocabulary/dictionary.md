@@ -63,7 +63,7 @@ kiwi | fruit, vegetable, mushroom | | |
 kohola | alcohol | get drunk | alcoholic, drunk
 kukin | cooking | to cook (sth) | cooking-relating, culinary
 kulupu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
-kulu | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
+kolo | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
 kunki | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like |
 konputa | computer; the software world; things 'on' or 'in' computers; the internet; social media | | of computers; related to software |
 kupa | body, physical state | | of the body |
@@ -128,6 +128,7 @@ numa | number | to count something | numerical | (ordinal numbers)
 nuni | | | NEAR, close, almost, nearly, mostly
 nupi | nine
 nuwa | news, newness, novelty, youth, freshness | | new, young, fresh, additional |
+oke | | | | OK 
 open | beginning, start, birth, opening | open, turn on, start, be born | open, started, born, begun |
 oposi/anti | reversal, opposite | reverse, invert | opposite of noun/verb, inverse of sth (this is different from nata/not)
 ota | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
@@ -148,7 +149,7 @@ pima | finger(s) | to touch sth with fingers |
 pini | end, tip, edge, limit | finish, close, end, stop, turn off (sth) | completed, finished, past, done, ago |
 pipi | bug, insect, spider; arthropod, eg lobster | | |
 pisu | part, piece, component  | | |
-pita | stone, rock | | rocky, stony
+peto | stone, rock | | rocky, stony
 poloki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 pona | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! OK! Cool! yay!
 posipu | likelihood, probability, possibility, chance, luck | | likely, probable, probably, possibly (~ pona) lucky
