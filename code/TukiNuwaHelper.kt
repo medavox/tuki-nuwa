@@ -30,11 +30,11 @@ to construct new words.
  */
 private const val stops = "ptk"
 private const val nasals = "mn"
-private const val fricatives = "hs"
-private const val approximants = "lwj"
+private const val fricatives = "s"
+private const val approximants = "lj"
 
 private const val consonants = stops+nasals+fricatives+approximants
-private const val vowels = "aiu"
+private const val vowels = "aeiou"
 
 private val forbiddenSyllables = arrayOf("ji", "wu")
 
