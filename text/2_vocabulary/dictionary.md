@@ -25,13 +25,13 @@ hansi | hair, fur, feathers | | hairy, furry, feathery |
 hasaki | knife, blade, sword, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
 hi   | | | | (interj) hey! (calling sb's attention)
-hilanu | | | after
+hilanu | | | next, after
 hilu | cold | cool sth down, chill sth; to cool, cool down | cold
 hina | back, rear end, butt, behind | | back, rear |
 hulisun | horizon | lie (as in lie down), lie down | lying down, horizontal
 huta | | | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
 iju | thing, something, stuff, anything, object | | of something |
-ilin | | precede | before | preposition
+ilin | | precede | previous, before | preposition
 imasu | picture, image, drawing, writing | draw, write | |
 insa | inside, inner world, center, stomach | | inner, internal |
 isula | island, isolation | isolate | isolated
@@ -155,6 +155,7 @@ pona | good, positivity | improve, fix, repair, make good | good, positive, nice
 posipu | likelihood, probability, possibility, chance, luck | | likely, probable, probably, possibly (~ pona) lucky
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with
 pulan | fullness, completion, whole | to fill sth, to fill (up) | full, fully, complete, completely, whole, wholely, entire
+pulatan, ansijan, antiku | old
 pumisu | consent, permission | consent, permit, allow | consensual, permitted, allowed
 pusiki | importance, significance | to matter, to be important | important, significant, main, fundamental
 putala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
@@ -198,7 +199,7 @@ tapalu | work, craft, housework, chores, career, profession, skill, practice of.
 tasu | | | only, sole | (conj) but
 tatu | truth; the truth; correctness | | true, right, correct |
 tawa | direction, heading | move towards, to be for/pro something, to agree | -wards, towards, in the direction of | (prep) to, in order to, towards, for, until
-tenpo | time, period of time, moment, duration, situation, occasion | | of or relating to time; temporal |
+tenpo | time, period of time, moment, duration, situation, occasion | | of or relating to time; temporal | precedes a temporal phrase, eg tenpo ilin mahi 'before dark'
 tina | day (as in unit-of-time) | |
 tisan | ten
 toki | language, talking, speech, communication | say, speak; talk, chat, communicate | talking, verbal, language-related, linguistic | (interj) hello! hi!

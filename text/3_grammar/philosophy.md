@@ -527,3 +527,11 @@ Toki Kaja (this language) is Toki Pona's younger brother that went to college
 ------
 
 POS markers should go before the thing they're marking
+
+-----
+
+decide how to carve the semantic space: should motion verbs be coded by the direction you're going (he walked in) or the way you're moving (he entered walking)? should you have adjectives as a distinct class, or should they be nouns or verbs? how should locations be handled, with the same copula you use for saying that two things are the same, or with a different one, one that maybe encodes how the object is positioned in space?
+
+------
+
+roots have clear and definite antonyms

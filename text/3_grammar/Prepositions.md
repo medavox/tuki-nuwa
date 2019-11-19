@@ -3,7 +3,7 @@ Prepositions
 
 these 3 are the 'main' prepositions:
 
-* near, with, at
+* near, with, at, about, around, regarding
 * towards, in order to, in the direction of
 * away from, of
 

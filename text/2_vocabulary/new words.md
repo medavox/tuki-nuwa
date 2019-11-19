@@ -66,7 +66,6 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | | like, enjoy, prefer
 + | through, pierce
 + | music | kalama musi
-+ **pulanta**, **ansijan**, **antiku**, **pulatan** | old
 + | | squeeze, crush, hug, constrict, pressure, push 
 nina | bump, hill, mountain, button | to protrude | |
 frequency, often, again, never, sometimes, rarely, frequently
@@ -84,11 +83,10 @@ against (as in anti something)
 pinju | thin | 
 + | around, surround
 around, near, nearby
-+ | ground | *apa*, *supa*
 + | stand | *li siwi puha i nuka*
 take
 general
-specific
+specific, special, unique
 fair
 lock | to lock | locked | open kanu nata
 any, every
@@ -149,6 +147,14 @@ sad
 embarassed, ashamed
 guilty
 beyond, past, trans-
+deal with, handle, manage
+value, worth (to be worth it)
+cough
+sneeze
+a cold
+public | hiwa wa
+softening words, like English 'just', eg 'I just'
+judge, decide, weigh up, evaluate
 
 
 Wider Range of Animal Names, Farm Terms
@@ -278,7 +284,7 @@ wind | susu tawa
 snake | akisi linja 'rope lizard'
 togetherness; together | sama kulapu; awasa
 war | utala satu
-film | tasani mupa "moving picture"
+film | imasu mupa "moving picture"
 meat | nami pi suwilu
 breath; breathe | nami susu 'eat air'
 blood | wata luhi 'red liquid'
@@ -330,8 +336,6 @@ pointy
 longthin | liki kalisa
 storm | <sky> <angry> 'angry sky'; <sky> kalama 'loud sky'
 free (costless or libre) | wilu i akula <none/without> 'wants/needs no money'; <none/without> wilu akula 'no need of money'; wilu nata i akula 'doesn't want money'; hapa puha nata 'not owned (have passive not)'
-private | insa wa
-public | hiwa wa
 A LONG TIME | ipuki muta
 A SHORT TIME | ipuki lili
 another | expressible with either mulu or atani
@@ -392,7 +396,7 @@ receive | *pana puha*
 in front of | *lun sinpin* 
 half | pisi tu
 police | jan lekula awen <law> keeper ; jan pi putala tawa lekula (fight-for-law man)  
-flies | pipi wasu
+flies | pipi waso
 hide, obscure | li pali pi kanu luku nata
 be on something | siwi
 crazy | menta kaputi
