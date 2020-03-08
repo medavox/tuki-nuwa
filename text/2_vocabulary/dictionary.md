@@ -49,7 +49,7 @@ kajusi | | | brown/grey: colour of stone, mud, metal
 kala | fish, sub-aquatic creature | to swim | fishy; fish-like |
 kama | event, happening, chance, arrival, beginning | bring sth about, summon sth; come, become, arrive, happen, | coming, future |
 kanja | success | succeed/win | winning, successful
-kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; puha -> can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
+kan | possibility, ability, power to do things, permission | make possible, enable, allow, permit; puha -> can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kanta | song, music | to sing, make music | sung, musical
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
 kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell, ruin, spoil | ill, sick, unwell, diseased, injured, broken, malfunctional
@@ -150,7 +150,7 @@ pini | end, tip, edge, limit | finish, close, end, stop, turn off (sth) | comple
 pipi | bug, insect, spider; arthropod, eg lobster | | |
 pisu | part, piece, component  | | |
 peto | stone, rock | | rocky, stony
-poloki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
+poloki | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry!
 pona | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! OK! Cool! yay!
 posipu | likelihood, probability, possibility, chance, luck | | likely, probable, probably, possibly (~ pona) lucky
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with

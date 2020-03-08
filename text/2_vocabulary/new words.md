@@ -62,7 +62,7 @@ hulitu/lutusa/wilusu/sipilu/hulin | rough
 + | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position
 + | the state of being awake; wakefulness | wake, wake up, awake | awake
 + | quality (as in grade)
-**ilikan** | social class, status | | high-status, fancy, posh
+**elekan** | social class, status | | high-status, fancy, posh
 + | | like, enjoy, prefer
 + | through, pierce
 + | music | kalama musi
@@ -106,7 +106,7 @@ run
 jump
 markings
 climb
-wall, fence
+wall, fence, barrier
 follow
 itch, scratch
 defence
@@ -155,6 +155,10 @@ a cold
 public | hiwa wa
 softening words, like English 'just', eg 'I just'
 judge, decide, weigh up, evaluate
+polite or rude
+already
+??treat someone a certain way, be good to someone, behave
+it seems that ..., it appears that ...
 
 
 Wider Range of Animal Names, Farm Terms

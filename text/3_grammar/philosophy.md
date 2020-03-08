@@ -535,3 +535,7 @@ decide how to carve the semantic space: should motion verbs be coded by the dire
 ------
 
 roots have clear and definite antonyms
+
+------
+
+If we have verb and object markers, can we just create the passive voice by deleting the subject?
