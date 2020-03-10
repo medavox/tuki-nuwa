@@ -621,8 +621,7 @@ internal fun similarWordsTo(word: String): Array<String> {
 
 private fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
     //String wholeDict = fileToString(new File("dictionary.md"));
-    val wholeDict = dictFile.readText()
-    val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+    val byLine = dictFile.readText().split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
     val words = mutableListOf<String>()
     for (i in 2 until byLine.size) {//start after the table heading
         val pat = Pattern.compile("([$consonants$vowels]+)[ \t]*\\|.*")
