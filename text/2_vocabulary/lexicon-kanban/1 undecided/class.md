@@ -1,0 +1,1 @@
+**elekan** | social class, status | | high-status, fancy, posh

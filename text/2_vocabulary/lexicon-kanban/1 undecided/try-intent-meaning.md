@@ -1,0 +1,1 @@
+**intensa inten intensun intensu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional

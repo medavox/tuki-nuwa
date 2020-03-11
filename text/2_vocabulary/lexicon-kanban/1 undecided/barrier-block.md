@@ -1,0 +1,1 @@
+barrier, blockage | block | blocking

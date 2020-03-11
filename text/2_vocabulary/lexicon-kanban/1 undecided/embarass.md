@@ -1,0 +1,1 @@
+to embarass; to be embarassed; embarassed, ashamed

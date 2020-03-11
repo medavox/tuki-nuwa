@@ -1,0 +1,1 @@
+softening words, like English 'just', eg 'I just'

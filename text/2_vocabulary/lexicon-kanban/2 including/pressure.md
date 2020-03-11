@@ -1,0 +1,1 @@
++ | | squeeze, crush, hug, constrict, pressure, push 

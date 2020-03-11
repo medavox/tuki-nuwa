@@ -1,0 +1,1 @@
+care, worry (as in "I don't care")

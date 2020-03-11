@@ -1,0 +1,1 @@
+lock | to lock | locked | open kanu nata

@@ -1,0 +1,1 @@
+**nalati, metapu** | fictional, imaginary; story; figurative; metaphorical

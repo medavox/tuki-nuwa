@@ -1,0 +1,1 @@
++ | the state of being awake; wakefulness | wake, wake up, awake | awake

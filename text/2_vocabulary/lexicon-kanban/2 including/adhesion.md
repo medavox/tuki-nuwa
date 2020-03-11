@@ -1,0 +1,1 @@
++ **pikahusu** | adhesion | to stick (to sth), binding, connect, touch | sticky, adhesive |

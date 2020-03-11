@@ -1,0 +1,1 @@
++ | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position

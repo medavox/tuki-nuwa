@@ -1,0 +1,1 @@
+dot, point, speck, thing which is too tiny to appear more than a dot

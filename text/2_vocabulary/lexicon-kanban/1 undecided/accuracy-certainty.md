@@ -1,0 +1,1 @@
+certainty, accuracy, sure

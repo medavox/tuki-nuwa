@@ -1,0 +1,1 @@
+lose something, eg an object (to not have anymore)

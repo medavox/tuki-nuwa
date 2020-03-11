@@ -1,0 +1,1 @@
++ make-have without permission | theft | steal | stolen, thieving

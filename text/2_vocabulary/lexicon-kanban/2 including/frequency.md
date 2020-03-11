@@ -1,0 +1,1 @@
+frequency, often, again, never, sometimes, rarely, frequently
