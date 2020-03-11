@@ -148,7 +148,6 @@ embarassed, ashamed
 guilty
 beyond, past, trans-
 deal with, handle, manage
-value, worth (to be worth it)
 cough
 sneeze
 a cold
