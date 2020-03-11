@@ -1,0 +1,7 @@
+tisan
+===
+
+Noun
+---
+
+ten

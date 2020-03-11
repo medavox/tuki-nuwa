@@ -1,0 +1,7 @@
+ajula
+===
+
+Noun
+---
+
+egg, seed

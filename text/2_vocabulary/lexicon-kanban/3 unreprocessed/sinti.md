@@ -1,0 +1,7 @@
+sinti
+===
+
+Noun
+---
+
+hundred
