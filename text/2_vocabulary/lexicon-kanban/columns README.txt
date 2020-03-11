@@ -5,3 +5,5 @@
 5 to rescan: old lexeme still fits, but not yet reprocessed by new word-internationality since the development of IPA-Transcribers
 6 finished: completely done, ready to appear in dictionary
 7 discarded: not including, with a given reason
+
+lexemes with markdown bold formatting **like this** have been produced by the word-internationality program, at some point
