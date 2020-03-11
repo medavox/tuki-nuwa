@@ -1,1 +1,16 @@
-**intensa inten intensun intensu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional
+**intensa inten intensun intensu** 
+
+
+Noun
+---
+attempt, intention, intent, meaning
+
+Verb
+---
+
+try, intend, attempt, mean 
+
+Modifier
+------
+
+meaningful, intentional, deliberate
