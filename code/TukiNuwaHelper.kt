@@ -668,5 +668,9 @@ private fun anagram(wordSoFar: String, lettersLeft: String,
         }
         return accum
     }
+
+    //todo: similar meaning spotter
+    // simply a word frequency plotter: lists all words that appear in >1 note.
+    // has an list of common words to ignore, which will be built organically by me through use
 }
 
