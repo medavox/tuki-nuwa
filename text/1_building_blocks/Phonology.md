@@ -9,16 +9,15 @@ Or, How Tokaja is Spelled
 The alphabet and sound inventory of Tokaja is:
 
 ```
-a e i j k l m n o p s t u
+a e i j k l m n o p s t u v
 ```
-Each letter makes only one sound, 
-but there is some leeway in to how to pronounce that sound.
+Each letter makes only one sound.
+There is some flexibility in to how to pronounce that sound.
 
-These letters have been picked because their sounds all occur (in some form) in
-all of the world's most widely-spoken languages.
+These letters/sounds have been picked because their sounds all occur (in some form) in the world's most widely-spoken languages.
 
 You may not speak a language *at home* with all these sounds in,
-but you might use one regularly (at work, in school etc) that does.
+but you are probably use one regularly (at work, in school etc) that does.
 
 Phonology
 =========
@@ -29,7 +28,7 @@ Or, The sounds of Tuki Nuwa
 Consonants
 ======
 
-There are 8 consonants in Tokaja. 
+There are 9 consonants in Tokaja. 
 
 Tokaja allows a lot of flexibility in pronunciation; 
 as long as you make yourself understood, `ali li pona`!
@@ -43,9 +42,10 @@ k		| [k], [g], [q], [ɢ]
 l 		| [l], [ɫ], [ɺ], [r], basically any l- or r-like sound you can make
 m 		| [m], [ɱ], ¯\_(ツ)_/¯
 n 		| [n], [ŋ], [ɲ], [ɴ]
-p 		| [p], [b], [f], [v]
+p 		| [p], [b]
 s 		| [s], [z], [ʃ], [ʒ], [θ], [ð], [ʂ], [ʐ], [ɕ], [ʑ]
 t 		| [t], [d]
+v       | [v], [w], [f], [ɸ], [β], [ʍ]
 
 
 Vowels
@@ -63,8 +63,8 @@ Letter  | Pronunciation examples
 a 		| [a ɑ æ ɐ ]
 e       | [e ɛ ]
 i 		| [i y ɪ ]
-o       | [o  ]
-u 		| [u ʊ ɒ ɔ ]
+o       | [o ɒ ɔ oʊ ]
+u 		| [u ʊ  ]
 
 
 vowels are more disinguished by closeness and roundedness,
@@ -80,10 +80,10 @@ rather than backness.
 For English Speakers
 -------------------
 
-* a is pronounced as in p**a**n
+* a is pronounced as in p**a**n or f**a**ther
 * e is pronounced as in p**e**n or p**ay**, never as in b**ee**n
-* i is pronounced as in b**i**n or b**ee**n, never as in b**i**te or p**ie**
-* o is pronounced as in **o**n, b**o**ne or b**ore**
+* i is pronounced as in b**i**n or b**ee**n, never as in b**i**te
+* o is pronounced as in l**o**t, b**o**ne or b**ore**
 * u is pronounced as in s**oo**n or w**ou**ld, never as in **you**
 
 We all vary our pronunciation of any language anyway,
@@ -91,7 +91,8 @@ when we whisper, speak with our mouth full, sing, or shout.
 
 As long as you are understood, all is good -- *ale li pona*.
 
-Stress is always on the first syllable of each word.
+If you speak a language that stresses a particular syllable,
+stress is always on the first syllable of each word.
 
 Phonotactics
 =========
