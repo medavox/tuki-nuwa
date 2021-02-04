@@ -15,3 +15,9 @@ Modifier
 ---
 
 greasy, oily, fatty (culinary), slippery
+
+
+----
+
+
+consider changing to lipo (recognisable word for fat!)

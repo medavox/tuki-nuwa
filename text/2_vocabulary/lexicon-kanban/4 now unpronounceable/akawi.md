@@ -10,3 +10,5 @@ Modifier
 ---
 
 right (spatial)
+
+unpronounceable - maybe switch to akosi

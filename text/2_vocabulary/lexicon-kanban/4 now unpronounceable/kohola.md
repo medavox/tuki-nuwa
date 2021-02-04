@@ -15,3 +15,5 @@ Modifier
 ---
 
 alcoholic, drunk
+
+unpronounceable: consider switching to akolon

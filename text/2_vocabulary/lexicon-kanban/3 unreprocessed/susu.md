@@ -4,7 +4,7 @@ susu
 Noun
 ---
 
-air, wind, smell, gas
+air, wind, smell, odour, gas
 
 Verb
 ---

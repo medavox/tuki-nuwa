@@ -20,3 +20,8 @@ Other
 ---
 
 thank you, thanks
+
+
+
+----
+change to tanke: more similar danke, dank je, thank you

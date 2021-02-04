@@ -14,4 +14,4 @@ unite, make one
 Modifier
 ---
 
-one, a
+one, a (NOT AN ARTICLE/DETERMINER: usage is optional, not required)

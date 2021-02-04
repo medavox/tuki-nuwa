@@ -15,3 +15,8 @@ Modifier
 ---
 
 remaining, stationary, permanent, sedentary
+
+
+
+----
+replace with teni?

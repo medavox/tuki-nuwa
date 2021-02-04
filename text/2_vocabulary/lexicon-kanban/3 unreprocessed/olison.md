@@ -4,9 +4,14 @@ olison
 Noun
 ---
 
-horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor
+horizon
 
 Verb
 ---
 
-support
+(make oneself olison ) lie (as in lie down), lie down
+
+Modifier
+---
+
+lying down, horizontal

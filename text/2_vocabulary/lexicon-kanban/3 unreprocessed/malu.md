@@ -20,3 +20,5 @@ Other
 ---
 
 oh dear! woe! alas!
+
+maybe change to mala (for vowel harmony, reducing memory load)

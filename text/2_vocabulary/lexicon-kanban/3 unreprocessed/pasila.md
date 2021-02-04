@@ -15,3 +15,10 @@ Modifier
 ---
 
 simple, easy, light (as in weight)
+
+
+
+
+consider splitting the meanings of  simple, easy and light into separate words?
+
+consider replacing word-form with pasile

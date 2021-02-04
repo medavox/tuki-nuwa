@@ -4,7 +4,7 @@ selo
 Noun
 ---
 
-sky, heaven, weather
+sky, heavens, weather
 
 Modifier
 ---

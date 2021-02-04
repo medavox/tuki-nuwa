@@ -9,7 +9,7 @@ hygiene, cleanliness
 Verb
 ---
 
-clean
+clean, wash
 
 Modifier
 ---

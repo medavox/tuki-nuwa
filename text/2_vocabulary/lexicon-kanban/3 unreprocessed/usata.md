@@ -20,3 +20,12 @@ Other
 ---
 
 (prep) with (using)
+
+
+
+---
+
+consider switch to oseto (more recognisable)
+
+how is the prepositional usage in any way related to the other meanings?? 
+this seems like a mistake

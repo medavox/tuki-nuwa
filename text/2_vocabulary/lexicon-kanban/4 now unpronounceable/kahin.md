@@ -10,3 +10,5 @@ Modifier
 ---
 
 hard, solid, stone-like, made of stone or metal (kahin kasi = wood)
+
+unpronounceable - maybe replace with kakin?

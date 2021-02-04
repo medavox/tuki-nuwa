@@ -20,3 +20,5 @@ Other
 ---
 
 (conj) it is possible that
+
+change to kan?
