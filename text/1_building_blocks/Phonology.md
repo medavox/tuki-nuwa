@@ -1,12 +1,12 @@
-Toki Nawa uses sounds that occur in all of the most widely spoken languages.
+Tokaja uses sounds that occur in all of the most widely spoken languages.
 
 Orthography 
 =========
 
-Or, How Toki Nawa is Spelled
+Or, How Tokaja is Spelled
 ---------
 
-The alphabet of Tuki Nuwa is:
+The alphabet and sound inventory of Tokaja is:
 
 ```
 a e i j k l m n o p s t u
@@ -29,10 +29,10 @@ Or, The sounds of Tuki Nuwa
 Consonants
 ======
 
-There are 8 consonants in Tuki Nuwa. 
+There are 8 consonants in Tokaja. 
 
-Toki Nawa allows a lot of flexibility in pronunciation; 
-as long as you make yourself understood, `ali li puna`!
+Tokaja allows a lot of flexibility in pronunciation; 
+as long as you make yourself understood, `ali li pona`!
 
 They are usually pronounced in any of the following ways:
 
@@ -51,7 +51,7 @@ t 		| [t], [d]
 Vowels
 ======
 
-Toki Nawa has 5 vowel sounds : a e i o u.
+Tokaja has 5 vowel sounds : a e i o u.
 
 Their pronunciation should be fairly self-explanatory (if you read the latin alphabet),
 but here are some example pronunciations anyway.
@@ -99,7 +99,10 @@ Phonotactics
 Or, In What Order Letters Can Appear
 --------
 
-Toki Nawa syllables follows a consonant-vowel structure.
+Every syllable in Tokaja has one vowel. 
+The vowel can optionally have a consonant before it, and optionally an *n* after it.
+
+Tokaja syllables follow a consonant-vowel structure.
 The first syllable of a word might just be a vowel.
 
 Words can be one, two or three syllables.
