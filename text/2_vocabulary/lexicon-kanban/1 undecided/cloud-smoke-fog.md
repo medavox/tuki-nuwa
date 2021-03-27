@@ -1,0 +1,1 @@
+cloud, fog, smoke; any opaque/ semi-opaque/ partially visible/ translucent gas

@@ -1,1 +1,1 @@
-bend, flex | bendy, flexible
+to bend, to flex

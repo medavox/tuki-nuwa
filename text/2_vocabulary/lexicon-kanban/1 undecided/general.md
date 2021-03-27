@@ -1,1 +1,1 @@
-general
+general, as in non-specific

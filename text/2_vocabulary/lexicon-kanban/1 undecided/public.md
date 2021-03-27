@@ -1,1 +1,1 @@
-public | hiwa wa
+public (opposite of private) | hiwa wa

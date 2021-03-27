@@ -6,42 +6,36 @@ These are words that we inherit from global law, culture and diplomacy.
 Word | Meaning
 -----|--------
 sijansa | science
-pasaputu | passport
-(h?)upitalu | hospital
-sikula | school | 
-numija, likalitu | the law, legal
-+ | telephone
+pasapotu | passport
+opitalu | hospital
+sikola | school | 
+numija, lekali | the law, legal
 + | television 
 + | radio 
 + | phone
 + | capital | 
 + | gun | 
 + | bomb | 
-pharmacy
-hotel
+apoteka/vamasi | pharmacy
+oteli | hotel
 taxi
 how
-go
-help
 travel
 leader
-law
 village/town/city
 countryside
 coast/body of water
-car
+motoka | car
 bicycle
 motorbike
-telephone
-internet
+telefon | telephone
+intanen | internet
 wifi
 airport
-money
 library
 tram
-train
+lokomo | train
 station/stop
 bus
-day
-night
+
 field

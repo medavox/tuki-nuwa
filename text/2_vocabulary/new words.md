@@ -1,7 +1,7 @@
 Unnamed Candidate Words
 =======================
 
-The strategy here is to freely add potential words for concepts I know Tuki Nuwa doesn't have a word for,
+The strategy here is to freely add potential words for concepts I know Tokaja doesn't have a word for,
 then later delete the word if I can create a decent equivalent phrase which means the same thing.
 
 The hardest part of creating a new word is finding a lexeme for it,
@@ -40,168 +40,45 @@ Adjectifiers
 ------
 
 Turn the following content-word into an adjective.
+A single nouns can become many different adjectives:
 
+An example adjectivised <noun> can be:
+
+* <noun>y or <noun>-like
+* of or relating to <noun>
+* 
+
+
+And the same with verbs:
+
+* <verb>able
+* <verb>ed
+* <verb>ing
+* 
 
 Main List
 ---------
 
 words in bold have been suggested by the word internationality program,
-as the word with the highest number of speakers that can be converted recognisably to tuki nuwa's phonology
+as the word with the highest number of speakers that can be converted recognisably to Tokaja's phonology
 
 possible lexeme | Noun | Verb | Adjective | Other
 ----------------|------|------|-----------|------
-LIKE~AS~WAY
-atapisu, jatun pali pi jan | | | artificial, man-made |
-hulitu/lutusa/wilusu/sipilu/hulin | rough
-+ | smooth |
-+ **pikahusu** | adhesion | to stick (to sth), binding, connect, touch | sticky, adhesive |
-*ipuki atani* or *ipuki mulu* could be used, but 'again' is useful | | | again |
-**nalati, metapu** | fictional, imaginary; story; figurative; metaphorical
-+ god(s), religion, the spiritual world | | religious, holy, divine, spiritual, godly
-**kasa** | house, dwelling; any structure which something spends time in | | domestic, household |
-+ | | bounce, reflect | bouncy, shiny, springy, resilient; prone to returning to its original shape or position
-+ | the state of being awake; wakefulness | wake, wake up, awake | awake
-+ | quality (as in grade)
-**elekan** | social class, status | | high-status, fancy, posh
-+ | | like, enjoy, prefer
-+ | through, pierce
-+ | music | kalama musi
-+ | | squeeze, crush, hug, constrict, pressure, push 
-nina | bump, hill, mountain, button | to protrude | |
-frequency, often, again, never, sometimes, rarely, frequently
-describe, property, talk about
-self, reflexive pronoun
-**intensa inten intensun intensu** | attempt, intention, meaning | try, intend, attempt, mean | meaningful, intentional
-cover | wilu nisa
-barrier, blockage | block | blocking
-to tie sth
-**kontola** | control
-THERE IS | *lun ni li hapa*.
-if...then
-against (as in anti something)
 + | breast | nina kupa?
-pinju | thin | 
-+ | around, surround
-around, near, nearby
-+ | stand | *li siwi puha i nuka*
-take
-general
-specific, special, unique
-fair
-lock | to lock | locked | open kanu nata
-any, every
-certainty, accuracy, sure
-text, book, pamphlet, words
-lose something, eg an object (to not have anymore)
-put on clothes == come to wear, begin to wear
-+ make-have without permission | theft | steal | stolen, thieving
-care, worry (as in "I don't care")
-komunike, **lenkuwa**
-put, place
-mix
-please
-surroundings, nearby, environs
-turn into sth; turn sth1 into sth2
-run
-jump
-markings
-climb
-wall, fence, barrier
-follow
-itch, scratch
-defence
-tight/loose
-bend, flex | bendy, flexible
-stretch
-threat, threaten, threatening
-choose, pick, select
-system, structure
-strange
-reach
-boring, boredom, bored
-on the contrary, actually, de:doch, however
-lazy
-tired
-secret,private
-matter, worth -- as in, it doesn't matter
-kindness
-main
-find, discover (not as in think)
-common/rare
-make it so that ...
-resist
-allow
-deny
-prevent
-real
-throw
-catch
-type, kind, version
-evidentiality: supposedly, apparently, obviously
-dot, point, speck, thing which is too tiny to appear more than a dot
-case, occurrence, instance
-crunch, crunchy
-trust
-bored, boring
-sad
-embarassed, ashamed
-guilty
-beyond, past, trans-
-deal with, handle, manage
-cough
-sneeze
-a cold
-public | hiwa wa
-softening words, like English 'just', eg 'I just'
-judge, decide, weigh up, evaluate
-polite or rude
-already
+evidentiality: 
+  supposedly, 
+  apparently, 
+  obviously
+  it seems that ..., it appears that ...
 ??treat someone a certain way, be good to someone, behave
-it seems that ..., it appears that ...
+complex
+to confuse sth/sb;
+uncooked, raw
+beneficial; benevolent, altruistic, kind, symbiotic; helpful, cooperating; ideal; conducive to overall wellness
+manage to
+fierce, intense, confident
 
-
-Wider Range of Animal Names, Farm Terms
------
-
-Not sure if I'm going to actually include any of these yet;
-But it might (*might*) be a good idea to have some more specific
-names for certain animals, and/or groups of animals
-
-word  | meaning
-------|---------
-kanin | dog
-ku    | cow
-lama  | goat, sheep, camel, llama
-?     | horse, zebra, donkey, etc
-?     | piglike animals
-?     | chicken
-?     | cat
-?     | rodents & rabbits
-?     | milk
-?     | poo
-?     | wee
-?     | blood
-?     | vomit, or any bad liquid coming from the mouth
-
-Excess meanings
-------
-
-These meanings, which have been split off from words with other meanings,
-may need re-adding back into the language as new, separate words.
-
-NOTE: DELETE ENTRIES FROM THIS LIST WHEN THEIR MEANING HAS BEEN REASSIGNED!
-
-
-former word | removed meaning (which may need reassigning to a new word)
-------------|-----------------------------------------------------------
-malu        | complex/needlessly complicated
-nasa        | to confuse sth/sb;
-hilatu      | uncooked, raw
-puna        | beneficial; benevolent, altruistic, kind, symbiotic; helpful, cooperating; ideal; conducive to overall wellness
-kama        | manage to
-wapa        | fierce, intense, confident
-
-tasan/imasu
+tesan/imasu
     representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model
     picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,
     diagram, chart, graph
@@ -216,13 +93,6 @@ aku
     body of water, an area covered with water; bay, strait, sea, lake, river, stream
     transitive verb to use telo on; to water, rinse, wash, wet
     describer having the characteristics or properties of telo; wet, liquid
-
-
-NSM Non-Universal but Useful Words
-----------------------------------
-
-(NSM Words we're definitely including now go in the Main List)
-
 
 ### Undecided
 
@@ -254,8 +124,8 @@ teacher | jan ki li pana sawa
 + | petrol | wata sasa pi usu (useful fire water)/(water of useful fire)
 + | engine | 
 + | pipe | 
-+ | read | luku tuki 
-+ | write | tasan tuki
++ | read | luku toki 
++ | write | imasu toki
 + | book | 
 + | newspaper | 
 + | God | 
@@ -398,7 +268,7 @@ temporary, for now | *pi ipuki ni tasu*
 receive | *pana puha*
 in front of | *lun sinpin* 
 half | pisi tu
-police | jan lekula awen <law> keeper ; jan pi putala tawa lekula (fight-for-law man)  
+police | jan lekula awen person keep law ; jan pi putala tawa lekula (fight-for-law man)  
 flies | pipi waso
 hide, obscure | li pali pi kanu luku nata
 be on something | siwi
@@ -408,6 +278,8 @@ clock | tulu ipuki
 sea | wata sala satu
 silly, foolish, stupid | kika sawa
 separate, split | `tu` as a verb
-weird, odd, strange, unusual | likula nata; likula upusi; likula kika
+weird, odd, strange, unusual | lekula nata; lekula upusi; lekula kika
 as (as in, 'as a dog') | sama
 cave | tumu natula
+run | mupa pelosi (move fast)
+follow | mupa hilanu (go after)

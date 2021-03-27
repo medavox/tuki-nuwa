@@ -20,3 +20,8 @@ Other
 ---
 
 ew! yuck!
+
+
+pilin jaki = dirty/yucky feeling (disgust)
+
+pana pilin jaki = give disgust feeling (disgusting)

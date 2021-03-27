@@ -1,1 +1,1 @@
-bored, boring
+boring, boredom, bored

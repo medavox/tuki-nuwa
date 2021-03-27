@@ -1,1 +1,3 @@
-cover | wilu nisa
+cover
+
+- hide (sth), obscure
