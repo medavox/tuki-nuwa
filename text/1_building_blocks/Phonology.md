@@ -22,7 +22,7 @@ but you are probably use one regularly (at work, in school etc) that does.
 Phonology
 =========
 
-Or, The sounds of Tuki Nuwa
+Or, The sounds of Tokaja
 ------
 
 Consonants
@@ -80,11 +80,32 @@ rather than backness.
 For English Speakers
 -------------------
 
-* a is pronounced as in p**a**n or f**a**ther
-* e is pronounced as in p**e**n or p**ay**, never as in b**ee**n
-* i is pronounced as in b**i**n or b**ee**n, never as in b**i**te
-* o is pronounced as in l**o**t, b**o**ne or b**ore**
-* u is pronounced as in s**oo**n or w**ou**ld, never as in **you**
+Tokaja is quite forgiving in how you say each letter. 
+Any of these pronunciations can be used for each letter, in any context:
+
+* a as in p**a**n or f**a**ther
+* e as in p**e**n or p**ay**, never as in b**ee**n
+* i as in b**i**n or b**ee**n, never as in b**i**te
+* j as in English **y**es, never as in **j**ab. This is the same as in German "**j**a" 
+* k as in **k**ick or **g**et
+* l as in **l**ove or the **r** in **r**un
+* m as in **m**at
+* n as in **n**ap
+* o as in l**o**t, b**o**ne or b**ore**
+* p as **p**an or the **b** in **b**an
+* s as in **s**it or the **z** in **z**oo
+* t as in **t**ap or the **d** in **d**og
+* u as in s**oo**n or w**ou**ld, never as in **U**niversity
+* v can be pronounced: 
+    - like the **v** in **v**an
+    - like the **w** in **w**et
+    - or like the **f** in **f**an
+
+You would probably pronounce it as **v** or **w** if you speak English as a first language; 
+but not everyone can make these sounds.
+So be forgiving of other accents, and
+listen out for the other pronunciations from people whose first language isn't English!
+
 
 We all vary our pronunciation of any language anyway,
 when we whisper, speak with our mouth full, sing, or shout.
@@ -101,11 +122,38 @@ Or, In What Order Letters Can Appear
 --------
 
 Every syllable in Tokaja has one vowel. 
-The vowel can optionally have a consonant before it, and optionally an *n* after it.
+The vowel can optionally have a single consonant before it, and optionally an *n* after it.
+
+these are valid syllables in Tokaja:
+
+    a
+    an
+    kan
+
+these are *not* valid syllables:
+
+    *ska
+    *ask
+    *as
+    *ak
+    *sak
+    *nak
 
 Tokaja syllables follow a consonant-vowel structure.
 The first syllable of a word might just be a vowel.
 
 Words can be one, two or three syllables.
+
+
+Morphology
+=======
+
+
+Tokaja has no morphology.
+
+In other words, a word never changes its shape.
+
+Tokaja instead uses *periphrasis*, or many small words, to express the same distinctions of meaning (eg, past tense) hat other languages use morphology for (eg prefixes, suffixes).
+
 
 [todo: move the following section to another file, eg grammar]
