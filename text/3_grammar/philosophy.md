@@ -69,7 +69,7 @@ Use a 'medieval' numbering system -- similar to the french vigisemal ('four twen
 This might involve one or two new words to keep the number-parts straight,
 properly separated from each other.
 
-Toki Nawa should still have a version of Toki Pona's aversion to 'big' numbers -- 
+Tokaja should still have a version of Toki Pona's aversion to 'big' numbers -- 
 you won't be able to describe numbers with more than 2 or 3 significant figures.
 
 People prefer not to read out a lot of significant digits anyway (at least in English)
@@ -124,7 +124,7 @@ which means that ordinary verbs like 'go' no longer have past tense forms of the
 
 Policy for filling the dictionary (done once while building the vocab, not adding new words generally):
 find a word from a language which is either widely spoken or has a lot of speakers, 
-which can be simplified to fit tuki nuwa's phonotactics, and still be recognisable.
+which can be simplified to fit Tokaja's phonotactics, and still be recognisable.
 
 If that fails, make up a new sound which is sufficiently distinguished from existing words.
 
@@ -167,7 +167,7 @@ every verb is present-tense active by default.
 
 provide a facility for defining new words for the duration of a conversation (or article, chapter, book etc).
 These loanwords can come from shared knowledge the speakers have (words common to their language),
-and don't have to strictly follow Tuki Nuwa's phonology rules.
+and don't have to strictly follow Tokaja's phonology rules.
 
 It's helpful to define these loanwords at the beginning of the discourse.
 These loanwords are expected to mostly consist of nouns specific to the topic,
@@ -372,7 +372,7 @@ with a thousand ways to say anything.
 we've practically got parallel sets of vocabulary for different registers,
 thanks to germanic, latin/greek and french words for the same thing.
 
-Tuki Nuwa doesn't have to be as flexible as English to be useful.
+Tokaja doesn't have to be as flexible as English to be useful.
 
 
 -----------
@@ -522,7 +522,7 @@ Li and Thompson's 'Mandarin Chinese' (1981)
 ------
 
 
-Toki Kaja (this language) is Toki Pona's younger brother that went to college
+Tokaja (this language) is Toki Pona's younger brother that went to college
 
 ------
 
@@ -539,3 +539,47 @@ roots have clear and definite antonyms
 ------
 
 If we have verb and object markers, can we just create the passive voice by deleting the subject?
+
+------
+
+remove the secondary adjective meaning from words that are primarily nouns
+use specific linking words to show how this noun relates to the head noun;
+or just use it as a qualifying noun (like "milk bottle")
+
+I would in fact bet that there doesn't need to be many adjectives in the lang?
+
+
+------
+
+regularise all words that end in "-tion" in their source language to end the same way in Tokaja
+
+"horizon" = olison and
+"solutions" = soluson, but
+"permission" = pemisu
+
+
+
+------
+
+don't bother chooosing international word-forms until the language's lexicon is finaliseed;
+just use whatever placeholder "apriori" word-forms your english-biased brain comes up with,
+as before
+
+---
+
+
+make all dictionary entries follow some typographical standard (borrowed from an existing dictionary) for distinguishing between Tokaja words and meanings
+
+-----
+
+
+don't distinguish between mass nouns and count nouns - this has the implication that 'all' and 'every' can be the same word
+
+this might be hard to actually implement/stick to, given my own anglocentrism
+
+could try to make all nouns mass nouns by default, unless you use another noun as a classifier noun (like chinese)
+
+/5 paper/ = the 5th paper ('paper number 5')
+/5 sheet paper/ = 5 sheets of paper
+/5 kilo paper/ 5 kilograms of paper
+??/5 instance pape/ 5 papers
