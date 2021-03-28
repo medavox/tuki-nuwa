@@ -31,7 +31,7 @@ Tense -- Past, Present and Future
 
 When a verb takes place in the present, we use li to seperate the noun doing the verb, from the verb itself.
 
-If it happens in the future , we use `hinsu`:
+If it happens in the future , we use `ensu`:
 
 If it happens in the past , we use `jatun`:
 
@@ -80,7 +80,7 @@ So how do you answer a yes-no question?
 
 This is easier than you might think:
 
-*Kuwi si wilu li nami?* 'Are you hungry'/'Do you want to eat?'
+*Ki si wilu li nami?* 'Are you hungry'/'Do you want to eat?'
 
 *tatu!* "correct!"
 *mi wilu nami* "I want to eat"
